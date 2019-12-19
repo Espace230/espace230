@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
-<meta name="apple-mobile-web-app-status-bar-style" content="translucent">
+<meta name="apple-mobile-web-app-status-bar-style" content="hidden">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <title>Espace 230</title>
 <meta name="author" content="Louis-Bernard St-Jean">
@@ -13,7 +13,7 @@
 <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
 
 <style type="text/css"> /* STYLING SECTION */
-@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton|Monserrat&display=swap');
 @import url('https://rsms.me/inter/inter.css');
 @import url('./CSS/style.css');
 root {text-rendering: optimizeLegibility;}
@@ -24,28 +24,23 @@ a:hover {color: #848484;}
 
 /* LOGO */
 .logo {
-	width: 20vw;
-	margin: 2vh;
-	position: absolute;
-	z-index:1000;
-	color:#fff;
+  top:3rem; left:3rem; max-width:40vw; z-index:1000;color:#fff;
+	@media screen and (max-width: 896px) {max-width: 25vw;}
 	}
 
 /* DEFINE GRID */
-
 .grid-container {
   display: grid;
-  /* align-items: center; */
 	grid-template-columns: auto;
   grid-template-rows: repeat(4, 1fr);
 	object-fit: cover;
   grid-template-areas: "Atelier" "Adams" "StJean" "Wright";
 	}
 
-.Atelier {grid-area: Atelier; background-image: url("./IMG/BG_ESPACE.jpg");}
-.Adams {grid-area: Adams; background-image: url("./IMG/BG_SA.jpg");}
-.StJean {grid-area: StJean; background-image: url("./IMG/BG-SJ.jpg");}
-.Wright {grid-area: Wright; background-image: url("./IMG/BG_MW.jpg");}
+.Atelier {grid-area: Atelier; background-image: url("./IMG/BG_ESPACE.jpg"); display: flex; align-items:center;}
+.Adams {grid-area: Adams; background-image: url("./IMG/BG_SA.jpg"); align-items: bottom;}
+.StJean {grid-area: StJean; background-image: url("./IMG/BG-SJ.jpg"); align-items: bottom;}
+.Wright {grid-area: Wright; background-image: url("./IMG/BG_MW.jpg"); align-items: bottom;}
 
 
 
@@ -57,50 +52,46 @@ a:hover {color: #848484;}
   background-repeat: no-repeat;
   background-size: cover;
 	/* filter: grayscale(100%); */
-	/* -webkit-filter: brightness(100%);	 */
-	align-items: bottom;
+	-webkit-filter: brightness(100%);
 	}
+
+.title {display: flex; align-items:flex-end;}
 
 .cover:hover {
   /* filter: unset; */
+	/* filter: grayscale(100%); */
 	/* -webkit-filter: brightness(95%); */
 	}
 
-.headline {
-	/* writing-mode: vertical-rl;
-	transform: rotate(180deg); */
-}
-
-/* DEBUG THE FOLLOWING ... */
 .headline h1 {
   font-size: 6.854rem;
   line-height: 2.618rem;
-  /*margin-top: 0.618rem;
-	margin-right: 4.236rem; */
-  margin-bottom: 0;
+	margin-top:1rem;
+  margin-bottom: 1.6111111rem;
 	margin-left: inherit;
 	color:#fff;
-	letter-spacing:-0.02em;
-	/* text-transform:uppercase; */
+	letter-spacing:-0.01em;
 }
 .headline h3 {
+
+	font-size: 1rem;
   line-height: 2.618rem;
   margin-top: 0.618rem;
-  /* margin-right: 2.618rem; */
-	margin-bottom: 1.6111111rem;
+	letter-spacing:0.1em;
+	margin-bottom: 0.618rem;
 	color:#fff;
-	/* text-transform:uppercase; */
+	font-weight: 400; 
+	text-transform:uppercase;
 }
 .frontpage { 
-	margin: 10vh;
-	/* position: fixed; */
-	/* right: 5vh; */
+	position: fixed;
+	top: 3rem; right: 3rem;
 }
-/* END OF DEBUG ZONE */
 
+.headline {padding-left:3rem;
+}
 .headline * {color:#fff;}
 .headline p { font-weight: 400; }
-.headline h3 { font-weight: 700; }
 
 </style>
 </head>	
@@ -265,7 +256,7 @@ a:hover {color: #848484;}
 				</g>
 			</svg>
 		</div>
-		<h3>&nbsp;</h3>
+		<!-- <h3>&nbsp;</h3> -->
 		<!-- <h1>Atelier</h1> -->
 		<!-- <article class="frontpage">
 			 <h3>Espace 230</h3>
@@ -273,19 +264,26 @@ a:hover {color: #848484;}
 			<p>230-372&nbsp;Sainte-Catherine&nbsp;O.<br/>Montréal&nbsp;QC&nbsp; H3B&nbsp;1A2</p>
 		</article> -->
   </div>
-	<div class="Adams cover headline" onclick="window.open('https://sylvieadams.com','mywindow');" style="cursor: pointer;">
+
+	<div class="Adams cover title" onclick="window.open('https://sylvieadams.com','mywindow');" style="cursor: pointer;">
+		<article class="headline">
 		<h3>Sylvie</h3>
 		<h1>Adams</h1>
+		</article>
 	</div>
 
-	<div class="StJean cover headline" onclick="window.open('https://lbstjean.com','mywindow');" style="cursor: pointer;">
-		<h3><span class="nowrap">Louis-Bernard</span></h3>
-		<h1><span class="nowrap">St-Jean</span></h1>
+	<div class="StJean cover title" onclick="window.open('https://lbstjean.com','mywindow');" style="cursor: pointer;">
+		<article class="headline">
+			<h3><span class="nowrap">Louis-Bernard</span></h3>
+			<h1><span class="nowrap">St-Jean</span></h1>
+		</article>
 	</div>
 
-	<div class="Wright cover headline" onclick="window.open('http://maxwright-art.com','mywindow');" style="cursor: pointer;">
-		<h3>Max</h3>
-		<h1>Wright</h1>
+	<div class="Wright cover title" onclick="window.open('http://maxwright-art.com','mywindow');" style="cursor: pointer;">
+		<article class="headline">
+			<h3>Max</h3>
+			<h1>Wright</h1>
+		</article>
 	</div>
 
 </div>

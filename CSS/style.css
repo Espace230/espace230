@@ -1,55 +1,67 @@
 /* Typographic Grid Styling & Spacing */
 html, .root {
-  font-size: 18px;
-  line-height: 29px;
+	font-size: 18px;
+	line-height: 29px;
 }
 body, .article {
-  font-size: 1rem;
-  line-height: 1.6111111rem;
-  /* max-width: 560px; */
-  margin: auto;
-
+	font-size: 1rem;
+	line-height: 1.6111111rem;
+	margin: auto;
 }
 h1, .h1 {
-  font-weight: 700;
-  font-size: 4.2222222rem;
-  line-height: 4.8333333rem;
-  margin-top: 1.6111111rem;
-  margin-bottom: 3.2222222rem;
+	font-weight: 700;
+	font-size: 4.2222222rem;
+	line-height: 4.8333333rem;
+	margin-top: 1.6111111rem;
+	margin-bottom: 3.2222222rem;
 }
 h2, .h2 {
-  font-size: 2.6111111rem;
-  line-height: 3.2222222rem;
-  margin-top: 1.6111111rem;
-  margin-bottom: 1.6111111rem;
+	font-size: 2.6111111rem;
+	line-height: 3.2222222rem;
+	margin-top: 1.6111111rem;
+	margin-bottom: 1.6111111rem;
 }
 h3, .h3 {
-  font-size: 1.6111111rem;
-  line-height: 1.6111111rem;
-  margin-top: 1.6111111rem;
-  margin-bottom: 1.6111111rem;
+	font-size: 1.6111111rem;
+	line-height: 1.6111111rem;
+	margin-top: 1.6111111rem;
+	margin-bottom: 1.6111111rem;
 }
+.h3-inline {
+	font-size: 1.6111111rem;
+	vertical-align: middle;
+	}
+
 h4, .h4 {
-  font-size: 1rem;
-  line-height: 1.6111111rem;
-  margin-top: 1.6111111rem;
-  margin-bottom: 0rem;
+	font-size: 1rem;
+	line-height: 1.6111111rem;
+	margin-top: 1.6111111rem;
+	margin-bottom: 0rem;
 }
 h5, .h5 {
-  font-size: 1rem;
-  line-height: 1.6111111rem;
-  margin-top: 1.6111111rem;
-  margin-bottom: 0rem;
+	font-size: 1rem;
+	line-height: 1.6111111rem;
+	margin-top: 1.6111111rem;
+	margin-bottom: 0rem;
 }
 p, ul, ol, pre, table, blockquote {
-  margin-top: 0rem;
-  margin-bottom: 1.6111111rem;
+	margin-top: 0rem;
+	margin-bottom: 1.6111111rem;
 }
 ul ul, ol ol, ul ol, ol ul {
-  margin-top: 0rem;
-  margin-bottom: 0rem;
+	margin-top: 0rem;
+	margin-bottom: 0rem;
 }
-	/* Align Everything Else */
+
+/* Cosmetics */
+h1 {font-family: 'Anton', sans-serif; color: #121212; text-transform: uppercase;}
+body, h2, h3, h4, article, p, ul, ol {font-family: 'Inter', sans-serif; color: #242424;}
+h2, h3, h4 {font-weight: 800;}
+a {font-family: 'Inter', sans-serif; font-weight: 600; color: #535353; text-decoration: none;} /* #424242 */
+a:hover {color: #848484;}
+.nowrap {white-space: nowrap;}
+.highlight {font-weight:600;}
+/* Align Everything Else */
 hr, .hr { border: 1px solid; margin: -1px 0;}
 a, b, i, strong, em, small, code {line-height: 0;}
 sub, sup {

@@ -1,55 +1,67 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
 <meta name="apple-mobile-web-app-status-bar-style" content="hidden">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<title>Espace 230</title>
+<title>Espace 230 / Belgo</title>
 <meta name="author" content="Louis-Bernard St-Jean">
 <meta name="description" content="Art Gallery & art studio of contemporary artists Sylvie Adams, Louis-Bernard St-Jean, and Max Wright.">
 <meta name="keywords" content="Espace 230, artist studio, art gallery, Montreal, artist, artwork, painting">
-<link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
 <style type="text/css">
+
 @import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
 @import url('https://rsms.me/inter/inter.css');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 @import url('./CSS/style.css');
 @import url('./CSS/layout.css');
+/* @import url('./CSS/svg.css'); */
+
 body {
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizelegibility;
+-webkit-font-smoothing: antialiased;
+-moz-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+text-rendering: optimizelegibility;
 }
 
-h1 {font-family: 'Anton', sans-serif; color: #121212; text-transform: uppercase;}
-body, h2, h3, h4, article, p, ul, ol {font-family: 'Inter', sans-serif; color: #242424;}
-a {font-family: 'Inter', sans-serif; font-weight: 600; color: #424242; text-decoration: none;}
-h2, h3, h4 {font-weight: 800;}
-a:hover {color: #848484;}
-.nowrap {white-space: nowrap;}
-.logo {
-  width:20vw; color:#fff;
-	@media screen and (min-width: 896px) {max-width: 25vw;}
-	}
-/* SVG TEXT */
+.logo {width: 20vw; color:#fff;}
+@media screen and (min-width: 896px) { .logo {max-width: 25vw;} }
 
 .Atelier {grid-area: Atelier; background-image: url("./IMG/BG_ESPACE.jpg");}
 .Adams {grid-area: Adams; background-image: url("./IMG/BG_SA.jpg");}
 .StJean {grid-area: StJean; background-image: url("./IMG/BG_SJ.jpg");}
 .Wright {grid-area: Wright; background-image: url("./IMG/BG_MW.jpg");}
+
+
+/* SVG HEADERS */
+.container {
+	position: relative;
+	width: auto;
+	height: 100vh;
+	z-index: 110;
+	}
 svg {
-  font: bold 70px Anton, Arial;
-  width: 100%;
-  height: 900px;
+	font: bold 7vw Anton, Arial; 
+	width: 100%;
+	height: 100%;
+	z-index: 120;
 }
-text {fill: #fff; 	
-/* stroke:#777; stroke-width:0.5px; stroke-linejoin:round; */
-}
+text {fill:#fff;} 
+
+
+
+
 </style>
 </head>	
 
@@ -57,68 +69,81 @@ text {fill: #fff;
 <ul>
 	<li class="Adams">
 		<div class="section-title">
-			<!-- <h1>Adams</h1> -->
-			<svg viewBox="0 0 100 100">
-  			<text x="-90%" y="90%" transform="rotate(-90)">Sylvie Adams</text>
-			</svg>
+			<div class="container">
+				<svg viewBox="-50 -50 100 100" preserveAspectRatio="xMaxYMax meet">
+					<text x="-50%" y="40%" transform="rotate(-90)">Adams</text>
+				</svg>
+			</div>
 		</div>
 		<div class="section-content">
-			<span>
+			<span class="inside-padding">
 				<img src="./IMG/SA-artwork-Winterday-on-the-Lake.jpg" alt="Tableau Sylvie Adams.jpg" width="100%" height="auto">
 				<h2>Sylvie Adams</h2>
-				<p><a href="https://sylvieadams.com/" target="_blank">sylvieadams.com</a><span>&nbsp;•&nbsp;</span>
-				<a href="mailto:info@sylvieadams.com">info@sylvieadams.com</a></p>
+				
+				<p><a href="https://www.facebook.com/Sylvie.Adams.Arts.Visuels/" target="_blank"><i class="fa fa-facebook h3-inline"></i></a>&ensp;
+				<a href="https://instagram.com/sylvie.adams" target="_blank"><i class="fa fa-instagram h3-inline"></i></a>&ensp;
+				<a href="https://www.pinterest.com/sylvieadamsart" target="_blank"><i class="fa fa-pinterest h3-inline"></i></a>&emsp;<span style="h3-inline">|</span>&ensp;<a href="https://sylvieadams.com/" target="_blank">sylvieadams.com</a><span> • </span><a href="mailto:info@sylvieadams.com">info@sylvieadams.com</a></p>
+				
 				<p>Basé sur une pratique abstraite qui laisse une certaine place au hasard, mon processus apporte un résultat imprévisible. L'œuvre devient l’aboutissement d'un dialogue entre la toile et l’artiste, où les forces élémentaires de la gravité et du temps sont aussi actives que la marque laissée par le geste.</p>
 				<p>Ainsi, les marques volontaires se mélangent au hasard des coulisses, et en décidant de contrôler ou non ces traces, elles deviennent partie intégrante de l'œuvre. Une fois que la composition initiale est suggérée par l’œuvre, l'intention devient plus claire et est finalisée en utilisant des marques libres et des masses colorées.</p>
+				<p> </p>
 			</span>
 		</div>
 	</li>
-	<li  class="StJean">
+	<li	class="StJean">
 		<div class="section-title">
-			<svg viewBox="0 0 100 100">
-  			<text x="-90%" y="90%" transform="rotate(-90)">Louis-Bernard St-Jean</text>
+			<div class="container">
+			<svg viewBox="-50 -50 100 100" preserveAspectRatio="xMaxYMax meet">
+				<text x="-50%" y="40%" transform="rotate(-90)">St-Jean</text>
 			</svg>
-			<!-- <h1>St-Jean</h1> -->
+			</div>
 		</div>
 		<div class="section-content">
-			<span>
-				<img src="./IMG/BG_SJ.jpg" alt="Tableau St-Jean.jpg" width="100%" height="auto">
+			<span class="inside-padding">
+				<img src="./IMG/artwork_SJ.jpg" alt="Tableau St-Jean.jpg" width="100%" height="auto">
 				<h2>Louis-Bernard St-Jean</h2>
-				<p><a href="https://lbstjean.com/" target="_blank">lbstjean.com</a><span>&nbsp;•&nbsp;</span>
-				<a href="mailto:info@lbstjean.com">info@lbstjean.com</a></p>
+				<p>
+				<a href="https://facebook.com/lbstjean.art" target="_blank"><i class="fa fa-facebook h3-inline"></i></a>&ensp;
+				<a href="https://instagram.com/lbstjean" target="_blank"><i class="fa fa-instagram h3-inline"></i></a>&emsp;<span style="h3-inline">|</span>&ensp; 
+				<a href="https://lbstjean.com/" target="_blank">lbstjean.com</a><span> • </span><a href="mailto:info@lbstjean.com">info@lbstjean.com</a>&emsp;
+				</p>
 				<p>Cherchant constamment à repousser les limites physiques du médium et de son support, Louis-Bernard St-Jean a progressivement développé un style sculptural unique qui lui est propre, et qui s’intègre avec pertinence dans la continuation du patrimoine post-moderne québécois.</p>
 				<p>Telle une évolution naturelle et contemporaine de l’abstraction lyrique, ses œuvres se démarquent notamment par leur texture verticale prononcée, et présentent une esthétique à la fois complexe et sophistiquée.</p>
+				<p> </p>
 			</span>
 		</div>
 	</li>
 	<li class="Wright">
 		<div class="section-title">
-			<!-- <h1>Wright</h1> -->
-			<svg viewBox="0 0 100 100">
-  			<text x="-90%" y="90%" transform="rotate(-90)">Max Wright</text>
+			<div class="container">
+			<svg viewBox="-50 -50 100 100" preserveAspectRatio="xMaxYMax meet">
+				<text x="-50%" y="40%" transform="rotate(-90)">Wright</text>
 			</svg>
+			</div>
 		</div>
 		<div class="section-content">
-			<span>
+			<span class="inside-padding">
 				<img src="./IMG/BG_MW.jpg" alt="Tableau Max Wright.jpg" width="100%" height="auto">
 				<h2>Max Wright</h2>
-				<p><a href="http://www.maxwright-art.com/" target="_blank">maxwright-art.com</a><span>&nbsp;•&nbsp;</span>
-				<a href="mailto:max@maxwright-art.com">max@maxwright-art.com</a></p>
+				<p><a href="https://www.facebook.com/max.wright.5205" target="_blank"><i class="fa fa-facebook h3-inline"></i></a>&emsp;<span style="h3-inline">|</span>&ensp;
+					<a href="http://www.maxwright-art.com/" target="_blank">maxwright-art.com</a><span> • </span><a href="mailto:max@maxwright-art.com">max@maxwright-art.com</a></p>
 				<p>Mon travail explore les idées de temporalité matérielle et de malléabilité physique des images à travers une approche expérimentale minimaliste. Je m'intéresse aux limites physiques des images et aux effets des traitements esthétiques sur la perception. Avec des images dérivées de mon environnement de vie mondain, j'essaie de présenter des sites qui incarnent l'usure sociale et l'encombrement et de les rendre comme des objets visuels absurdes.</p>
 				<p>Mon processus consiste à superposer des tirages photographiques avec de multiples glaçures translucides de peinture à l'huile à haute chrominance. La peinture se comporte comme un filtre qui déforme l'image en dessous en minimisant ses formes et ses détails. Par cette méthode, j'ai l'intention de remettre en question la relation naturelle de l'image photographique avec le spectateur, et de transformer l'identité de l'œuvre d'art, lui permettant de s'installer délibérément de manière ambiguë entre être une photographie et une peinture. Je vise à évoquer une contradiction entre le contenu de l'image et son traitement, à présenter une forme de fausse réalité stylisée, déformée.</p>
+				<p> </p>
 			</span>
 			</div>
 	</li>
 	<li class="active Atelier">
 		<div class="section-title">
-			<!-- <h1>Ateliers</h1> -->
-			<svg viewBox="0 0 100 100">
-  			<text x="-90%" y="90%" transform="rotate(-90)">Espace 230</text>
+			<div class="container">
+			<svg viewBox="-50 -50 100 100" preserveAspectRatio="xMaxYMax meet">
+				<text x="-50%" y="40%" transform="rotate(-90)">Espace 230</text>
 			</svg>
+			</div>
 		</div>
 		<div class="section-content">
 			<br/>
-			<span>
+			<span class="inside-padding">
 				<!-- <div class="logo">
 				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1650 750" xlink:href="https://espace230.com/" style="enable-background:new 0 0 1650 750;" xml:space="preserve">
 					<g id="Logotype">
@@ -274,29 +299,62 @@ text {fill: #fff;
 						</g>
 					</svg>
 			</div> -->
-			<img src="./IMG/BG_ESPACE.jpg" alt="L'espace 230" width="100%" height="auto">
-			<!-- <h2>Espace 230</h2> -->
-			<p><br/><strong>Espace 230 / Édifice Belgo</strong><a href="https://g.page/espace230" target="_blank"><br/>230-372 rue Sainte-Catherine Ouest<br/>
+			<img src="./IMG/BG_ESPACE.jpg" alt="Atelier d'artiste" width="100%" height="auto">
+			<h2>Espace 230 / Édifice Belgo</h2>
+			<p><a href="https://g.page/espace230" target="_blank">230-372 rue Sainte-Catherine Ouest<br/>
 			Montréal QC  H3B 1A2</a></p>
-			<p>Regroupement de studios d’artistes situé au coeur du Quartier des spectacles, l’Espace 230 de l’édifice Belgo abrite les ateliers de trois artistes peintres contemporains montréalais : Sylvie Adams, Louis-Bernard St-Jean et Max Wright.</p>
-			<!-- <p><a href="https://espace230.com/" target="_blank">espace230.com</a> -->
-			<h3>Le Belgo</h3>
+			<p>	
+			<a href="https://facebook.com/espace230" target="_blank"><i class="fa fa-facebook h3-inline"></i></a>&ensp;
+				<a href="https://instagram.com/espace230" target="_blank"><i class="fa fa-instagram h3-inline"></i></a>&emsp;<span style="h3-inline">|</span>&ensp;
+			<a href="mailto:info@espace230.com">info@espace230.com</a>
+			</p>
+			
+			
+			
+			
+			<!-- PREVIOUS -->
+			<!-- <p><br/><strong>Espace 230 / Édifice Belgo</strong><br/><a href="https://g.page/espace230" target="_blank">230-372 rue Sainte-Catherine Ouest<br/>
+			Montréal QC  H3B 1A2</a> -->
+
+			<p>Regroupement de studios d’artistes situé au coeur du Quartier des spectacles, l’Espace 230 de l’édifice Belgo abrite les ateliers de trois artistes peintres contemporains montréalais : <span class="highlight">Sylvie Adams</span>, <span class="highlight">Louis-Bernard St-Jean</span> et <span class="highlight">Max Wright</span>.</p>
+			<hr>
+			<h3>Événements à venir</h3>
+			<p><small>Samedi le 29 février 2020</small></br><strong>Nuit Blanche à Montréal</strong>
+			</p>
+			<p><a href="https://www.nuitblanchemtl.com/" target="_blank">nuitblanchemtl.com</a></p>
+			<hr>
+			<!-- <p>Regroupement de studios d’artistes situé au coeur du Quartier des spectacles, l’Espace 230 de l’édifice Belgo abrite les ateliers de trois artistes peintres contemporains montréalais : Sylvie Adams, <a class="toggle_sj" href="#StJean">Louis-Bernard St-Jean</a> et Max Wright.</p>
+			<hr> -->
+			<h3>À propos de l'édifice Belgo</h3>
 			<p>Autrefois le grand magasin de luxe <em>Scroggie's</em>, l'édifice Belgo fut conçu en 1912 par les architectes Finley & Spence. Suivant l'exode du quartier de la fourrure vers le secteur Chabanel dans les années 1980, des artistes commencèrent progressivement à s'y installer, organisant des expositions temporaires, puis en y aménageant leurs studios et galeries.</p>
 			<p>Le Belgo abrite aujourd'hui la plus grande concentration de galeries d'art contemporain au Canada, comptant une trentaine de galeries d'art, nombre d'ateliers d'artistes et de designers, de firmes d'architectes et de boites de communications.</p>
 			<p style="font-size:0.618em; line-height:1em; text-align:right"> <a href="https://commons.wikimedia.org/wiki/File:Belgo_Montreal_1912.jpg#/media/File:Belgo_Montreal_1912.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Belgo_Montreal_1912.jpg" alt="Belgo Montreal 1912.jpg" width="100%" height="auto"></a>By <a href="//commons.wikimedia.org/wiki/User:Jeangagnon" title="User:Jeangagnon">Jeangagnon</a> - <a rel="nofollow" class="external autonumber" href="http://levadrouilleururbain.wordpress.com/2011/03/28/le-belgo-vu-par-le-vadrouilleur-urbain-video/">[1]</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=21417671">Link</a></p>
+			
+			<hr><br/>
+			<p style="text-align:right">
+				<!-- <a href="https://espace230.com">espace230.com</a> -->
+				&copy; 2020 Espace 230 - Tous droits réservés
+			</p>
 			</span>
-			<br/>
+			
 		</div>
 	</li>
 </ul>
 </body>
 
+
 <script>
-var section = $('li');
-function toggleAccordion() {
-	section.removeClass('active');
-	$(this).addClass('active');
-}
-section.on('click', toggleAccordion);
+	var section = $('li');
+	var togglesj = $('a.toggle_sj');
+	var link = $('a');
+	
+	function toggleAccordion() {
+		section.removeClass('active');
+		$(this).addClass('active');
+		}
+
+	link.on('click', toggleAccordion);
+	section.on('click', toggleAccordion);
 </script>
+
 </html>

@@ -80,3 +80,19 @@ li:not(.active) {
 li:not(.active) {
 	flex: 1;
 }
+
+@media screen and (orientation: portrait) {
+  html, .root {
+		font-size: 16px;
+	}
+	ul {flex-direction: column;}
+	li .section-title {flex:1; flex-direction: row; order: 0;}
+	li .section-content {flex-direction: row; order: 1;}
+	li.active .section-title {flex:0; display:hidden;}
+	svg text {
+		x:-50% !important; y:-100% !important;
+		transform:rotate(0);
+		}
+	h2 {letter-spacing:-0.15rem;}
+	h3 {letter-spacing:-0.075rem;}
+	} 

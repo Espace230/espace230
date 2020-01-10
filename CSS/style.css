@@ -73,3 +73,6 @@ sub, sup {
 	}
 sup {top: -0.5em;}
 sub {bottom: -0.25em;}
+
+h2 {letter-spacing:-0.15rem;}
+h3 {letter-spacing:-0.075rem;}

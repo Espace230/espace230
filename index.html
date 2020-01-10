@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
@@ -43,12 +42,20 @@ text-rendering: optimizelegibility;
 .Wright {grid-area: Wright; background-image: url("./IMG/artwork_MW.jpg");}
 
 /* SVG HEADERS */
-.container {
-	position: relative;
-	width: auto;
-	height: 100vh;
-	z-index: 110;
+@media screen and (orientation: landscape) {
+	.container {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		z-index: 110;
+		}
 	}
+@media screen and (max-width:768px) {
+	html, .root {
+		font-size: 16px;
+	}
+}
+
 svg {
 	font: bold 7vw Anton, Arial; 
 	width: 100%;
@@ -65,8 +72,8 @@ text {fill:#fff;}
 	<li class="Adams">
 		<div class="section-title">
 			<div class="container">
-				<svg viewBox="-50 -50 100 100" preserveAspectRatio="xMaxYMax meet">
-					<text x="-50%" y="40%" transform="rotate(-90)">Adams</text>
+				<svg viewBox="-50 150 100 100" preserveAspectRatio="xMaxYMid meet">
+				<text text-anchor="end" dominant-baseline="middle" transform="rotate(-90)">Adams</text>
 				</svg>
 			</div>
 		</div>
@@ -80,15 +87,15 @@ text {fill:#fff;}
 				
 				<p>Basé sur une pratique abstraite qui laisse une certaine place au hasard, mon processus apporte un résultat imprévisible. L'œuvre devient l’aboutissement d'un dialogue entre la toile et l’artiste, où les forces élémentaires de la gravité et du temps sont aussi actives que la marque laissée par le geste.</p>
 				<p>Ainsi, les marques volontaires se mélangent au hasard des coulisses, et en décidant de contrôler ou non ces traces, elles deviennent partie intégrante de l'œuvre. Une fois que la composition initiale est suggérée par l’œuvre, l'intention devient plus claire et est finalisée en utilisant des marques libres et des masses colorées.</p>
-				<p> </p>
+				&nbsp;
 			</span>
 		</div>
 	</li>
 	<li	class="StJean">
 		<div class="section-title">
 			<div class="container">
-			<svg viewBox="-50 -50 100 100" preserveAspectRatio="xMaxYMax meet">
-				<text x="-50%" y="40%" transform="rotate(-90)">St-Jean</text>
+			<svg viewBox="-50 150 100 100" preserveAspectRatio="xMaxYMid meet">
+				<text text-anchor="end" dominant-baseline="middle" transform="rotate(-90)">St-Jean</text>
 			</svg>
 			</div>
 		</div>
@@ -103,15 +110,15 @@ text {fill:#fff;}
 				</p>
 				<p>Cherchant constamment à repousser les limites physiques du médium et de son support, Louis-Bernard St-Jean a progressivement développé un style sculptural unique qui lui est propre, et qui s’intègre avec pertinence dans la continuation du patrimoine post-moderne québécois.</p>
 				<p>Telle une évolution naturelle et contemporaine de l’abstraction lyrique, ses œuvres se démarquent notamment par leur texture verticale prononcée, et présentent une esthétique à la fois complexe et sophistiquée.</p>
-				<p> </p>
+				&nbsp;
 			</span>
 		</div>
 	</li>
 	<li class="Wright">
 		<div class="section-title">
 			<div class="container">
-			<svg viewBox="-50 -50 100 100" preserveAspectRatio="xMaxYMax meet">
-				<text x="-50%" y="40%" transform="rotate(-90)">Wright</text>
+			<svg viewBox="-50 150 100 100" preserveAspectRatio="xMaxYMid meet">
+				<text text-anchor="end" dominant-baseline="middle" transform="rotate(-90)">Wright</text>
 			</svg>
 			</div>
 		</div>
@@ -123,7 +130,7 @@ text {fill:#fff;}
 					<a href="http://www.maxwright-art.com/" target="_blank">maxwright-art.com</a><span> • </span><a href="mailto:max@maxwright-art.com">max@maxwright&#8209;art.com</a></p>
 				<p>Mon travail explore les idées de temporalité matérielle et de malléabilité physique des images à travers une approche expérimentale minimaliste. Je m'intéresse aux limites physiques des images et aux effets des traitements esthétiques sur la perception. Avec des images dérivées de mon environnement de vie mondain, j'essaie de présenter des sites qui incarnent l'usure sociale et l'encombrement et de les rendre comme des objets visuels absurdes.</p>
 				<p>Mon processus consiste à superposer des tirages photographiques avec de multiples glaçures translucides de peinture à l'huile à haute chrominance. La peinture se comporte comme un filtre qui déforme l'image en dessous en minimisant ses formes et ses détails. Par cette méthode, j'ai l'intention de remettre en question la relation naturelle de l'image photographique avec le spectateur, et de transformer l'identité de l'œuvre d'art, lui permettant de s'installer délibérément de manière ambiguë entre être une photographie et une peinture. Je vise à évoquer une contradiction entre le contenu de l'image et son traitement, à présenter une forme de fausse réalité stylisée, déformée.</p>
-				<p> </p>
+				&nbsp;
 			</span>
 			</div>
 	</li>
@@ -131,25 +138,25 @@ text {fill:#fff;}
 		<div class="section-title">
 			<div class="container">
 			
-			<svg viewBox="-50 -50 100 100" preserveAspectRatio="xMaxYMax meet">
-				<text x="-50%" y="40%" transform="rotate(-90)">Espace 230</text>
+			<svg viewBox="-50 150 100 100" preserveAspectRatio="xMaxYMid meet">
+				<text text-anchor="end" dominant-baseline="middle"  transform="rotate(-90)">Espace 230</text>
 			</svg>
+			
 			</div>
 		</div>
+
 		<div class="section-content">
-			<br/>
 			<span class="inside-padding">
-						<img src="./IMG/BG_ESPACE.jpg" alt="Atelier d'artiste" width="100%" height="auto">
+				<img src="./IMG/BG_ESPACE.jpg" alt="Atelier d'artiste" width="100%" height="auto">
 			
 			<h2>Espace 230</h2>
-			<p><strong>Édifice Belgo</strong><br/><a href="https://g.page/espace230" target="_blank">230-372 rue Sainte-Catherine Ouest<br/>
-			Montréal QC  H3B 1A2</a></p>
+			<p><strong>Édifice Belgo</strong><br/><a href="https://g.page/espace230" target="_blank">230-372 rue Sainte-Catherine Ouest<br/>Montréal QC  H3B 1A2</a></p>
 			<p>	
 			<a href="https://facebook.com/espace230" target="_blank"><i class="fa fa-facebook h3-inline"></i></a>&ensp;
 				<a href="https://instagram.com/espace230" target="_blank"><i class="fa fa-instagram h3-inline"></i></a>&emsp;|&ensp;
 			<a href="https://espace230.com">espace230.com</a><span> • </span><a href="mailto:info@espace230.com">info@espace230.com</a>
 			</p>
-			<p>Regroupement de studios d’artistes situé au coeur du Quartier des spectacles, l’Espace 230 de l’édifice Belgo abrite les ateliers de trois artistes peintres contemporains montréalais : <span class="highlight">Sylvie Adams</span>, <span class="highlight">Louis-Bernard St-Jean</span> et <span class="highlight">Max&nbsp;Wright</span>.</p>
+			<p>Regroupement de studios d’artistes situé au coeur du Quartier des spectacles, l’Espace 230 de l’édifice Belgo abrite les ateliers de trois artistes peintres contemporains montréalais : <span class="highlight">Sylvie Adams</span>, <span class="highlight">Louis&#8209;Bernard St&#8209;Jean</span> et <span class="highlight">Max&nbsp;Wright</span>.</p>
 			
 			<hr>
 			

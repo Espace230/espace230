@@ -99,8 +99,8 @@ li:not(.active) .section-title h1 {
 	/* li.active .section-content {flex:6} */
 	
 	li .section-title img {
-		transform: rotate(90deg) translateY(-45%) translateX(-80%);
-		height:50vh;
+		transform: rotate(90deg) translateY(-20%) translateX(-80%);
+		height:100vh;
 	}
 	li.active .section-title {flex:0; display:none;}
 	/* img {

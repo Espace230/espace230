@@ -2,15 +2,6 @@
 /* GENERAL LAYOUT */
 /* * {box-sizing: border-box;} */
 
-@media screen and (orientation: portrait) {
-	ul {flex-direction: column-reverse;}
-	li {flex-direction: column;}
-	/* li.active .section-content {flex:6} */
-	li.active .section-title {flex:0; display:hidden;}
-	text {
-		transform:rotate(0) translate(0, 200%) scale(200%);
-		}
-	} 
 
 ul {
 	display: flex;
@@ -26,7 +17,7 @@ li {
 	flex: 1;
 	display: flex;
 	align-items: stretch;
-	padding: 0px; /* 20px */
+	padding: 0px;
 	background: #242424;
 	cursor: pointer;
 	transition: all .5s ease;
@@ -34,18 +25,20 @@ li {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+
 }
-li:hover {
-	/* backdrop-filter: brightness(60%); */
-	/* filter: darken(20%);
-	-webkit-filter: darken(20%); */
-}
+
+/* li:not(.active):hover {
+	filter: contrast(120%);
+	-webkit-filter: contrast(120%);
+} */
 
 li.active {
 	flex: 5;
 	background: #fff;
 	cursor: default;
 }
+li.active .section-title {filter: invert(100%)}
 
 li.active text {fill: #121212;}
 
@@ -64,7 +57,7 @@ li .section-title {
 	padding: 0;
 	text-align: left;
 	color: white;
-	overflow: hidden;
+	overflow: visible;
 	z-index:100;
 }
 
@@ -79,17 +72,41 @@ li .section-content {
 	overflow: auto;
 	z-index:80;
 }
-/* li.active .section-title {flex: 1;} */
+
 .inside-padding {padding: 1.6111111rem;}
 li:not(.active) .section-content {display: none;}
 
 
 li:not(.active) {
-	filter: darken(20%);
-	-webkit-filter: darken(20%);
-	/* background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) inherit) */
-}
-li:not(.active) {
 	flex: 1;
 }
 
+/* Plan B
+li .section-title h1 {
+  margin: 0;
+  transform: rotate(-90deg) translatey(-100%);
+	transform-origin: 100% 100%;
+  white-space: nowrap;
+	
+}
+li:not(.active) .section-title h1 {
+ 	color: #fff;
+} */
+
+@media screen and (orientation: portrait) {
+	ul {flex-direction: column-reverse;}
+	li {flex-direction: column;}
+	/* li.active .section-content {flex:6} */
+	
+	li .section-title img {
+		transform: rotate(90deg) translateY(-45%) translateX(-80%);
+		height:50vh;
+	}
+	li.active .section-title {flex:0; display:none;}
+	/* img {
+		transform:rotate(0) translate(0, 200%) scale(200%);
+		transform:rotate(-90);	
+		}
+	 */
+	.container {height:100%}
+	} 

@@ -36,6 +36,7 @@ text-rendering: optimizelegibility;
 /* .logo {width: 20vw; color:#fff;}  */
 /* @media screen and (min-width: 896px) { .logo {max-width: 25vw;} } */
 
+
 .Atelier {grid-area: Atelier; background-image: url("./IMG/banner_ESPACE--sqr.jpg");}
 .Adams {grid-area: Adams; background-image: url("./IMG/banner_SA.jpg");}
 .StJean {grid-area: StJean; background-image: url("./IMG/banner_SJ.jpg");}
@@ -48,6 +49,7 @@ text-rendering: optimizelegibility;
 		width: 100%;
 		height: 100%;
 		z-index: 110;
+		align-items:stretch;
 		}
 	}
 @media screen and (max-width:768px) {
@@ -56,13 +58,7 @@ text-rendering: optimizelegibility;
 	}
 }
 
-svg {
-	font: bold 7vw Anton, Arial; 
-	width: 100%;
-	height: 100%;
-	z-index: 120;
-}
-text {fill:#fff;} 
+
 
 </style>
 </head>	
@@ -72,9 +68,7 @@ text {fill:#fff;}
 	<li class="Adams">
 		<div class="section-title">
 			<div class="container">
-				<svg viewBox="-50 150 100 100" preserveAspectRatio="xMaxYMid meet">
-				<text text-anchor="end" dominant-baseline="middle" transform="rotate(-90)">Adams</text>
-				</svg>
+				<img src="./SVG/Adams.svg" width="100%" height="auto">
 			</div>
 		</div>
 		<div class="section-content">
@@ -94,9 +88,7 @@ text {fill:#fff;}
 	<li	class="StJean">
 		<div class="section-title">
 			<div class="container">
-			<svg viewBox="-50 150 100 100" preserveAspectRatio="xMaxYMid meet">
-				<text text-anchor="end" dominant-baseline="middle" transform="rotate(-90)">St-Jean</text>
-			</svg>
+			<img src="./SVG/St-Jean.svg" width="100%" height="auto">
 			</div>
 		</div>
 		<div class="section-content">
@@ -117,9 +109,7 @@ text {fill:#fff;}
 	<li class="Wright">
 		<div class="section-title">
 			<div class="container">
-			<svg viewBox="-50 150 100 100" preserveAspectRatio="xMaxYMid meet">
-				<text text-anchor="end" dominant-baseline="middle" transform="rotate(-90)">Wright</text>
-			</svg>
+				<img src="./SVG/Wright.svg" width="100%" height="auto">
 			</div>
 		</div>
 		<div class="section-content">
@@ -137,11 +127,7 @@ text {fill:#fff;}
 	<li class="active Atelier">
 		<div class="section-title">
 			<div class="container">
-			
-			<svg viewBox="-50 150 100 100" preserveAspectRatio="xMaxYMid meet">
-				<text text-anchor="end" dominant-baseline="middle"  transform="rotate(-90)">Espace 230</text>
-			</svg>
-			
+			<img src="./SVG/Espace230.svg" width="100%" height="auto">
 			</div>
 		</div>
 

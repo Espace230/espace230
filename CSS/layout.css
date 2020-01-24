@@ -34,7 +34,7 @@ li {
 } */
 
 li.active {
-	flex: 5;
+	flex: 9;
 	background: #fff;
 	cursor: default;
 }
@@ -43,7 +43,7 @@ li.active .section-title {filter: invert(100%)}
 li.active text {fill: #121212;}
 
 li.active .section-content {
-	flex: 4;
+	flex: 8;
 	opacity: 1;
 	transform: scaleX(1); /* ? */
 	color: #121212;
@@ -62,7 +62,7 @@ li .section-title {
 }
 
 li .section-content {
-	flex: 4;
+	flex: 8;
 	display: flex;
 	align-items: top;
 	margin: 0;

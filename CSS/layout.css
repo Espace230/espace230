@@ -102,10 +102,15 @@ li:not(.active) .section-title h1 {
 		transform: rotate(90deg) translateY(-20%) translateX(-80%);
 		height:100vh;
 	}
+
+li:not(.active) {
+	flex: 0.5;
+}
+
 	li.active .section-title {flex:0; display:none;}
 	/* img {
 		transform:rotate(0) translate(0, 200%) scale(200%);
-		transform:rotate(-90);	
+		transform:rotate(-90deg);	
 		}
 	 */
 	.container {height:100%}

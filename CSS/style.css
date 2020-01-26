@@ -1,4 +1,3 @@
-/* Typographic Grid Styling & Spacing */
 html, .root {
 	font-size: 18px;
 	line-height: 29px;
@@ -57,14 +56,33 @@ ul ul, ol ol, ul ol, ol ul {
 h1 {font-family: 'Anton', sans-serif; color: #121212; text-transform: uppercase;}
 body, h2, h3, h4, article, p, ul, ol {font-family: 'Inter', sans-serif; color: #242424;}
 h2, h3, h4 {font-weight: 800;}
-a {font-family: 'Inter', sans-serif; font-weight: 600; color: #424242; text-decoration: none;} /* #424242 */
-a:hover {color: #848484;}
+a {font-family: 'Inter', sans-serif; font-weight: 600; color: #545454; text-decoration: none;}
+a:hover {color: #0F1E4E;}
 .nowrap {white-space: nowrap;}
 .highlight {font-weight:600;}
 strong {font-weight:800;}
 /* Align Everything Else */
 hr, .hr { border: 1px solid; margin: -1px 0;}
-a, b, i, strong, em, small, code {line-height: 0;}
+a, b, i, strong, em, small, code {line-height: 1rem;}
+
+button { 
+  border: 2px solid #545454;
+  border-radius: 5px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing:0.1px;
+  background: #fefefe;
+  color: #212121;
+  font-size: 15px;
+  line-height: 1;
+  white-space: nowrap;
+  text-decoration: none;
+  padding: 18px 32px;
+  margin: 0;
+  cursor: pointer;
+}
+
+button:hover { border: 2px solid #0F1E3E; background: #0F1E4E; color:#fcfcff; }
 
 sub, sup {
 	line-height: 0; 

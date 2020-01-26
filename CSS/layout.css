@@ -96,16 +96,14 @@ li:not(.active) .section-title h1 {
 @media screen and (orientation: portrait) {
 	ul {flex-direction: column-reverse;}
 	li {flex-direction: column;}
-	li.active .section-content {flex:8}
+	/* li.active .section-content {flex:8;} */
 	
 	li .section-title img {
-		transform: rotate(90deg) translateY(-20%) translateX(-80%);
+		transform: rotate(90deg) translateY(-20%) translateX(-80%) scale(0.5);
 		height:100vh;
 	}
 
-li:not(.active) {
-	flex: 0.5;
-}
+/* li:not(.active) { flex: 0.5; } */
 
 	li.active .section-title {flex:0; display:none;}
 	/* img {

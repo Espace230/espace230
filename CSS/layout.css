@@ -96,7 +96,7 @@ li:not(.active) .section-title h1 {
 @media screen and (orientation: portrait) {
 	ul {flex-direction: column-reverse;}
 	li {flex-direction: column;}
-	/* li.active .section-content {flex:6} */
+	li.active .section-content {flex:8}
 	
 	li .section-title img {
 		transform: rotate(90deg) translateY(-20%) translateX(-80%);

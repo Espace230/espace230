@@ -1,5 +1,3 @@
-/* * {box-sizing: border-box;} */
-
 ul {
 	display: flex;
 	min-height: 100vh;
@@ -73,12 +71,6 @@ li .section-content {
 .inside-padding { padding: 1.66666rem; }
 
 li:not(.active) .section-content { display: none; }
-
-/* Increase h1 lettering contrast */
-/* .section-title img{
-	filter: drop-shadow(0.1px 0.1px 0px #ccc) drop-shadow(-0.1px 0.1px 0px #ccc) drop-shadow(0.1px -0.1px 0px #ccc) drop-shadow(-0.1px -0.1px 0px #ccc);
-	} */
-
 
 @media screen and (orientation: portrait) {
 	

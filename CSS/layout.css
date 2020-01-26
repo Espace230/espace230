@@ -25,13 +25,8 @@ li {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-
 }
 
-/* li:not(.active):hover {
-	filter: contrast(120%);
-	-webkit-filter: contrast(120%);
-} */
 
 li.active {
 	flex: 9;
@@ -45,7 +40,7 @@ li.active text {fill: #121212;}
 li.active .section-content {
 	flex: 8;
 	opacity: 1;
-	transform: scaleX(1); /* ? */
+	transform: scaleX(1);
 	color: #121212;
 }
 
@@ -77,21 +72,8 @@ li .section-content {
 li:not(.active) .section-content {display: none;}
 
 
-li:not(.active) {
-	flex: 1;
-}
+li:not(.active) { flex: 1; }
 
-/* Plan B
-li .section-title h1 {
-  margin: 0;
-  transform: rotate(-90deg) translatey(-100%);
-	transform-origin: 100% 100%;
-  white-space: nowrap;
-	
-}
-li:not(.active) .section-title h1 {
- 	color: #fff;
-} */
 
 @media screen and (orientation: portrait) {
 	ul {flex-direction: column-reverse;}
@@ -99,17 +81,10 @@ li:not(.active) .section-title h1 {
 	/* li.active .section-content {flex:8;} */
 	
 	li .section-title img {
-		transform: rotate(90deg) translateY(-20%) translateX(-80%) scale(0.5);
-		height:100vh;
+		transform-origin: top center;
+		transform: rotate(90deg) translateY(-76%) translateX(33%) scale(0.9);
+		max-width:20vw;
 	}
 
-/* li:not(.active) { flex: 0.5; } */
-
 	li.active .section-title {flex:0; display:none;}
-	/* img {
-		transform:rotate(0) translate(0, 200%) scale(200%);
-		transform:rotate(-90deg);	
-		}
-	 */
-	.container {height:100%}
-	} 
+} 

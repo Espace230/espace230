@@ -76,9 +76,7 @@ li:not(.active) { flex: 1; }
 
 
 @media screen and (orientation: portrait) {
-	ul {flex-direction: column-reverse;}
-	li {flex-direction: column;}
-	/* li.active .section-content {flex:8;} */
+	ul, li {flex-direction: column;}
 	
 	li .section-title img {
 		transform-origin: top center;

@@ -70,10 +70,15 @@ h4 {font-weight: 900;}
 .half-bottom-margin {margin-bottom: 0.722rem;}
 .half-top-margin {margin-top: 0.722rem;}
 
-a {font-family: 'Inter', sans-serif; font-weight: 600; color:#092c79 ; text-decoration: none;}
+a {font-family: 'Inter', sans-serif; font-weight: 600; color:#092c79; text-decoration: none;}
+
+/* Cerulean Blue #2B59C3 */
+/* Catalina Blue #092c79 */
+/* Cobalt Blue #0047ab */
+/* Prussian Green #092729 */
 /* #0047ab / #092729 / #135813 */
 /* a:not(.fa) {color: #0F1E4E;} */
-.fa, .sa {color: #484848;}
+.fa, .sa {color: #545454;}
 a:hover, .fa:hover {color: #0047ab; transition: 0.3s;}
 
 .nowrap {white-space: nowrap;}
@@ -86,24 +91,25 @@ a, b, i, strong, em, small, code {line-height: 1rem;}
 
 /* Extra */
 button { 
-	border: 2px solid #092729;
-	border-radius: 5px;
+	border: 2px solid #626262;
+	/* #0047ab; #092729 */
+	border-radius: 4px;
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing:0.1px;
-	background: #092c79;
-	color: #fcfcff;
+	background: #626262;  /* #0F1E4E */
+	color: #fdfdfd;
 	font-size: 14px;
 	line-height: 1;
 	white-space: nowrap;
 	text-decoration: none;
-	padding: 18px 32px;
+	padding: 16px 30px;
 	margin: 0;
 	cursor: pointer;
 	transition: 0.3s;
 }
 
-button:hover {border: 2px solid #0047ab; background: #0047ab; color:#fdfdff; transition: 0.3s;} /* #0F1E4E */
+button:hover {border: 2px solid #2B59C3; background: #2B59C3; color:#fdfdff; transition: 0.3s;} /* #0F1E4E */
 
 sub, sup {
 	line-height: 0; 

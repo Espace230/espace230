@@ -81,13 +81,13 @@ li:not(.active) .section-content { display: none; }
 	}
 	li:not(.active) {
 		display: block;
-		min-height: 6vh;
-		max-height: 6vh;
+		min-height: 5.5vh;
+		max-height: 5.5vh;
 		}
 	li .section-title img {
 		transform-origin: top left;
 		transform: rotate(90deg) translateY(-100%) translateY(-1em);
-		max-width: 11.5%;
+		max-width: 10%;
 		} 
 	li.Events .section-title img { margin-top: -3px; } 
 	}

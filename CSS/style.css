@@ -21,7 +21,7 @@ h2, .h2 {
 	line-height: 3.2222222rem;
 	margin-top: 1.6111111rem;
 	margin-bottom: 1.6111111rem;
-	letter-spacing:-0.15rem;
+	/* letter-spacing:-0.15rem; */
 }
 h3, .h3 {
 	font-size: 1.6111111rem;
@@ -36,7 +36,6 @@ h3, .h3 {
 	}
 h4, .h4 {
 	font-size: 1rem;
-	/* text-transform: uppercase; */
 	line-height: 1.6111111rem;
 	margin-top: 1.6111111rem;
 	margin-bottom: 0rem;
@@ -61,9 +60,9 @@ ul ul, ol ol, ul ol, ol ul {
 }
 
 /* Cosmetics */
-h1 {font-family: 'Anton', sans-serif; color: #121212; text-transform: uppercase;}
-body, h2, h3, h4, article, p, ul, ol {font-family: 'Inter', sans-serif; color: #242424;}
-h2, h3 {font-weight: 800;}
+h1, h2 {font-family: 'Anton', sans-serif; color: #121212;}
+body, h3, h4, article, p, ul, ol {font-family: 'Inter', sans-serif; color: #242424;}
+h3 {font-weight: 800;}
 h4 {font-weight: 900;}
 
 .no-bottom-margin {margin-bottom: 0;}
@@ -94,7 +93,7 @@ button {
 	letter-spacing:0.1px;
 	background: #092c79;
 	color: #fcfcff;
-	font-size: 15px;
+	font-size: 14px;
 	line-height: 1;
 	white-space: nowrap;
 	text-decoration: none;

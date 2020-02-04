@@ -72,20 +72,22 @@ li:not(.active) .section-content { display: none; }
 @media screen and (orientation: portrait) {
 	ul { flex-direction: column; }
 	li.active .section-title { display:none; }
+	li.active {order:5;}
 	img .name {
 		height: 100%;
 		width: 100%;
     object-fit: contain;
     overflow: hidden;
 	}
-	li:not(.active){
+	li:not(.active) {
 		display: block;
-		min-height: 7vh;
-		max-height: 7vh;
+		min-height: 6vh;
+		max-height: 6vh;
 		}
 	li .section-title img {
 		transform-origin: top left;
 		transform: rotate(90deg) translateY(-100%) translateY(-1em);
-		max-width:12%;
+		max-width: 11.5%;
 		} 
+	li.Events .section-title img { margin-top: -3px; } 
 	}

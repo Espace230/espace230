@@ -78,8 +78,8 @@ a {font-family: 'Inter', sans-serif; font-weight: 600; color:#092c79 ; text-deco
 a:hover, .fa:hover {color: #0047ab; transition: 0.3s;}
 
 .nowrap {white-space: nowrap;}
-.highlight {font-weight:600;}
-strong {font-weight:800;}
+.highlight {font-weight: 600;}
+strong {font-weight: 800;}
 
 /* Align Everything Else */
 hr, .hr { border: 1px solid; margin: -1px 0; }

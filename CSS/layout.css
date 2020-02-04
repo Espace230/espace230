@@ -89,5 +89,5 @@ li:not(.active) .section-content { display: none; }
 		transform: rotate(90deg) translateY(-100%) translateY(-1em);
 		max-width: 10%;
 		} 
-	li.Events .section-title img { margin-top: -3px; } 
+	li.Events .section-title img { margin-top: -4px; } 
 	}

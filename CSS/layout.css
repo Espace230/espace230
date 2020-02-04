@@ -69,7 +69,7 @@ li .section-content {
 	transition: all .25s .1s ease-out;
 	overflow: auto;
 	z-index:80;
-	justify-content:center;
+	justify-content: center;
 }
 
 .main-content {padding: 1.66666rem; max-width: 560px;}

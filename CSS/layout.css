@@ -28,8 +28,6 @@ li:not(.active):hover {
 	flex: 1.12;
 }
 
-
-
 li.active {
 	flex: 10;
 	background: #fff;
@@ -75,11 +73,6 @@ li .section-content {
 .main-content {padding: 1.66666rem; max-width: 560px;}
 
 li:not(.active) .section-content { display: none; }
-
-/* Increase h1 lettering contrast */
-/* .section-title img{
-	filter: drop-shadow(0.1px 0.1px 0px #ccc) drop-shadow(-0.1px 0.1px 0px #ccc) drop-shadow(0.1px -0.1px 0px #ccc) drop-shadow(-0.1px -0.1px 0px #ccc);
-	} */
 
 @media screen and (orientation: portrait) {
 	

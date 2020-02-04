@@ -1,5 +1,11 @@
 /* NOTE Font Inter Size 18px line-Height 1.6 Scale Factor 1.414 */
-
+body {
+-webkit-font-smoothing: antialiased;
+-moz-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+text-rendering: optimizelegibility;
+font-kerning: normal;
+}
 html, .root {
 	font-size: 18px;
 	line-height: 29px;
@@ -29,6 +35,7 @@ h3, .h3 {
 	margin-top: 1.6111111rem;
 	margin-bottom: 1.6111111rem;
 	letter-spacing:-0.075rem;
+	font-weight: 800;
 }
 .h3-inline {
 	font-size: 1.6111111rem;
@@ -39,6 +46,7 @@ h4, .h4 {
 	line-height: 1.6111111rem;
 	margin-top: 1.6111111rem;
 	margin-bottom: 0rem;
+	font-weight: 900;
 }
 h5, .h5 {
 	color: #484848; /* #0F1E4E; */
@@ -62,43 +70,31 @@ ul ul, ol ol, ul ol, ol ul {
 /* Cosmetics */
 h1, h2 {font-family: 'Anton', sans-serif; color: #121212;}
 body, h3, h4, article, p, ul, ol {font-family: 'Inter', sans-serif; color: #242424;}
-h3 {font-weight: 800;}
-h4 {font-weight: 900;}
-
-.no-bottom-margin {margin-bottom: 0;}
-.no-top-margin {margin-top: 0;}
-.half-bottom-margin {margin-bottom: 0.722rem;}
-.half-top-margin {margin-top: 0.722rem;}
-
 a {font-family: 'Inter', sans-serif; font-weight: 600; color:#092c79; text-decoration: none;}
-
-/* Cerulean Blue #2B59C3 */
-/* Catalina Blue #092c79 */
-/* Cobalt Blue #0047ab */
-/* Prussian Green #092729 */
-/* #0047ab / #092729 / #135813 */
-/* a:not(.fa) {color: #0F1E4E;} */
 .fa, .sa {color: #545454;}
 a:hover, .fa:hover {color: #0047ab; transition: 0.3s;}
-
-.nowrap {white-space: nowrap;}
-.highlight {font-weight: 600;}
 strong {font-weight: 800;}
 
 /* Align Everything Else */
 hr, .hr { border: 1px solid; margin: -1px 0; }
 a, b, i, strong, em, small, code {line-height: 1rem;}
 
-/* Extra */
+/* Tweaks */
+.highlight {font-weight: 600;}
+.nowrap {white-space: nowrap;}
+.no-bottom-margin {margin-bottom: 0;}
+.no-top-margin {margin-top: 0;}
+.half-bottom-margin {margin-bottom: 0.722rem;}
+.half-top-margin {margin-top: 0.722rem;}
+
 button { 
-	border: 2px solid #626262;
-	/* #0047ab; #092729 */
+	border: 2px solid #626262;/* #0047ab; #092729 */
+	background: #626262;  /* #0F1E4E */
+	color: #fdfdfd;
 	border-radius: 4px;
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing:0.1px;
-	background: #626262;  /* #0F1E4E */
-	color: #fdfdfd;
 	font-size: 14px;
 	line-height: 1;
 	white-space: nowrap;
@@ -108,7 +104,6 @@ button {
 	cursor: pointer;
 	transition: 0.3s;
 }
-
 button:hover {border: 2px solid #2B59C3; background: #2B59C3; color:#fdfdff; transition: 0.3s;} /* #0F1E4E */
 
 sub, sup {
@@ -118,4 +113,18 @@ sub, sup {
 	}
 sup {top: -0.5em;}
 sub {bottom: -0.25em;}
+
 .copy {font-size: 0.722rem; font-weight: 500;}
+
+@media screen and (max-width:768px) {
+	html, .root {
+		font-size: 16px;
+	}
+	h2, .h2 {letter-spacing:-0.1rem;}
+}
+/* COLOUR REFERENCE */
+/* Cerulean Blue #2B59C3 */
+/* Catalina Blue #092c79 */
+/* Cobalt Blue #0047ab */
+/* Prussian Green #092729 */
+/* #0047ab / #092729 / #135813 */

@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url><loc>https://espace230.com/</loc><lastmod>2020-02-04T11:16:14+00:00</lastmod><changefreq>daily</changefreq><priority>1.00</priority></url>
+<url>
+<loc>https://espace230.com</loc>
+<image:image>
+<image:loc>https://espace230.com/SVG/h1-Sylvie-Adams.svg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/IMG/artwork-SA.jpg</image:loc>
+<image:title>Tableau de Sylvie Adams.jpg</image:title>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/SVG/h1-Louis-Bernard-St-Jean.svg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/IMG/artwork_SJ.jpg</image:loc>
+<image:title>Tableau de Louis-Bernard St-Jean.jpg</image:title>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/SVG/h1-Max-Wright.svg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/IMG/artwork_MW.jpg</image:loc>
+<image:title>Tableau de Max Wright.jpg</image:title>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/SVG/h1-Espace-230.svg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/IMG/BG_ESPACE.jpg</image:loc>
+<image:title>Atelier d&amp;apos;artiste, Espace 230</image:title>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/SVG/h1-events-offset.svg</image:loc>
+</image:image>
+</url>
 </urlset>
  

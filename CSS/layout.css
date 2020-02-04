@@ -26,7 +26,7 @@ li {
 	display: flex;
 	align-items: stretch;
 	padding: 0;
-	background: #212121;
+	background: #121212;
 	cursor: pointer;
 	transition: all .5s ease;
 	overflow: hidden;

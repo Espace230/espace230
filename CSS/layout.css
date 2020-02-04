@@ -1,16 +1,4 @@
 /* * {box-sizing: border-box;} */
-@media screen and (max-width:768px) {
-	html, .root {
-		font-size: 16px;
-	}
-	h2, .h2 {letter-spacing:-0.1rem;}
-}
-
-.section-title {transition: background-image 1s ease-in-out;}
-.Atelier:not(.active):hover {grid-area: Atelier; background-image: url("./IMG/banner_ESPACE--sqr.jpg");}
-.Adams:not(.active):hover {grid-area: Adams; background-image: url("./IMG/banner_SA.jpg");}
-.StJean:not(.active):hover {grid-area: StJean; background-image: url("./IMG/banner_SJ.jpg");}
-.Wright:not(.active):hover {grid-area: Wright; background-image: url("./IMG/artwork_MW.jpg");} 
 
 ul {
 	display: flex;

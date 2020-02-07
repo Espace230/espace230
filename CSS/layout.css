@@ -102,6 +102,12 @@ li.active .section-title { display: none; }
 }
 @media screen and (orientation: landscape) and (max-width: 568px) {
 	li.active > div.section-content > .main-content { padding-top: 1.8rem; }
+	h1, .h1 { 
+		font-size: 2.6111111rem;
+		line-height: 3.2222222rem;
+		margin-top: 1.6111111rem;
+		margin-bottom: 1.6111111rem;
+	} 
 }
 
 @media screen and (orientation: portrait) {
@@ -109,7 +115,7 @@ li.active .section-title { display: none; }
 	li.active .section-title { display:none; }
 	li.active {order:5;}
 	.main-content { padding: 1.125rem; }
-	 h1, .h1 { 
+	h1, .h1 { 
 		font-size: 2.6111111rem;
 		line-height: 3.2222222rem;
 		margin-top: 1.6111111rem;

@@ -31,7 +31,7 @@ li.active {
 	cursor: default;
 }
 
-li.active .section-title { filter: invert(100%); }
+li.active .section-title { filter: invert(100%); display:none; }
 
 
 li.active .section-content {
@@ -65,9 +65,24 @@ li .section-content {
 	justify-content: center;
 }
 
-.main-content { padding: 1.66666rem; max-width: 560px; }
+.main-content { padding: 2.611111rem; max-width: 560px;}
 
 li:not(.active) .section-content { display: none; }
+
+.grid-opening-hours {
+	display: grid;
+	grid-template-columns: 2fr 3fr;
+	grid-template-rows: repeat(4, 1fr); 
+	grid-column-gap: 10px;
+	grid-row-gap: 0px; 
+	grid-template-areas: "grid-open hours" "grid-rdv rdv";
+	}
+.grid-open { grid-area: grid-open; font-weight:700}
+.hours { grid-area: hours; }
+.grid-rdv { grid-area: grid-rdv; font-weight:700}
+.rdv { grid-area: rdv; }
+
+
 
 @media screen and (orientation: portrait) {
 	ul { flex-direction: column; }

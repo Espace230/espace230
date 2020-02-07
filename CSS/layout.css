@@ -68,7 +68,7 @@ li .section-content {
 .main-content { padding: 2.611111rem; max-width: 560px;}
 
 @media screen and (orientation: portrait) {
-	 .Atelier .main-content { padding: 1rem; }
+	 .Atelier .main-content { padding: 1.125rem; }
 }
 @media screen and (orientation: landscape) and (max-width: 736px) {
 	 .Atelier .main-content { padding-top: 2rem; }

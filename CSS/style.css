@@ -18,8 +18,11 @@ body, .article {
 h1, .h1 {
 	font-size: 4.2222222rem;
 	line-height: 4.8333333rem;
-	margin-top: 1.6111111rem;
-	margin-bottom: 3.2222222rem;
+	/* margin-top: 1.6111111rem; */
+	/* margin-bottom: 3.2222222rem; */
+	margin-top: 3.2222222rem;
+	margin-bottom: 1.6111111rem;
+	letter-spacing:-0.06rem;
 }
 h2, .h2 {
 	font-size: 2.6111111rem;
@@ -36,7 +39,7 @@ h3, .h3 {
 	letter-spacing:-0.075rem;
 	font-weight: 800;
 }
-.h3-inline {
+.hx-inline {
 	font-size: 1.6111111rem;
 	vertical-align: middle;
 	}
@@ -67,15 +70,15 @@ ul ul, ol ol, ul ol, ol ul {
 }
 
 /* Cosmetics */
-h1, h2 {font-family: 'Anton', sans-serif; color: #121212;}
-body, h3, h4, article, p, ul, ol {font-family: 'Inter', sans-serif; color: #242424;}
+h1 {font-family: 'Anton', sans-serif; color: #121212;}
+body, h2, h3, h4, article, p, ul, ol {font-family: 'Inter', sans-serif; color: #242424;}
 a {font-family: 'Inter', sans-serif; font-weight: 600; color:#092c79; text-decoration: none;}
 .fa, .sa {color: #545454;}
 a:hover, .fa:hover {color: #0047ab; transition: 0.3s;}
-strong {font-weight: 800;}
+h2, .h2, strong {font-weight: 800;}
 
 /* Align Everything Else */
-hr, .hr { border: 1px solid; margin: -1px 0; }
+hr, .hr { border: 2px solid; margin: -2px 0; }
 a, b, i, strong, em, small, code {line-height: 1rem;}
 
 /* Tweaks */

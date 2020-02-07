@@ -116,7 +116,7 @@ sub, sup {
 sup {top: -0.5em;}
 sub {bottom: -0.25em;}
 
-.copy {font-size: 0.722rem; font-weight: 500;}
+.copy {font-size: 0.722rem; font-weight: 600;}
 
 /* COLOUR REFERENCE */
 /* Cerulean Blue #2B59C3 */

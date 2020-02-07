@@ -86,21 +86,22 @@ li.active .section-title { display: none; }
 
 @media screen and (min-width:768px) {
 	.Atelier .main-content > img { padding-bottom: 1rem;}
-}
+	}
+	
 @media screen and (max-width:768px) {
 	html, .root { font-size: 16px; }
 	h1, .h1 { 
 		letter-spacing:-0.1rem; 
 		margin-top: 1.6111111rem;
 		margin-bottom: 1.6111111rem;
+		}
 	}
-}
-}
-@media screen and (orientation: landscape) and (max-width: 736px) {
-	li.active > .main-content { padding-top: 2rem; }
+
+@media screen and (orientation: landscape) {
+	body > ul > li.active.Atelier > div.section-content > .main-content { padding-top: 2rem; }
 }
 @media screen and (orientation: landscape) and (max-width: 568px) {
-	li.active > .main-content { padding-top: 1.8rem; }
+	.Atelier > .main-content { padding-top: 1.8rem; }
 }
 
 @media screen and (orientation: portrait) {

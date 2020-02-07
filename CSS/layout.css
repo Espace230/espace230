@@ -88,6 +88,8 @@ li:not(.active) .section-content { display: none; }
 	ul { flex-direction: column; }
 	li.active .section-title { display:none; }
 	li.active {order:5;}
+	.grid-opening-hours { grid-template-columns: 1fr 1fr;}
+
 	img .name {
 		height: 100%;
 		width: 100%;

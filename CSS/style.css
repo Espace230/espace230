@@ -16,7 +16,6 @@ body, .article {
 	margin: auto;
 }
 h1, .h1 {
-	font-weight: 700;
 	font-size: 4.2222222rem;
 	line-height: 4.8333333rem;
 	margin-top: 1.6111111rem;
@@ -116,12 +115,6 @@ sub {bottom: -0.25em;}
 
 .copy {font-size: 0.722rem; font-weight: 500;}
 
-@media screen and (max-width:768px) {
-	html, .root {
-		font-size: 16px;
-	}
-	h2, .h2 {letter-spacing:-0.1rem;}
-}
 /* COLOUR REFERENCE */
 /* Cerulean Blue #2B59C3 */
 /* Catalina Blue #092c79 */

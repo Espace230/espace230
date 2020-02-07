@@ -31,7 +31,7 @@ li.active {
 	cursor: default;
 }
 
-li.active .section-title { filter: invert(100%); display:none; }
+li.active .section-title { filter: invert(100%); }
 
 
 li.active .section-content {
@@ -65,41 +65,53 @@ li .section-content {
 	justify-content: center;
 }
 
-.main-content { padding: 2.611111rem; max-width: 560px;}
+.main-content { padding: 2.611111rem; width: 100%; max-width: 560px;}
 
-@media screen and (orientation: portrait) {
-	 .Atelier .main-content { padding: 1.125rem; }
-}
-@media screen and (orientation: landscape) and (max-width: 736px) {
-	 .Atelier .main-content { padding-top: 2rem; }
-}
-@media screen and (orientation: landscape) and (max-width: 568px) {
-	 .Atelier .main-content { padding-top: 1.8rem; }
-}
 
 li:not(.active) .section-content { display: none; }
 
 .grid-opening-hours {
 	display: grid;
-	grid-template-columns: 2fr 3fr;
+	/* grid-template-columns: 2fr 3fr; */
 	grid-template-rows: repeat(4, 1fr); 
-	grid-column-gap: 10px;
-	grid-row-gap: 0px; 
+	grid-column-gap: 0.75rem;
+	grid-row-gap: 0; 
 	grid-template-areas: "grid-open hours" "grid-rdv rdv";
+	justify-content: flex-start;
 	}
-	.grid-open { grid-area: grid-open; font-weight:700}
-	.hours { grid-area: hours; }
-	.grid-rdv { grid-area: grid-rdv; font-weight:700}
+	.grid-open { grid-area: grid-open; font-weight:700;}
+	.hours { grid-area: hours;}
+	.grid-rdv { grid-area: grid-rdv; font-weight:700;}
 	.rdv { grid-area: rdv; }
 
 
+@media screen and (max-width:768px) {
+	html, .root { font-size: 16px; }
+	h1, .h1 { 
+		letter-spacing:-0.1rem; 
+		}
+}
+
+	li.active .section-title { display:none; }
+}
+@media screen and (orientation: landscape) and (max-width: 736px) {
+	.main-content { padding-top: 2rem; }
+}
+@media screen and (orientation: landscape) and (max-width: 568px) {
+	.main-content { padding-top: 1.8rem; }
+}
 
 @media screen and (orientation: portrait) {
 	ul { flex-direction: column; }
 	li.active .section-title { display:none; }
 	li.active {order:5;}
-	.grid-opening-hours { grid-template-columns: 1fr 1fr;}
-
+	.main-content { padding: 1.125rem; }
+	h1, .h1 { 
+		font-size: 2.6111111rem;
+		line-height: 3.2222222rem;
+		margin-top: 1.6111111rem;
+		margin-bottom: 1.6111111rem;
+	}
 	img .name {
 		height: 100%;
 		width: 100%;

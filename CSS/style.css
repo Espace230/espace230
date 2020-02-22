@@ -37,7 +37,6 @@ h3, .h3 {
 	margin-top: 1.6111111rem;
 	margin-bottom: 1.6111111rem;
 	letter-spacing:-0.075rem;
-	font-weight: 800;
 }
 .hx-inline {
 	font-size: 1.6111111rem;
@@ -75,7 +74,7 @@ body, h2, h3, h4, article, p, ul, ol {font-family: 'Inter', sans-serif; color: #
 a {font-family: 'Inter', sans-serif; font-weight: 600; color:#092c79; text-decoration: none;}
 .fa, .sa {color: #545454;}
 a:hover, .fa:hover {color: #0047ab; transition: 0.3s;}
-h2, .h2, strong {font-weight: 800;}
+h2, .h2, h3, strong {font-weight: 800;}
 
 /* Align Everything Else */
 hr, .hr { border: 2px solid; margin: -2px 0; }

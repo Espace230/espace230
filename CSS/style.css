@@ -72,7 +72,7 @@ ul ul, ol ol, ul ol, ol ul {
 h1 {font-family: 'Anton', sans-serif; color: #121212;}
 body, h2, h3, h4, article, p, ul, ol {font-family: 'Inter', sans-serif; color: #242424;}
 a {font-family: 'Inter', sans-serif; font-weight: 600; color:#092c79; text-decoration: none;}
-.fa, .sa {color: #545454;}
+.fa, .sa {color: #646464;} /* #545454 */
 a:hover, .fa:hover {color: #0047ab; transition: 0.3s;}
 h2, .h2, h3, strong {font-weight: 800;}
 

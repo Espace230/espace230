@@ -5,6 +5,7 @@ body {
 -moz-osx-font-smoothing: grayscale;
 text-rendering: optimizelegibility;
 font-kerning: normal;
+overscroll-behavior: none;
 }
 html, .root {
 	font-size: 18px;

@@ -6,6 +6,7 @@ body {
 text-rendering: optimizelegibility;
 font-kerning: normal;
 overscroll-behavior: none;
+position: fixed;
 }
 html, .root {
 	font-size: 18px;

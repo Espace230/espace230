@@ -6,7 +6,7 @@ body {
 text-rendering: optimizelegibility;
 font-kerning: normal;
 overscroll-behavior: none;
-position: fixed;
+/* position: fixed; */
 overflow: hidden;
 }
 html, .root {

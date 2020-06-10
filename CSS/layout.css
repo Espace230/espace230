@@ -86,8 +86,8 @@ li:not(.active) .section-content { display: none; }
 
 @media screen and (min-width:768px) {
 	.Atelier .main-content > img { padding-bottom: 1rem;}
-	li .section-title { flex: 0.9; }
-	li:not(.active):hover { flex: 1.06; }
+	/* li .section-title { flex: 0.9; } */
+	/* li:not(.active):hover { flex: 1.06; } */
 	}
 
 @media screen and (max-width:768px) {
@@ -141,3 +141,6 @@ li:not(.active) .section-content { display: none; }
 		} 
 	li.Events .section-title img { margin-top: -4px; } 
 	}
+/* @media only screen {
+	body{ position:fixed; }
+	} */

@@ -114,7 +114,7 @@ li:not(.active) .section-content { display: none; }
 
 @media screen and (orientation: portrait) {
 	ul { flex-direction: column; }
-	/* li.active .section-title { display:none; } */
+	li.active .section-title { display:none; }
 	li.active {order:5;}
 	.main-content { padding: 1.125rem; }
 	h1, .h1 { 

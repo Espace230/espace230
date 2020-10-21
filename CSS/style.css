@@ -1,14 +1,22 @@
 /* NOTE Font Inter Size 18px line-Height 1.6 Scale Factor 1.414 */
 body {
--webkit-font-smoothing: antialiased;
--moz-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
-text-rendering: optimizelegibility;
-font-kerning: normal;
-overscroll-behavior: none;
-/* position: fixed; */
-overflow: hidden;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizelegibility;
+	font-kerning: normal;
+	overscroll-behavior: none;
+	overflow: hidden;
 }
+
+body::-webkit-scrollbar {
+  display: none;
+}
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 html, .root {
 	font-size: 18px;
 	line-height: 29px;
@@ -53,7 +61,8 @@ h4, .h4 {
 	font-weight: 900;
 }
 h5, .h5 {
-	color: #484848; /* #0F1E4E; */
+	color: #771111; /* #0F1E4E; */
+	/* color: #484848; */
 	text-transform: uppercase;
 	font-weight: 600;
 	letter-spacing: 0.5px;
@@ -72,15 +81,19 @@ ul ul, ol ol, ul ol, ol ul {
 }
 
 /* Cosmetics */
-h1 {font-family: 'Anton', sans-serif; color: #121212;}
+/* h1 {font-family: 'Anton', sans-serif; color: #121212;} */
+h1 {font-family: 'Inter', sans-serif; color: #121212;}
 body, h2, h3, h4, article, p, ul, ol {font-family: 'Inter', sans-serif; color: #242424;}
 a {font-family: 'Inter', sans-serif; font-weight: 600; color:#092c79; text-decoration: none;}
 .fa, .sa {color: #444;} 
-a:hover, .fa:hover {color: #0047ab; transition: 0.3s;}
+
+
+a:hover {color: #0047ab; transition: 0.3s;}
+.fa:hover, .sa:hover {color: #848484; transition: 0.3s;}
 h2, .h2, h3, strong {font-weight: 800;}
 
 /* Align Everything Else */
-hr, .hr { border: 2px solid; margin: -2px 0; }
+hr, .hr { border: 1px solid; margin: -2px 0; }
 a, b, i, strong, em, small, code {line-height: 1rem;}
 
 /* Tweaks */
@@ -90,11 +103,26 @@ a, b, i, strong, em, small, code {line-height: 1rem;}
 .no-top-margin {margin-top: 0;}
 .half-bottom-margin {margin-bottom: 0.722rem;}
 .half-top-margin {margin-top: 0.722rem;}
+.no-margins {margin-top: 0; margin-bottom: 0;}
+
+/* Artwork Descriptions */
+.author {font-weight: 600;}
+.title {font-weight: 800;}
+.artwork {margin-top: 0; margin-bottom: 0;}
+.buy-button {
+	margin-top: 1.6111111rem; 
+	display: none;
+	/* float: left; */
+}
+
+.img-frame {border: 1px solid #a4a4a4;}
 
 button { 
-	border: 2px solid #626262;/* #0047ab; #092729 */
-	background: #626262;  /* #0F1E4E */
-	color: #fdfdfd;
+	border: 2px solid #121212;/*  #626262 #0047ab; #092729 */
+	background: #121212;  /* #626262  #0F1E4E */
+	color: #fff;
+	/* background: #fff; 
+	color: #121212; */
 	border-radius: 4px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -108,7 +136,22 @@ button {
 	cursor: pointer;
 	transition: 0.3s;
 }
-button:hover {border: 2px solid #2B59C3; background: #2B59C3; color:#fdfdff; transition: 0.3s;} /* #0F1E4E */
+
+button:hover {border: 2px solid #848484; background: #848484; color:#fdfdff; transition: 0.3s;}
+/* button:hover {border: 2px solid #092c79; background: #092c79; color:#fdfdff; transition: 0.3s;} */
+/* button:hover {border: 2px solid #121212; background: #121212; color:#fff; transition: 0.3s;}  */
+/* button:hover {border: 2px solid #2B59C3; background: #2B59C3; color:#fdfdff; transition: 0.3s;} #0F1E4E */
+
+.button-white { 
+	border: 2px solid #121212;/*  #626262 #0047ab; #092729 */
+	background: #fff;  /* #626262  #0F1E4E */
+	color: #121212;
+}
+.button-white:hover {
+	border: 2px solid #121212; 
+	background: #121212; 
+	color:#fff; transition: 0.3s;
+}
 
 sub, sup {
 	line-height: 0; 

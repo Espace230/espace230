@@ -16,36 +16,43 @@ li {
 	display: flex;
 	align-items: stretch;
 	padding: 0;
-	background: #121212;
+	background: #fff; /* #121212; */
 	cursor: pointer;
-	transition: all .5s ease;
+
+	transition: all .35s ease-out; 
+	
 	overflow: hidden;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
-li:not(.active):hover { flex: 1.06; } /* 1.12 */
+li:not(.active):hover { filter: invert(100%); } 
+
+div.splash > .main-content > img {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+ }
 
 li.active {
-	flex: 10;
-	background: #fff;
+	flex: 9;
 	cursor: default;
 }
 
-li.active .section-title { filter: invert(100%); }
+li.active .section-title { flex: 1; background: #fff; filter: invert(100%);}
 
 li.active .section-content {
-	flex: 9;
+	flex: 8;
 	transform: scaleX(1);	
 }
 
 li .section-title {
-	flex: 0.9; /* 1 */
+	flex: 1; /* 0.9 */
 	display: flex;
 	width: auto; 
 	margin: 0;
-	padding: 0 0.25rem 1.1rem 0;
+	/* padding: 0.5rem 0.25rem; */
 	color: white;
 	overflow: visible;
 	z-index: 100;
@@ -66,9 +73,20 @@ li .section-content {
 
 .main-content { padding: 2.611111rem; width: 100%; max-width: 560px;}
 
+li.active.Espace230 > .section-title { 
+	display: none; 
+	/* transition: all .25s .1s ease-out; */
+}
 
-li:not(.active) .section-content { display: none; }
+li:not(.active) .section-content { 
+	display: none; 
+	/* transition: all .25s .1s ease-out; */
+}
 
+/* li:not(.active) .section-title {
+	transition: all .25s .1s ease-out; 
+} 
+*/
 /* li.active .section-title { display: none; } */
 
 .grid-opening-hours {
@@ -113,27 +131,32 @@ li:not(.active) .section-content { display: none; }
 }
 
 @media screen and (orientation: portrait) {
-	ul { flex-direction: column; }
-	li.active .section-title { display:none; }
+	ul { flex-direction: column; margin-top: 1rem;}
+	div.splash > .main-content > img {bottom: 1rem;}
+	li.active .section-title { display: none; }
 	li.active {order:5;}
 	.main-content { padding: 1.125rem; }
+
 	h1, .h1 { 
 		font-size: 2.6111111rem;
 		line-height: 3.2222222rem;
 		margin-top: 1.6111111rem;
 		margin-bottom: 1.6111111rem;
 	} 
+
 	img .name {
 		height: 100%;
 		width: 100%;
     object-fit: contain;
     overflow: hidden;
 	}
+
 	li:not(.active) {
 		display: block;
 		min-height: 5.5vh;
 		max-height: 5.5vh;
 		}
+
 	li .section-title img {
 		transform-origin: top left;
 		transform: rotate(90deg) translateY(-100%) translateY(-1em);
@@ -141,3 +164,8 @@ li:not(.active) .section-content { display: none; }
 		} 
 	li.Events .section-title img { margin-top: -4px; } 
 	}
+
+
+/* button .comment { display: none; }
+button:hover .button-price { display: none; }
+button:hover .button-buy { display: inline; } */

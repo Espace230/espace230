@@ -1,39 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-<url><loc>https://espace230.com/</loc><lastmod>2020-02-04T11:16:14+00:00</lastmod><changefreq>daily</changefreq><priority>1.00</priority></url>
+<url>
+    <loc>https://espace230.com/</loc>
+    <lastmod>2020-11-10T02:30:20+05:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.00</priority>
+</url>
 <url>
 <loc>https://espace230.com</loc>
+</url>
+<url>
+<loc>https://espace230.com/mailto:info@lbstjean.com</loc>
+</url>
 <image:image>
-<image:loc>https://espace230.com/SVG/h1-Sylvie-Adams.svg</image:loc>
+<image:loc>https://espace230.com/images/thumbnail.jpg</image:loc>
+<image:title>L&amp;Espace 230 au Belgo - Ateliers d'artistes &slash; Galerie d'art</image:title>
 </image:image>
 <image:image>
-<image:loc>https://espace230.com/IMG/artwork-SA.jpg</image:loc>
-<image:title>Tableau de Sylvie Adams.jpg</image:title>
+<image:loc>https://espace230.com/svg/ESPACE-230.svg</image:loc>
 </image:image>
 <image:image>
-<image:loc>https://espace230.com/SVG/h1-Louis-Bernard-St-Jean.svg</image:loc>
+<image:loc>https://espace230.com/svg/ESPACE-230-Logotype.svg</image:loc>
+<image:title>(Logotype) Espace 230 - Ateliers d'artistes &slash; Galerie d'art</image:title>
 </image:image>
 <image:image>
-<image:loc>https://espace230.com/IMG/artwork_SJ.jpg</image:loc>
-<image:title>Tableau de Louis-Bernard St-Jean.jpg</image:title>
+<image:loc>https://espace230.com/svg/ATELIERS.svg</image:loc>
 </image:image>
 <image:image>
-<image:loc>https://espace230.com/SVG/h1-Max-Wright.svg</image:loc>
+<image:loc>https://espace230.com/images/BG_ESPACE.jpg</image:loc>
+<image:title>Les ateliers d&amp;apos;artistes de l'Espace 230, Édifice Belgo, Montréal QC</image:title>
 </image:image>
 <image:image>
-<image:loc>https://espace230.com/IMG/artwork_MW.jpg</image:loc>
-<image:title>Tableau de Max Wright.jpg</image:title>
+<image:loc>https://espace230.com/svg/Espace-230-Floor-Plan-Grayscale.svg</image:loc>
 </image:image>
 <image:image>
-<image:loc>https://espace230.com/SVG/h1-Espace-230.svg</image:loc>
+<image:loc>https://espace230.com/images/Galerie.jpg</image:loc>
+<image:title>La galerie de l&amp;apos;Espace 230.jpg</image:title>
 </image:image>
 <image:image>
-<image:loc>https://espace230.com/IMG/BG_ESPACE.jpg</image:loc>
-<image:title>Atelier d&amp;apos;artiste, Espace 230</image:title>
+<image:loc>https://espace230.com/svg/ARTISTES.svg</image:loc>
 </image:image>
 <image:image>
-<image:loc>https://espace230.com/SVG/h1-events-offset.svg</image:loc>
+<image:loc>https://espace230.com/images/Louis-Bernard-St-Jean.jpg</image:loc>
+<image:title>Portrait de l&amp;apos;artiste peintre Montréalais Louis-Bernard St-Jean.jpg</image:title>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/images/artwork-SA.jpg</image:loc>
+<image:title>Tableau de l&amp;artiste peintre Sylvie Adams.jpg</image:title>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/svg/EXPOSITIONS.svg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/images/poster_Nuit-Blanche_2020.jpg</image:loc>
+<image:title>Poster de l&amp;événement Nuit Blanche Verte 2020 à l&amp;Espace 230, édifice Belgo, Montréal Québec.jpg</image:title>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/svg/ŒUVRES-D-ART.svg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/artworks/Louis-Bernard-St-Jean--La-femme-a-la-peau-bleue--2019-huile-sur-papier-Arches--12x16po--1500pxw.jpg</image:loc>
+<image:title>Tableau intitulé &quot;La femme à la peau bleue&quot; par l&amp;artiste peintre Louis-Bernard St-Jean. Huile sur papier Arches, 12 x 16 pouces</image:title>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/artworks/Louis-Bernard-St-Jean--Cevennes--2018-huile-sur-papier-Arches--16x12po--1500pxw.jpg</image:loc>
+<image:title>Tableau intitulé &quot;Cévennes&quot; par l&amp;artiste peintre Louis-Bernard St-Jean. Huile sur papier Arches, 16 x 12 pouces</image:title>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/artworks/Louis-Bernard-St-Jean--Boulevard-Saint-Laurent--2019-huile-sur-papier-Arches-9x12po.jpg</image:loc>
+<image:title>Tableau intitulé &quot;Boulevard Saint Laurent&quot; par l&amp;artiste peintre Louis-Bernard St-Jean. Huile sur papier Arches, 9 x 12 pouces</image:title>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/artworks/Louis-Bernard-St-Jean--Pied-de-Vent--2019-oil-on-paper-22x30in.jpg</image:loc>
+<image:title>Tableau intitulé &quot;Pied-de-vent&quot; par l&amp;artiste peintre Louis-Bernard St-Jean. Huile sur papier Arches, 22 x 30 pouces</image:title>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/artworks/Louis-Bernard-St-Jean--Le-Balcon--2019-huile-sur-papier-Arches-9x12po.jpg</image:loc>
+<image:title>Tableau intitulé &quot;Le Balcon&quot; par l&amp;artiste peintre Louis-Bernard St-Jean. Huile sur papier Arches, 9 x 12 pouces</image:title>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/artworks/Le-ruisseau--Louis-Bernard-St-Jean-2019-huile-sur-papier-Arches-12x16pouces--2000px_sqr.jpg</image:loc>
+<image:title>Tableau intitulé &quot;Le ruisseau&quot; par l&amp;artiste peintre Louis-Bernard St-Jean. Huile sur papier Arches, 12 x 16 pouces</image:title>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/artworks/Les-Monts-Valin--Louis-Bernard-St-Jean-2018-huile-sur-papier-Arches-22x30pouces--1500px_sqr.jpg</image:loc>
+<image:title>Tableau intitulé &quot;Les Monts-Valin&quot; par l&amp;artiste peintre Louis-Bernard St-Jean. Huile sur papier Arches, 22 x 30 pouces</image:title>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/artworks/Le-Depart--Louis-Bernard-St-Jean-2018-huile-sur-papier-Arches-22x30pouces--1500px_sqr.jpg</image:loc>
+<image:title>Tableau intitulé &quot;Le départ&quot; par l&amp;artiste peintre Louis-Bernard St-Jean. Huile sur papier Arches, 22 x 30 pouces</image:title>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/svg/CONTACT.svg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/images/Les-Ateliers-2020.jpg</image:loc>
+<image:title>Les ateliers de l&amp;apos;Espace 230</image:title>
 </image:image>
 </url>
+<url>
+<loc>https://espace230.com/mailto:info@espace230.com</loc>
+</url>
+<url>
+<loc>https://espace230.com/tel:514-965-1579</loc>
+</url>
 </urlset>
- 

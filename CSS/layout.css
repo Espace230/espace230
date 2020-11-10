@@ -82,15 +82,6 @@ li:not(.active) .section-content {
 	display: none; 
 	/* transition: all .25s .1s ease-out; */
 }
-<<<<<<< HEAD
-=======
-
-/* li:not(.active) .section-title {
-	transition: all .25s .1s ease-out; 
-} 
-*/
-/* li.active .section-title { display: none; } */
->>>>>>> 82333cc729d6869f0092d077cb1df940430cdc78
 
 .grid-opening-hours {
 	display: grid;
@@ -188,7 +179,6 @@ li:not(.active) .section-content {
 		} 
 	/* li.Events .section-title img { margin-top: -4px; }  */
 	}
-<<<<<<< HEAD
 @media screen and (orientation: portrait) and (max-width:768px) {
 	li:not(.active) {
 		min-height: 2.25rem;
@@ -204,9 +194,6 @@ li:not(.active) {
 	}
 }
 	
-=======
-
->>>>>>> 82333cc729d6869f0092d077cb1df940430cdc78
 
 /* button .comment { display: none; }
 button:hover .button-price { display: none; }

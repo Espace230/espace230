@@ -85,7 +85,7 @@ li:not(.active) .section-content {
 
 .grid-opening-hours {
 	display: grid;
-	grid-template-rows: repeat(4, 1fr); 
+	grid-template-rows: repeat(3, 1fr); 
 	grid-column-gap: 0.75rem;
 	grid-row-gap: 0; 
 	grid-template-areas: "grid-open hours" "grid-rdv rdv";
@@ -129,6 +129,7 @@ li:not(.active) .section-content {
 		margin-bottom: 1.6111111rem;
 		}
 		.mobile-hidden { visibility: hidden; }
+		/* button { font-size:0.822em; } */
 	}
 	
 @media screen and (orientation: landscape) {

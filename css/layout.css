@@ -108,7 +108,13 @@ li:not(.active) .section-content {
 	
 } */
 
+.artwork-list {
+  scroll-snap-type: y proximity;
+}
 
+.artworks {
+  scroll-snap-align: start;
+}
 
 @media screen and (max-width: 768px) {
 	html, .root { font-size: 13px; }

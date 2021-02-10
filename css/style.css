@@ -27,7 +27,8 @@ body, .article {
 	margin: auto;
 }
 h1, .h1 {
-	font-size: 4.2222222rem;
+	font-size: 4.8333333rem;
+	/* font-size: 4.2222222rem; */
 	line-height: 4.8333333rem;
 	/* margin-top: 1.6111111rem; */
 	/* margin-bottom: 3.2222222rem; */
@@ -40,7 +41,7 @@ h2, .h2 {
 	line-height: 3.2222222rem;
 	margin-top: 1.6111111rem;
 	margin-bottom: 1.6111111rem;
-	/* letter-spacing:-0.05rem; */
+	letter-spacing:-0.05rem;
 }
 h3, .h3 {
 	font-size: 1.6111111rem;
@@ -80,11 +81,11 @@ ul ul, ol ol, ul ol, ol ul {
 	margin-bottom: 0rem;
 }
 
-/* Cosmetics */
-/* h1 {font-family: 'Anton', sans-serif; color: #121212;} */
-h1 {font-family: 'Inter', sans-serif; color: #121212;}
+/* COSMETICS */
+
+h1 {font-family: 'Anton', sans-serif; color: #121212; }
 body, h2, h3, h4, article, p, ul, ol {font-family: 'Inter', sans-serif; color: #242424;}
-a {font-family: 'Inter', sans-serif; font-weight: 600; color:#092c79; text-decoration: none;}
+a {font-weight: 600; color:#092c79; text-decoration: none;}
 .fa, .sa {color: #444;} 
 
 
@@ -109,15 +110,14 @@ a, b, i, strong, em, small, code {line-height: 1rem;}
 .author {font-weight: 600;}
 .title {font-weight: 800;}
 .artwork {margin-top: 0; margin-bottom: 0;}
-.buy-button {
-	margin-top: 1.6111111rem; 
-	display: none;
-	/* float: left; */
-}
+/* .acquire {float: right; line-height: inherit;}
+.acquire:hover .price {display: none;}
+.acquire:hover:before {content:"Acheter ->"; color:#092c79;} */
+
 
 .img-frame {border: 1px solid #a4a4a4;}
 
-button { 
+.button { 
 	border: 2px solid #121212;/*  #626262 #0047ab; #092729 */
 	background: #121212;  /* #626262  #0F1E4E */
 	color: #fff;
@@ -127,18 +127,18 @@ button {
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing:0.1px;
-	font-size: 0.722rem;	/* 14px; */
+	font-size: 14px;
 	line-height: 1;
 	white-space: nowrap;
 	text-decoration: none;
-	padding: 0.8888889em 1.6666667em;
-	/* padding: 16px 30px; */
+	padding: 16px 30px;
 	margin: 0;
 	cursor: pointer;
 	transition: 0.3s;
 }
 
-button:hover {border: 2px solid #848484; background: #848484; color:#fdfdff; transition: 0.3s;}
+
+.button:hover {border: 2px solid #848484; background: #848484; color:#fdfdff; transition: 0.3s;}
 /* button:hover {border: 2px solid #092c79; background: #092c79; color:#fdfdff; transition: 0.3s;} */
 /* button:hover {border: 2px solid #121212; background: #121212; color:#fff; transition: 0.3s;}  */
 /* button:hover {border: 2px solid #2B59C3; background: #2B59C3; color:#fdfdff; transition: 0.3s;} #0F1E4E */
@@ -154,15 +154,51 @@ button:hover {border: 2px solid #848484; background: #848484; color:#fdfdff; tra
 	color:#fff; transition: 0.3s;
 }
 
+.button-buy {
+	margin-top: 1.6111111rem; 
+	margin-bottom: 1.6111111rem; 
+	display: inline-block;
+	float: left;
+	width: 132px;
+}
+
+/* 
+.button-buy:hover .button-price { display:none; }
+	.button-buy:hover:before { content:"ACHETER"; } 
+ .button-buy:hover {
+	border: 2px solid #121212; 
+	background: #fff; 
+	color:#121212; transition: 0.3s;
+} */
+
+
 sub, sup {
 	line-height: 0; 
 	position: relative; 
 	vertical-align: baseline;
 	}
-sup {top: -0.5em;}
-sub {bottom: -0.25em;}
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
 
-.copy {font-size: 0.722rem; font-weight: 600;}
+.copy { font-size: 0.722rem; font-weight: 600; }
+
+
+
+
+
+.grid-opening-hours {
+	display: grid;
+	grid-template-rows: repeat(2, 1fr); 
+	grid-column-gap: 0.75rem;
+	grid-row-gap: 0; 
+	grid-template-areas: "grid-open hours" "grid-rdv rdv";
+	justify-content: flex-start;
+}
+.grid-open { grid-area: grid-open; font-weight:700; }
+.hours { grid-area: hours; }
+.grid-rdv { grid-area: grid-rdv; font-weight:700; }
+.rdv { grid-area: rdv; }
+
 
 /* COLOUR REFERENCE */
 /* Cerulean Blue #2B59C3 */

@@ -151,7 +151,10 @@ li.mobileNav { display: none; }
 	ul { flex-direction: column; margin-top: 1rem;}
 	div.splash > .main-content > img { bottom: 1rem; width: 66%; }
 	
-	li.active {order:5;}
+	li.active {	
+		order: 5;
+		flex: 20; /* Shrink size of menu at the top */
+	}
 
 	li.main-nav.active .section-title { display: none; }
 
@@ -181,7 +184,7 @@ li.mobileNav { display: none; }
 	li .section-title img {
 		transform-origin: top left;
 		transform: rotate(90deg) translateY(-100%) translateY(-1em);
-		max-width: 10%;
+		max-width: 7.5%;	/* 10% */
 		} 
 
 

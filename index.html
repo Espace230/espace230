@@ -6,18 +6,15 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<title>Espace 230 @ Le Belgo</title>
 	<meta name="author" content="Louis-Bernard St-Jean">
-	<meta name="description"
-		content="Ateliers des artistes peintres contemporains Sylvie Adams et Louis-Bernard St-Jean, situé dans l'édifice Belgo au cœur du Quartier des spectacles à Montréal.">
-	<meta name="keywords"
-		content="Espace 230, atelier, artiste, galerie d'art, artist studio, art gallery, Montreal, artist, artwork, painting, Louis-Bernard St-Jean, Belgo">
+	<meta name="description" content="Ateliers des artistes peintres contemporains Sylvie Adams et Louis-Bernard St-Jean, situé dans l'édifice Belgo au cœur du Quartier des spectacles à Montréal.">
+	<meta name="keywords" content="Espace 230, atelier, artiste, galerie d'art, artist studio, art gallery, Montreal, artist, artwork, painting, Louis-Bernard St-Jean, Belgo">
 	<meta property="og:url" content="https://espace230.com/">
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="Espace 230 @ Le Belgo">
 	<meta property="og:image" content="https://espace230.com/images/thumbnail.jpg">
 	<meta property="og:description" content="Ateliers d'artistes / Galerie d'art">
 	<meta property="og:locale" content="fr_CA">
-	<meta property="og:description"
-		content="Ateliers d'artistes / Galerie d'art | Regroupement de studios d’artistes situé au coeur du Quartier des spectacles à Montréal, l’Espace 230 de l’édifice Belgo abrite les ateliers de l'artiste peintre contemporain montréalais Louis-Bernard St-Jean.">
+	<meta property="og:description" content="Ateliers d'artistes / Galerie d'art | Regroupement de studios d’artistes situé au coeur du Quartier des spectacles à Montréal, l’Espace 230 de l’édifice Belgo abrite les ateliers de l'artiste peintre contemporain montréalais Louis-Bernard St-Jean.">
 	<meta property="og:secure_url" content="https://espace230.com/images/thumbnail.jpg">
 	<meta property="og:image:type" content="image/jpeg">
 	<meta property="og:image:width" content="1280">
@@ -61,9 +58,69 @@
 
 </head>
 
+
+
 <body>
-	<ul>
-		<li class="active Espace230" id="espace230">
+
+
+	<!-- <input type="checkbox" id="checkbox">
+	<nav>
+		<ul>
+			<li class="mobileNav" id="mobileNav">
+				<label for="checkbox">
+					<div class="section-title Nav">
+						<img src="./svg/GALERIE.svg" width="100%" height="auto">
+					</div>
+				</label>
+			</li>
+		</ul>
+	</nav>-->
+
+	<ul class="navPortrait" id="navPortrait">
+
+
+		<!-- <li class="mobileNav" id="mobileNav">
+			<div class="section-title Nav">
+				<img src="./svg/GALERIE.svg" width="100%" height="auto">
+			</div>
+			<ul class="subMenu" id="subMenu">
+				<li class="Espace230" id="espace230">
+					<div class="section-title Nav">
+						<img src="./svg/ESPACE-230.svg" width="100%" height="auto">
+					</div>
+				</li>
+				<li class="Artistes" id="artistes">
+					<div class="section-title Nav">
+						<img src="./svg/ARTISTES.svg" width="100%" height="auto">
+					</div>
+				</li>
+				<li class="Expositions" id="expositions">
+					<div class="section-title Nav">
+						<img src="./svg/EXPOSITIONS.svg" width="100%" height="auto">
+					</div>
+				</li>
+				<li class="oeuvresdart" id="oeuvresdart">
+					<div class="section-title Nav">
+						<img src="./svg/ŒUVRES-D-ART.svg" width="100%" height="auto">
+					</div>
+				</li>
+				<li class="Contact" id="Contact">
+					<div class="section-title Nav">
+						<img src="./svg/CONTACT.svg" width="100%" height="auto">
+					</div>
+				</li>
+			</ul>
+		</li> -->
+
+		<li class="mobileNav" id="mobileNav">
+			<div class="section-title Nav">
+				<!-- <img id="navMenu" src="./svg/GALERIE.svg" width="100%" height="auto"> -->
+				<img id="navMenu" onclick="openNav()" src="./svg/GALERIE.svg" width="100%" height="auto">
+			</div>
+		</li>
+
+
+		<li class="active Espace230 main-nav header" id="mainNav espace230">
 			<div class="section-title">
 				<img src="./svg/ESPACE-230.svg" width="100%" height="auto">
 			</div>
@@ -74,7 +131,7 @@
 			</div>
 		</li>
 
-		<li class="Ateliers" id="ateliers">
+		<li class="Ateliers main-nav" id="mainNav ateliers">
 
 			<div class="section-title">
 				<img src="./svg/ATELIERS.svg" width="100%" height="auto">
@@ -89,20 +146,17 @@
 					</p>
 					<!-- <hr/> -->
 					<h2 class="no-top-margin">L'Espace 230</h2>
-					<p style="font-weight:600;">Regroupement de studios d’artistes situé au coeur du Quartier des spectacles, l’Espace 230 de l’édifice Belgo abrite les
-						ateliers d'artistes peintres contemporains montréalais.</p>
-					<p>
+					<p style="font-weight:600;">Regroupement de studios d’artistes situé au coeur du Quartier des spectacles, l’Espace 230 de l’édifice Belgo abrite les ateliers d'artistes peintres contemporains montréalais.</p>
 					<p></p>
-					<img src="./svg/Espace-230-Floor-Plan-Grayscale.svg" width="100%" height="auto">
+					<p>
+						<img src="./svg/Espace-230-Floor-Plan-Grayscale.svg" width="100%" height="auto">
 					</p>
 					<br />
 					<hr>
 					<h3 class="half-top-margin">Les ateliers</h3>
-					<p>Originellement fondé par Sylvie Adams et Louis-Bernard St-Jean en tant que regroupement et collectif de studios d’artistes, L’Espace 230 se voue
-						désormais un caractère double&nbsp;: des ateliers de production, mais aussi un lieu d'exposition et d'événements.</p>
-					<p>L'espace 230 a été conçu et repensé afin de présenter et de promouvoir l'atelier et ses occupants, notamment grâce à son site web dédié, et ses
-						comptes de réseaux sociaux Facebook (<a href="https://facebook.com/espace230">espace230</a>) et Instagram (<a
-							href="https://instagram.com/espace230">@espace230</a>), sur lesquels vous pouvez suivre leur travail au quotidien!</p>
+					<p>Originellement fondé par Sylvie Adams et Louis-Bernard St-Jean en tant que regroupement et collectif de studios d’artistes, L’Espace 230 se voue désormais un caractère double&nbsp;: des ateliers de production, mais aussi un lieu d'exposition et d'événements.</p>
+					<p>L'espace 230 a été conçu et repensé afin de présenter et de promouvoir l'atelier et ses occupants, notamment grâce à son site web dédié, et ses comptes de réseaux sociaux Facebook (<a href="https://facebook.com/espace230">espace230</a>) et Instagram (<a href="https://instagram.com/espace230">@espace230</a>), sur lesquels vous pouvez suivre leur
+						travail au quotidien!</p>
 					<br />
 					<hr>
 					<h3 class="half-top-margin">La salle d'exposition</h3>
@@ -115,8 +169,7 @@
 					<p>Les ateliers sont toujours occupés par Louis-Bernard St-Jean.</p>
 
 					<h4>LOCATION D'ATELIER</h4>
-					<p>Avec la situation globale actuelle et vu les consignes de confinement, l’Espace 230 n’accueillera pas de nouveaux artistes <em><u>pour le moment
-								présent</u></em>.</p>
+					<p>Avec la situation globale actuelle et les consignes de confinement, l’Espace 230 n’accueille pas de nouveaux artistes <em><u>pour l'instant</u></em>.</p>
 
 					<p>Néanmoins, de nombreux projets demeurent à l'horizon, incluant de futures expositions collectives d’artistes locaux&thinsp;!</p>
 
@@ -125,17 +178,11 @@
 					<br />
 					<hr />
 					<h3 class="half-top-margin">L'édifice Belgo</h3>
-					<p style="font-weight:500; font-size:0.722rem; line-height:1rem; text-align:right"> <a target="_blank"
-							href="https://commons.wikimedia.org/wiki/File:Corner_Bleury_and_St._Catherine_Streets,_Montreal,_QC,_1916.jpg#/media/File:Belgo_Montreal_1912.jpg"><img
-								class="img-frame" src="./images/Belgo_Montreal_1912.jpg" alt="Corner Bleury and St. Catherine Streets, Montreal, QC, 1916" width="100%"
-								height="auto"></a>Photo par Wm. Notman & Son / Domaine
-						publique<br /></p>
-					<p>Autrefois le grand magasin de luxe Scroggie's, l'édifice Belgo fut conçu en 1912 par les architectes Finley & Spence.
-					</p>
-					<p>Suivant l'exode du quartier de la fourrure vers le secteur Chabanel dans les années 1980, des artistes commencèrent progressivement à s'y
-						installer, organisant des expositions temporaires, puis en y aménageant leurs studios et galeries.</p>
-					<p>Le Belgo abrite aujourd'hui la plus grande concentration de galeries d'art contemporain au Canada, comptant près d'une trentaine de galeries d'art,
-						nombre d'ateliers d'artistes et de designers, de firmes d'architectes et de boites de communications.</p>
+					<p style="font-weight:500; font-size:0.722rem; line-height:1rem; text-align:right"> <a target="_blank" href="https://commons.wikimedia.org/wiki/File:Corner_Bleury_and_St._Catherine_Streets,_Montreal,_QC,_1916.jpg#/media/File:Belgo_Montreal_1912.jpg"><img class="img-frame" src="./images/Belgo_Montreal_1912.jpg"
+								alt="Corner Bleury and St. Catherine Streets, Montreal, QC, 1916" width="100%" height="auto"></a>Photo par Wm. Notman & Son / Domaine publique<br /></p>
+					<p>Autrefois le grand magasin de luxe Scroggie's, l'édifice Belgo fut conçu en 1912, puis complété en 1913 par les architectes Finley & Spence.</p>
+					<p>Suivant l'exode du quartier de la fourrure vers le secteur Chabanel dans les années 1980, des artistes commencèrent progressivement à s'y installer, organisant des expositions temporaires, puis en y aménageant leurs studios et galeries.</p>
+					<p>Le Belgo abrite aujourd'hui la plus grande concentration de galeries d'art contemporain au Canada, comptant près d'une trentaine de galeries d'art, nombre d'ateliers d'artistes et de designers, de firmes d'architectes et de boites de communications.</p>
 
 					<!-- PAGE FOOTER -->
 					&nbsp;
@@ -147,7 +194,7 @@
 		</li>
 
 
-		<li class="Artistes" id="artistes">
+		<li class="Artistes main-nav" id="mainNav artistes">
 
 			<div class="section-title">
 				<!-- <img src="./svg/Les-Artistes.svg" width="100%" height="auto"> -->
@@ -159,8 +206,7 @@
 					<!-- <h1>Les artistes</h1> -->
 					<br />
 					<p>
-						<img class="img-frame" src="./images/Louis-Bernard-St-Jean.jpg" alt="Portrait de l'artiste peintre Montréalais Louis-Bernard St-Jean.jpg"
-							width="100%" height="auto">
+						<img class="img-frame" src="./images/Louis-Bernard-St-Jean.jpg" alt="Portrait de l'artiste peintre Montréalais Louis-Bernard St-Jean.jpg" width="100%" height="auto">
 					</p>
 					<h2 class="half-top-margin half-bottom-margin">Louis&#8209;Bernard St&#8209;Jean</h2>
 					<p>
@@ -169,11 +215,9 @@
 						<a href="https://lbstjean.com/" target="_blank">lbstjean.com</a><span> • </span><a href="mailto:info@lbstjean.com">info@lbstjean.com</a>&emsp;
 					</p>
 
-					<p>Cherchant constamment à repousser les limites physiques du médium et de son support, Louis-Bernard St-Jean a progressivement développé un style
-						sculptural unique qui lui est propre, et qui s’intègre avec pertinence dans la continuation du patrimoine post-moderne québécois telle une évolution
-						naturelle et contemporaine de l’abstraction lyrique.</p>
-					<p>Ses œuvres se démarquent notamment par leur texture verticale prononcée, et présentent une esthétique à la fois complexe et sophistiquée, alternant
-						entre tableaux monochromes et paysages abstraits organiques.</p>
+					<p>Cherchant constamment à repousser les limites physiques du médium et de son support, Louis-Bernard St-Jean a progressivement développé un style sculptural unique qui lui est propre, et qui s’intègre avec pertinence dans la continuation du patrimoine post-moderne québécois telle une évolution naturelle et contemporaine de l’abstraction lyrique.
+					</p>
+					<p>Ses œuvres se démarquent notamment par leur texture verticale prononcée, et présentent une esthétique à la fois complexe et sophistiquée, alternant entre tableaux monochromes et paysages abstraits organiques.</p>
 					<P>
 						<!-- <a href="https://lbstjean.com/fr/oeuvres" target="_blank" style="font-weight:700;">Voir les œuvres</a> -->
 						<button class="button button-white" onclick="window.open('https://lbstjean.com/fr/oeuvres');">Voir les œuvres</button>
@@ -190,17 +234,14 @@
 					<!-- <h2 class="no-bottom-margin">Sylvie Adams</h2> -->
 					<!-- <p class="no-top-margin">Co-fondatrice, Espace 230</p> -->
 					<p><a href="https://www.facebook.com/Sylvie.Adams.Arts.Visuels/" target="_blank"><i class="fa fa-facebook hx-inline"></i></a>&ensp;
-						<a href="https://instagram.com/sylvie.adams" target="_blank"><i class="fa fa-instagram hx-inline"></i></a>&emsp;<a
-							href="https://www.pinterest.com/sylvieadamsart" target="_blank"><i class="fa fa-pinterest hx-inline"></i></a>&emsp;|&emsp;<a
-							href="https://sylvieadams.com/" target="_blank">sylvieadams.com</a><span> • </span><a href="mailto:info@sylvieadams.com">info@sylvieadams.com</a>
+						<a href="https://instagram.com/sylvie.adams" target="_blank"><i class="fa fa-instagram hx-inline"></i></a>&emsp;<a href="https://www.pinterest.com/sylvieadamsart" target="_blank"><i class="fa fa-pinterest hx-inline"></i></a>&emsp;|&emsp;<a href="https://sylvieadams.com/" target="_blank">sylvieadams.com</a><span> • </span><a
+							href="mailto:info@sylvieadams.com">info@sylvieadams.com</a>
 					</p>
-					<p>Sylvie Adams est une artiste canadienne vivant et travaillant à Montréal. Elle est titulaire d’un baccalauréat en beaux-arts de l’Université
-						Concordia. Ses œuvres ont fait l’objet de nombreuses expositions individuelles et de groupe et elle a participé à maintes foires internationales
-						d’art contemporain prestigieuses (entre autres Scope, Contexte et ArtNew-York) – aux États-Unis, en Europe et en Asie.</p>
+					<p>Sylvie Adams est une artiste canadienne vivant et travaillant à Montréal. Elle est titulaire d’un baccalauréat en beaux-arts de l’Université Concordia. Ses œuvres ont fait l’objet de nombreuses expositions individuelles et de groupe et elle a participé à maintes foires internationales d’art contemporain prestigieuses (entre autres Scope,
+						Contexte et ArtNew-York) – aux États-Unis, en Europe et en Asie.</p>
 
-					<p>Sélectionnée par la commissaire et directrice du Art Wynwood pour participer à une exposition en l’honneur de Shepard Fairey (aussi connu sous le
-						nom d'Obey Giant et auteur de l’affiche «&nbsp;Hope&nbsp;» d’Obama) à Miami, son travail a aussi été remarqué par les journalistes et critiques du
-						Blouin Art Info et Artnet News, lors d’expositions à New-York.</p>
+					<p>Sélectionnée par la commissaire et directrice du Art Wynwood pour participer à une exposition en l’honneur de Shepard Fairey (aussi connu sous le nom d'Obey Giant et auteur de l’affiche «&nbsp;Hope&nbsp;» d’Obama) à Miami, son travail a aussi été remarqué par les journalistes et critiques du Blouin Art Info et Artnet News, lors d’expositions à
+						New-York.</p>
 
 					<p>Ses œuvres font également partie de collections privées et corporatives, dont les collections de Rio Tinto Alcan et Norwegian Cruise Line.</p>
 					<P>
@@ -218,9 +259,10 @@
 
 
 
-		<li class="Expositions" id="expositions">
+		<li class="Expositions main-nav" id="mainNav expositions">
 
-			<div class="section-title offset">
+			<!-- <div class="section-title offset"> -->
+			<div class="section-title">
 				<img src="./svg/EXPOSITIONS.svg" width="100%" height="auto">
 			</div>
 
@@ -230,15 +272,13 @@
 					<!-- <img src="./images/Expositions.jpg" width="100%" height="auto"> -->
 					<!-- <h2>Expositions en cours</h2> -->
 
-					<h2 class="no-bottom-margin">Exposition en&nbsp;cours</h2>
+					<h2 class="no-bottom-margin">Exposition permanente</h2>
 					<h5 class="no-top-margin">Du 8 février au 21 mars 2021</h5>
 					<br />
 					<p>
 						<img class="img-frame" src="./images/exposition-permanente-2021.jpg" alt="La galerie de l'Espace 230.jpg" width="100%" height="auto">
 					</p>
-					<p>Suivant l'annonce gouvernementale permettant la réouverture des musées et galeries d'art, une exposition permanente d'œuvres sélectionnées sera
-						accessible aux visiteurs à partir du&nbsp;10&nbsp;février.
-					</p>
+					<p>Suivant l'annonce gouvernementale permettant la réouverture des musées et galeries d'art, une exposition permanente d'œuvres sélectionnées sera accessible aux visiteurs à partir du&nbsp;10&nbsp;février.</p>
 					<p>Profitez de l'occasion pour visiter l'atelier et voir mes plus récents tableaux&thinsp;!</p>
 
 					<p> </p>
@@ -246,7 +286,7 @@
 
 					<br />
 					<hr />
-					<!-- <h3 class="half-top-margin">Expositions précédentes</h3> -->
+					<h3 class="half-top-margin">Expositions précédentes</h3>
 
 
 
@@ -256,9 +296,7 @@
 					<p>
 						<img class="img-frame" src="./images/Galerie.jpg" alt="La galerie de l'Espace 230.jpg" width="100%" height="auto">
 					</p>
-					<p>Il me fait grand plaisir de vous inviter à ma toute première exposition solo d'œuvres sur papier, qui sera présentée du 1er septembre au
-						<del>30 octobre</del> 29 novembre prochain à l’Espace 230 du Belgo&thinsp;!
-					</p>
+					<p>Il me fait grand plaisir de vous inviter à ma toute première exposition solo d'œuvres sur papier, qui sera présentée du 1er septembre au 29 novembre prochain à l’Espace 230 du Belgo&thinsp;!</p>
 					<p>Le vernissage aura lieu le vendredi 25 septembre, de 17h à 21h.</p>
 					<p>Profitez de l'occasion pour visiter l'atelier et voir en toute primeur quelques tableaux d’une toute nouvelle série inédite d’œuvres&thinsp;!</p>
 
@@ -285,24 +323,16 @@
 						L'Espace 230 ouvre officiellement ses portes pour la Nuit Blanche! Venez vous joindre à nous pour une soirée Art&nbsp;& Hip&nbsp;Hop&nbsp;/
 						Electronica&nbsp;/ Down-tempo inoubliable sous le thème de Nuit blanche verte avec la participation de Morti&nbsp;Viventear!</p>
 
-					<p>En effet — dans le cadre de la Nuit Blanche, Morti prendra les commandes des platines pour jouer une sélection éclectique ponctuée de
-						soul&nbsp;psychédélique.</p>
+					<p>En effet — dans le cadre de la Nuit Blanche, Morti prendra les commandes des platines pour jouer une sélection éclectique ponctuée de soul&nbsp;psychédélique.</p>
 
-					<p>Avide collectionneur de musique et archiviste de la culture hip-hop, Morti Viventear est un beatmaker montréalais endossé par l’étiquette allemande
-						<em>Anette Records</em> depuis 2014. Au cours de la dernière année, il a signé sa première bande sonore originale pour un long-métrage, en plus de
-						produire son troisième album intitulé <em><a
-								href="https://mortiviventear.bandcamp.com/album/sleep-deprived-pessimist-nautilus-edition">Sleep&nbsp;Deprived&nbsp;Pessimist</a>.</em> (Vous
-						pouvez découvrir l’univers musical de Morti&nbsp;Viventear sur <a href="https://mortiviventear.bandcamp.com">mortiviventear.bandcamp.com</a>)
-					</p>
+					<p>Avide collectionneur de musique et archiviste de la culture hip-hop, Morti Viventear est un beatmaker montréalais endossé par l’étiquette allemande <em>Anette Records</em> depuis 2014. Au cours de la dernière année, il a signé sa première bande sonore originale pour un long-métrage, en plus de produire son troisième album intitulé <em><a
+								href="https://mortiviventear.bandcamp.com/album/sleep-deprived-pessimist-nautilus-edition">Sleep&nbsp;Deprived&nbsp;Pessimist</a>.</em> (Vous pouvez découvrir l’univers musical de Morti&nbsp;Viventear sur <a href="https://mortiviventear.bandcamp.com">mortiviventear.bandcamp.com</a>)</p>
 
-					<p>Rien de moins que l'événement qui attire le plus de monde en une journée à Montréal, la Nuit blanche, c'est quelque 300 000 noctambules qui bravent
-						l'hiver pour vivre pleinement une folle aventure urbaine!</p>
+					<p>Rien de moins que l'événement qui attire le plus de monde en une journée à Montréal, la Nuit blanche, c'est quelque 300 000 noctambules qui bravent l'hiver pour vivre pleinement une folle aventure urbaine!</p>
 
-					<p>Afin de mieux plonger dans la Nuit, sautez à bord du métro — exceptionnellement ouvert toute la nuit! — et explorez notre atelier ainsi que
-						l’édifice Belgo, qui a la plus grande concentration de galeries d'art contemporain au Canada!</p>
+					<p>Afin de mieux plonger dans la Nuit, sautez à bord du métro — exceptionnellement ouvert toute la nuit! — et explorez notre atelier ainsi que l’édifice Belgo, qui a la plus grande concentration de galeries d'art contemporain au Canada!</p>
 
-					<p><a href="https://www.facebook.com/events/850300025411285/" target="_blank">Pour RSVP (via Facebook)</a> | <a href="https://www.nuitblanchemtl.com/"
-							target="_blank">nuitblanchemtl.com</a></p>
+					<p><a href="https://www.facebook.com/events/850300025411285/" target="_blank">Pour RSVP (via Facebook)</a> | <a href="https://www.nuitblanchemtl.com/" target="_blank">nuitblanchemtl.com</a></p>
 
 					<br />
 
@@ -331,7 +361,7 @@
 
 
 
-		<li class="oeuvresdart" id="oeuvresdart">
+		<li class="oeuvresdart main-nav" id="mainNav oeuvresdart">
 
 			<div class="section-title">
 				<img src="./svg/ŒUVRES-D-ART.svg" width="100%" height="auto">
@@ -345,6 +375,7 @@
 						<p class="artwork author">Louis-Bernard St-Jean</p>
 						<h3 class="artwork title">La femme à la peau bleue</h3>
 						<p class="artwork description">Huile sur papier Arches®, 12 x 16 pouces</p>
+						<a class="artwork acquire" href="https://checkout.square.site/buy/DRNEJ343N7WVO7QY7CQPBRMR" target="_blank"><span class="price">500 $</span></a>
 						<button class="button button-white button-buy" onclick="window.open('https://checkout.square.site/buy/DRNEJ343N7WVO7QY7CQPBRMR');">ACHETER</button>
 					</article>
 
@@ -357,19 +388,20 @@
 						</p>
 						<h3 class="artwork title">Cévennes</h3>
 						<p class="artwork description">Huile sur papier Arches®, 16 x 12 pouces</p>
+						<a class="artwork acquire" href="https://checkout.square.site/buy/ULF5FMUUOBHVTP26Y7YYNSPW" target="_blank"><span class="price">600 $</span></a>
 						<button class="button button-white button-buy" onclick="window.open('https://checkout.square.site/buy/ULF5FMUUOBHVTP26Y7YYNSPW');">ACHETER</button>
 					</article>
 
 					<p>&nbsp;</p>
 					<p>&nbsp;</p>
 
-					<article class="artworks"><img src="./artworks/Louis-Bernard-St-Jean--Boulevard-Saint-Laurent--2019-huile-sur-papier-Arches-9x12po.jpg" width="100%"
-							height="auto">
+					<article class="artworks"><img src="./artworks/Louis-Bernard-St-Jean--Boulevard-Saint-Laurent--2019-huile-sur-papier-Arches-9x12po.jpg" width="100%" height="auto">
 						<p class="artwork author">Louis-Bernard St-Jean
 						</p>
 						<h3 class="artwork title">Boulevard Saint Laurent</h3>
 						<p class="artwork description">Huile sur papier Arches®, 9 x 12 pouces</p>
-						<button onclick="window.open('https://checkout.square.site/buy/KZTQ3XHCV3P3KSMXKZS7BPDM'); " class="button button-white button-buy">ACHETER</button>
+						<a class="artwork acquire" href="https://checkout.square.site/buy/KZTQ3XHCV3P3KSMXKZS7BPDM" target="_blank"><span class="price">350 $</span></a>
+						<button onclick="window.open('https://checkout.square.site/buy/KZTQ3XHCV3P3KSMXKZS7BPDM');" class="button button-white button-buy">ACHETER</button>
 					</article>
 
 					<p>&nbsp;</p>
@@ -382,6 +414,7 @@
 						</p>
 						<h3 class="artwork title">Pied-de-vent</h3>
 						<p class="artwork description">Huile sur papier Arches®, 22 x 30 pouces</p>
+						<a class="artwork acquire" href="https://checkout.square.site/buy/GEA2WIZKUT2Z5WQP7DECO3HX" target="_blank"><span class="price">1 500 $</span></a>
 						<button onclick="window.open('https://checkout.square.site/buy/GEA2WIZKUT2Z5WQP7DECO3HX');" class="button button-white button-buy">ACHETER</button>
 					</article>
 
@@ -394,7 +427,9 @@
 						</p>
 						<h3 class="artwork title">Le Balcon</h3>
 						<p class="artwork description">Huile sur papier Arches®, 9 x 12 pouces</p>
-						<button onclick="window.open('https://checkout.square.site/buy/L73QEAATM5VYFK6UHBEYFMKM'); " class="button button-white button-buy">ACHETER</button>
+						<a class="artwork acquire" href="https://checkout.square.site/buy/L73QEAATM5VYFK6UHBEYFMKM" target="_blank"><span class="price">350 $</span></a>
+
+						<button onclick="window.open('https://checkout.square.site/buy/L73QEAATM5VYFK6UHBEYFMKM');" class="button button-white button-buy">ACHETER</button>
 					</article>
 
 					<p>&nbsp;</p>
@@ -407,6 +442,8 @@
 						</p>
 						<h3 class="artwork title">Le ruisseau</h3>
 						<p class="artwork description">Huile sur papier Arches®, 12 x 16 pouces</p>
+						<a class="artwork acquire" href="https://checkout.square.site/buy/HU6BNRDKYUVHPYSUZQT2KNQU" target="_blank"><span class="price">500 $</span></a>
+
 						<button onclick="window.open('https://checkout.square.site/buy/HU6BNRDKYUVHPYSUZQT2KNQU'); " class="button button-white button-buy">ACHETER</button>
 					</article>
 
@@ -419,7 +456,8 @@
 						</p>
 						<h3 class="artwork title">Les Monts-Valin</h3>
 						<p class="artwork description">Huile sur papier Arches®, 22 x 30 pouces</p>
-						<button onclick="window.open('https://checkout.square.site/buy/VXFAQ4CDOPFH7R2LDEEJ445E'); " class="button button-white button-buy">ACHETER</button>
+						<a class="artwork acquire" href="https://checkout.square.site/buy/VXFAQ4CDOPFH7R2LDEEJ445E" target="_blank"><span class="price">1 500 $</span></a>
+						<button onclick="window.open('https://checkout.square.site/buy/VXFAQ4CDOPFH7R2LDEEJ445E');" class="button button-white button-buy">ACHETER</button>
 					</article>
 
 					<p>&nbsp;</p>
@@ -431,6 +469,7 @@
 						</p>
 						<h3 class="artwork title">Le départ</h3>
 						<p class="artwork description">Huile sur papier Arches®, 22 x 30 pouces</p>
+						<a class="artwork acquire" href="https://checkout.square.site/buy/5MOQ7ITSDJERWVY2VYIYKDWU" target="_blank"><span class="price">1 500 $</span></a>
 						<button onclick="window.open('https://checkout.square.site/buy/5MOQ7ITSDJERWVY2VYIYKDWU'); " class="button button-white button-buy">ACHETER</button>
 					</article>
 
@@ -446,7 +485,10 @@
 		</li>
 
 
-		<li class="Contact" id="Contact">
+
+
+
+		<li class="Contact main-nav" id="mainNav Contact">
 
 			<div class="section-title">
 				<img src="./svg/CONTACT.svg" width="100%" height="auto">
@@ -514,6 +556,19 @@
 		</li>
 
 	</ul>
+
+
+	<!-- <nav class="mobile-nav" id="mobile-nav">
+		<a href="#ateliers">ATELIERS</a>
+		<a href="#artistes">ARTISTES</a>
+		<a href="#expositions">EXPOSITIONS</a>
+		<a href="#oeuvresdart">ŒUVRES D'ART</a>
+		<a href="#Contact">CONTACT</a>
+		<a href="#espace230" class="current">ESPACE 230</a>
+		<a href="javascript:void(0);" class="current" onclick="openNav()">ESPACE 230</a>
+	</nav>​ -->
+
+
 </body>
 
 
@@ -522,12 +577,42 @@
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
 <script src="./js/jquery.min.js"></script>
 <script>
-	var section = $('li');
-	function toggleAccordion() {
+
+
+	// var menu = $('li.main-nav:not(.active)')
+	// function openNav() {
+	// 	$("#navMenu").click(function () {
+	// 		$(menu).css("display", "show");
+	// 	});
+	// };
+
+
+
+	// function openNav() {
+	// 	if (menu.style.display === "none") {
+	// 		menu.css("display", "block");
+	// 	} else {
+	// 		menu.css("display", "none");
+	// 	}
+	// }
+
+	var menu = $('li.main-nav:not(.active)')
+	// var menu = $('li.main-nav:not(.active) .section-title')
+	// var active = $('li.main-nav.active .section-title')
+	// var menu = $('li.main-nav .section-title')
+	function openNav() {
+		menu.toggle();
+		// active.css("display", "none");
+	}
+
+	var section = $('li.main-nav');
+	function toggleNav() {
 		section.removeClass('active');
 		$(this).addClass('active');
+		// menu.css("display", "none");
 	}
-	section.on('click', toggleAccordion);
+	section.on('click', toggleNav);
+
 </script>
 
 </html>

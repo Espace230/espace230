@@ -1,5 +1,3 @@
-/* * {box-sizing: border-box;} */
-
 ul {
 	display: flex;
 	height: 100%;
@@ -11,20 +9,24 @@ ul {
 	position: fixed;
 }
 
-li {
+li.main-nav {
 	flex: 1;
 	display: flex;
 	align-items: stretch;
 	padding: 0;
 	background: #fff; /* #121212; */
 	cursor: pointer;
-	transition: all .35s ease-out; 
+	transition: all .40s ease-out; 
 	overflow: hidden;
+	
 }
+	
+	
+li.main-nav .section-title { 
+	transition: all .60s ease-in; 
+	}
 
-
-
-li:not(.active):hover { filter: invert(100%); } 
+li.main-nav:not(.active):hover { filter: invert(100%); } 
 
 div.splash > .main-content > img {
 	position: absolute;
@@ -39,14 +41,14 @@ li.active {
 	cursor: default;
 }
 
-li.active .section-title { flex: 1; background: #fff; filter: invert(100%);}
+li.main-nav.active .section-title { flex: 1; background: #fff; filter: invert(100%);}
 
-li.active .section-content {
+li.main-nav.active .section-content {
 	flex: 8;
 	transform: scaleX(1);	
 }
 
-li .section-title {
+li.main-nav .section-title {
 	flex: 1; /* 0.9 */
 	display: flex;
 	width: auto; 
@@ -58,7 +60,7 @@ li .section-title {
 	align-items: flex-end;
 }
 
-li .section-content {
+li.main-nav .section-content {
 	flex: 9;
 	display: flex;
 	align-items: top;
@@ -76,12 +78,12 @@ li .section-content {
 	max-width: 560px;
 	}
 
-li.active.Espace230 > .section-title { 
+li.main-nav.active.Espace230 > .section-title { 
 	display: none; 
 	/* transition: all .25s .1s ease-out; */
 }
 
-li:not(.active) .section-content { 
+li.main-nav:not(.active) .section-content { 
 	display: none; 
 	/* transition: all .25s .1s ease-out; */
 }
@@ -109,21 +111,20 @@ li:not(.active) .section-content {
 	flex-wrap: nowrap;
 } */
 
-/* .artwork-list {
+.artwork-list {
   scroll-snap-type: y proximity;
 }
 .artworks {
   scroll-snap-align: start;
-} */
+}
+
 
 
 /* MOBILE LAYOUT */
 
-li.mobileNav { display: none; }
-
-
 @media screen and (max-width: 768px) {
-	html, .root { font-size: 13px; }
+	/* html, .root { font-size: 13px; } */
+	html, .root { font-size: 0.72222222rem; }
 	h1, .h1 { 
 		letter-spacing: -0.1rem; 
 		margin-top: 1.6111111rem;
@@ -137,7 +138,7 @@ li.mobileNav { display: none; }
 	.section-title { padding-bottom: 0.5rem; }
 }
 @media screen and (orientation: landscape) and (max-width: 568px) {
-	li.active > div.section-content > .main-content { padding-top: 1.8rem; }
+	li.main-nav.active > div.section-content > .main-content { padding-top: 1.8rem; }
 	h1, .h1 { 
 		font-size: 2.6111111rem;
 		line-height: 3.2222222rem;
@@ -146,12 +147,16 @@ li.mobileNav { display: none; }
 	} 
 }
 
+/* @media screen and (orientation: landscape) and (min-width: 568px) { */
+@media screen and (min-width: 568px) {
+	.button-buy { margin-top: 1em; }
+}
 
 @media screen and (orientation: portrait) {
 	ul { flex-direction: column; margin-top: 1rem;}
 	div.splash > .main-content > img { bottom: 1rem; width: 66%; }
 	
-	li.active {	
+	li.main-nav.active {	
 		order: 5;
 		flex: 20; /* Shrink size of menu at the top */
 	}
@@ -174,63 +179,37 @@ li.mobileNav { display: none; }
     	overflow: hidden;
 	}
 
-	li:not(.active) {
+	li.main-nav:not(.active) {
 		display: block;
 		min-height: 3.5vh; 	/* 5.5vh; */
 		max-height: 4.25vh; 	/* 5.5vh; */
 		}
 	
 	
-	li .section-title img {
+	li.main-nav .section-title img {
 		transform-origin: top left;
 		transform: rotate(90deg) translateY(-100%) translateY(-1em);
 		max-width: 7.5%;	/* 10% */
 		} 
 
 
-
-
-	/* TOGGLE SUB MENU WHEN IN PORTRAIT */
-	
-/* Hide main-nav */
-	
-
-	/* li.mobileNav { display: block; } */
-
-	/* li.main-nav:not(.active) { display: none; } */
-	/* li.main-nav:not(.active) .section-title { display: none; } */
-
-
-	/* #navPortrait ul { 
-		position: absolute;
-		left: 0;
-		top: 5.5vh;
-		display: none; 
-		} */
-	
-
-
-
 }
 @media screen and (orientation: portrait) and (min-width:768px) {
-	li:not(.active) {
+	li.main-nav { transition: none; }
+	li.main-nav:not(.active) {
 		min-height: 3.5vh;
 		max-height: 4.25vh;
 		/* margin-top: -0.5vh; */
+		
 	}
+	
 }
 
-	
+
 @media screen and (orientation: portrait) and (max-width:768px) {
-	li:not(.active) {
+	li.main-nav { transition: none; }
+	li.main-nav:not(.active) {
 		min-height: 2.25vh;
 		max-height: 5.25vh; 	/* 5.5vh; */
 	}
 }
-
-
-	
-
-/* button .comment { display: none; }
-button:hover .button-price { display: none; }
-button:hover .button-buy { display: inline; } */

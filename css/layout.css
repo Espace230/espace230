@@ -16,15 +16,15 @@ li.main-nav {
 	padding: 0;
 	background: #fff; /* #121212; */
 	cursor: pointer;
-	transition: all .40s ease-out; 
+	transition: all .35s ease-out; 
 	overflow: hidden;
 	
 }
 	
 	
-li.main-nav .section-title { 
+/* li.main-nav .section-title { 
 	transition: all .60s ease-in; 
-	}
+	} */
 
 li.main-nav:not(.active):hover { filter: invert(100%); } 
 

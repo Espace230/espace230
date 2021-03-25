@@ -575,7 +575,7 @@
 
 
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
-<!-- <script src="./js/jquery.min.js"></script> -->
+<script src="./js/jquery.min.js"></script>
 <script>
 
 
@@ -613,20 +613,20 @@
 //   $(this).addClass('active');
 // });
 
-//	var section = $('li.main-nav');
-//	function toggleNav() {
-//		section.removeClass('active');
-//		$(this).addClass('active');
+	var section = $('li.main-nav');
+	function toggleNav() {
+		section.removeClass('active');
+		$(this).addClass('active');
 		// menu.css("display", "none");
-//	}
-//	section.on('click', toggleNav);
+	}
+	section.on('click', toggleNav);
 
 
-var section = document.querySelectorAll('li.main-nav');
-section.onclick = function() {
-	section.classList.remove('active');
-	this.classList.add('active');
-}
+//var section = document.querySelector('li.main-nav');
+//section.onclick = function() {
+//	section.classList.remove('active');
+//	this.classList.add('active');
+//}
 
 </script>
 

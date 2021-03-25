@@ -607,13 +607,19 @@
 	// 	// active.css("display", "none");
 	// }
 
-	var section = $('li.main-nav');
-	function toggleNav() {
-		section.removeClass('active');
-		$(this).addClass('active');
+var $section = $('li.main-nav');
+$section.click(function(){
+   $section.removeClass('active');
+   $(this).addClass('active');
+});
+
+//	var section = $('li.main-nav');
+//	function toggleNav() {
+//		section.removeClass('active');
+//		$(this).addClass('active');
 		// menu.css("display", "none");
-	}
-	section.on('click', toggleNav);
+//	}
+//	section.on('click', toggleNav);
 
 </script>
 

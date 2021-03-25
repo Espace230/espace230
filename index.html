@@ -607,11 +607,11 @@
 	// 	// active.css("display", "none");
 	// }
 
-var $section = $('li.main-nav');
-$section.click(function(){
-   $section.removeClass('active');
-   $(this).addClass('active');
-});
+// var $section = $('li.main-nav');
+// $section.click(function(){
+//   $section.removeClass('active');
+//   $(this).addClass('active');
+// });
 
 //	var section = $('li.main-nav');
 //	function toggleNav() {
@@ -620,6 +620,13 @@ $section.click(function(){
 		// menu.css("display", "none");
 //	}
 //	section.on('click', toggleNav);
+
+
+var section = document.querySelectorAll('li.main-nav');
+section.onclick = function() {
+	section.classList.remove('active');
+	this.classList.add('active');
+}
 
 </script>
 

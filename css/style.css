@@ -8,7 +8,6 @@ body {
 	overscroll-behavior: none;
 	overflow: hidden;
 }
-
 body::-webkit-scrollbar {
   display: none;
 }
@@ -16,10 +15,11 @@ body {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
-
 html, .root {
 	font-size: 18px;
 	line-height: 29px;
+	/* font-size: 1.6111111vh;
+	line-height: 3.2222222vh; */
 }
 body, .article {
 	font-size: 1rem;
@@ -27,7 +27,8 @@ body, .article {
 	margin: auto;
 }
 h1, .h1 {
-	font-size: 4.2222222rem;
+	font-size: 4.8333333rem;
+	/* font-size: 4.2222222rem; */
 	line-height: 4.8333333rem;
 	/* margin-top: 1.6111111rem; */
 	/* margin-bottom: 3.2222222rem; */
@@ -40,7 +41,7 @@ h2, .h2 {
 	line-height: 3.2222222rem;
 	margin-top: 1.6111111rem;
 	margin-bottom: 1.6111111rem;
-	/* letter-spacing:-0.05rem; */
+	letter-spacing:-0.05rem;
 }
 h3, .h3 {
 	font-size: 1.6111111rem;
@@ -49,10 +50,15 @@ h3, .h3 {
 	margin-bottom: 1.6111111rem;
 	letter-spacing:-0.075rem;
 }
+.icon {
+	color: #444;
+	/* font-size: 1.6111111rem; */
+	font-size: 1.3555555rem;
+} 
 .hx-inline {
-	font-size: 1.6111111rem;
-	vertical-align: middle;
+	vertical-align: sub;
 }
+
 h4, .h4 {
 	font-size: 1rem;
 	line-height: 1.6111111rem;
@@ -65,7 +71,7 @@ h5, .h5 {
 	/* color: #484848; */
 	text-transform: uppercase;
 	font-weight: 600;
-	letter-spacing: 0.5px;
+	letter-spacing: 0.025rem;
 	font-size: 0.722rem;	
 	line-height: 1.6111111rem;
 	margin-top: 1.6111111rem;
@@ -80,16 +86,17 @@ ul ul, ol ol, ul ol, ol ul {
 	margin-bottom: 0rem;
 }
 
-/* Cosmetics */
-/* h1 {font-family: 'Anton', sans-serif; color: #121212;} */
-h1 {font-family: 'Inter', sans-serif; color: #121212;}
+/* COSMETICS */
+
+h1 {font-family: 'Anton', sans-serif; color: #121212; }
 body, h2, h3, h4, article, p, ul, ol {font-family: 'Inter', sans-serif; color: #242424;}
-a {font-family: 'Inter', sans-serif; font-weight: 600; color:#092c79; text-decoration: none;}
+a {font-weight: 600; color:#092c79; text-decoration: none;}
 .fa, .sa {color: #444;} 
 
 
+
 a:hover {color: #0047ab; transition: 0.3s;}
-.fa:hover, .sa:hover {color: #848484; transition: 0.3s;}
+.icon:hover, .sa:hover {color: #848484; transition: 0.3s;}
 h2, .h2, h3, strong {font-weight: 800;}
 
 /* Align Everything Else */
@@ -109,35 +116,36 @@ a, b, i, strong, em, small, code {line-height: 1rem;}
 .author {font-weight: 600;}
 .title {font-weight: 800;}
 .artwork {margin-top: 0; margin-bottom: 0;}
-.buy-button {
-	margin-top: 1.6111111rem; 
-	display: none;
-	/* float: left; */
-}
+/* .acquire {float: right; line-height: inherit;}
+.acquire:hover .price {display: none;}
+.acquire:hover:before {content:"Acheter ->"; color:#092c79;} */
+
 
 .img-frame {border: 1px solid #a4a4a4;}
 
-button { 
+.button { 
 	border: 2px solid #121212;/*  #626262 #0047ab; #092729 */
 	background: #121212;  /* #626262  #0F1E4E */
 	color: #fff;
 	/* background: #fff; 
 	color: #121212; */
-	border-radius: 4px;
+	/* border-radius: 4px; */
 	font-weight: 700;
 	text-transform: uppercase;
-	letter-spacing:0.1px;
-	font-size: 14px;
+	letter-spacing:0.01rem;
+	font-size: 0.7777777778rem;
 	line-height: 1;
 	white-space: nowrap;
 	text-decoration: none;
-	padding: 16px 30px;
+	/* padding: 15px 30px; */
+	padding: 1rem 2rem;
 	margin: 0;
 	cursor: pointer;
 	transition: 0.3s;
 }
 
-button:hover {border: 2px solid #848484; background: #848484; color:#fdfdff; transition: 0.3s;}
+
+.button:hover {border: 2px solid #848484; background: #848484; color:#fdfdff; transition: 0.3s;}
 /* button:hover {border: 2px solid #092c79; background: #092c79; color:#fdfdff; transition: 0.3s;} */
 /* button:hover {border: 2px solid #121212; background: #121212; color:#fff; transition: 0.3s;}  */
 /* button:hover {border: 2px solid #2B59C3; background: #2B59C3; color:#fdfdff; transition: 0.3s;} #0F1E4E */
@@ -153,15 +161,129 @@ button:hover {border: 2px solid #848484; background: #848484; color:#fdfdff; tra
 	color:#fff; transition: 0.3s;
 }
 
+.button-buy {
+	/* margin-top: 1.6111111rem;  */
+	/* margin-bottom: 1.6111111rem;  */
+	display: inline-block;
+	float: right;
+	/* width: 132px; */
+}
+
+
+
 sub, sup {
 	line-height: 0; 
 	position: relative; 
 	vertical-align: baseline;
 	}
-sup {top: -0.5em;}
-sub {bottom: -0.25em;}
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
 
-.copy {font-size: 0.722rem; font-weight: 600;}
+.copy { font-size: 0.722rem; font-weight: 600; }
+
+
+
+
+
+.grid-opening-hours {
+	display: grid;
+	grid-template-rows: repeat(2, 1fr); 
+	grid-column-gap: 0.75rem;
+	grid-row-gap: 0; 
+	grid-template-areas: "grid-open hours" "grid-rdv rdv";
+	justify-content: flex-start;
+}
+.grid-open { grid-area: grid-open; font-weight:700; }
+.hours { grid-area: hours; }
+.grid-rdv { grid-area: grid-rdv; font-weight:700; }
+.rdv { grid-area: rdv; }
+
+
+@font-face {
+  font-family: 'icons';
+  src:
+    url('../fonts/icons.ttf?zaxchk') format('truetype'),
+    url('../fonts/icons.woff?zaxchk') format('woff'),
+    url('../fonts/icons.svg?zaxchk#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i.icon {
+  font-family: 'icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: inherit;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-github:before {
+  content: "\e900";
+}
+.icon-map-marker:before {
+  content: "\e901";
+}
+.icon-map:before {
+  content: "\e902";
+}
+.icon-spotify:before {
+  content: "\e903";
+}
+.icon-pinterest:before {
+  content: "\e904";
+}
+.icon-instagram:before {
+  content: "\e905";
+}
+.icon-facebook:before {
+  content: "\e906";
+}
+.icon-facebook-f:before {
+  content: "\e906";
+}
+
+
+
+/* FLICKITY CONFIG */
+/* .carousel-cell {
+  width: 560px;
+  height: 374px;
+  margin-right: 10px;
+}
+.flickity-page-dots .dot {
+  display: inline-block;
+	width: 20px;
+	height: 2px;
+	margin: 0px 4px;
+	background: #333;
+	border-radius: 0;
+	
+}
+.flickity-button-icon {
+	width: 50%;
+}
+.flickity-button {
+	background: none;
+	border: none;
+	color: #ccc;
+}
+.flickity-button:hover {
+	background: none;
+	color: #333;
+}
+.flickity-prev-next-button.previous {
+  left: -40px;
+}
+.flickity-prev-next-button.next {
+	right: -40px;
+}
+ */
+
 
 /* COLOUR REFERENCE */
 /* Cerulean Blue #2B59C3 */

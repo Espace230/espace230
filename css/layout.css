@@ -32,7 +32,8 @@ div.splash > .main-content > img {
 	position: absolute;
 	left: 0;
 	bottom: 0;
-	width: 50%;
+	/* width: 50%; */
+	width: 70%;
 	height: auto;
  }
 
@@ -70,7 +71,12 @@ li.main-nav .section-content {
 	overflow: auto;
 	z-index:80;
 	justify-content: center;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
 }
+
+li.main-nav .section-content::-webkit-scrollbar { display: none; }
+
 
 .main-content { 
 	padding: 2.611111rem; 
@@ -122,6 +128,11 @@ li.main-nav:not(.active) .section-content {
 
 /* MOBILE LAYOUT */
 
+/* @media screen and (orientation: landscape) and (min-width: 568px) { */
+@media screen and (min-width: 374px) {
+	.button-buy { margin-top: -4em; }
+}
+
 @media screen and (max-width: 768px) {
 	/* html, .root { font-size: 13px; } */
 	html, .root { font-size: 0.72222222rem; }
@@ -147,14 +158,11 @@ li.main-nav:not(.active) .section-content {
 	} 
 }
 
-/* @media screen and (orientation: landscape) and (min-width: 568px) { */
-@media screen and (min-width: 568px) {
-	.button-buy { margin-top: 1em; }
-}
+
 
 @media screen and (orientation: portrait) {
 	ul { flex-direction: column; margin-top: 1rem;}
-	div.splash > .main-content > img { bottom: 1rem; width: 66%; }
+	div.splash > .main-content > img { bottom: 1rem; width: 80%; }
 	
 	li.main-nav.active {	
 		order: 5;

@@ -70,7 +70,7 @@ h5, .h5 {
 	color: #771111; /* #0F1E4E; */
 	/* color: #484848; */
 	text-transform: uppercase;
-	font-weight: 600;
+	font-weight: 800; /* 600 */
 	letter-spacing: 0.025rem;
 	font-size: 0.722rem;	
 	line-height: 1.6111111rem;
@@ -88,14 +88,17 @@ ul ul, ol ol, ul ol, ol ul {
 
 /* COSMETICS */
 
-/* h1 {font-family: 'Anton', sans-serif; color: #121212; font-weight: 700;}  */
+/* h1 {font-family: 'Anton', sans-serif; color: #121212; font-weight: 700; text-transform:uppercase;}  */
 body, h2, h3, h4, article, p, ul, ol {font-family: 'Inter', sans-serif; color: #242424;}
 a {font-weight: 600; color:#092c79; text-decoration: none;}
+.link {font-weight: 600; color:#141516; text-decoration: underline;}
+.nodeco  {color:#141516; text-decoration: none;}
 .icon, .fa, .sa {color: #444;} 
 
 
 
 a:hover {color: #0047ab; transition: 0.3s;}
+.link:hover {color: #092c79; transition: 0.3s;}
 .icon:hover, .sa:hover {color: #848484; transition: 0.3s;}
 h2, .h2, h3, strong {font-weight: 800;}
 
@@ -213,7 +216,6 @@ sub { bottom: -0.25em; }
 
 i.icon {
   font-family: 'icons' !important;
-  speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;

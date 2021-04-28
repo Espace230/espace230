@@ -70,20 +70,20 @@ h5, .h5 {
 	color: #771111; /* #0F1E4E; */
 	/* color: #484848; */
 	text-transform: uppercase;
-	font-weight: 800; /* 600 */
+	font-weight: 700; /* 600 */
 	letter-spacing: 0.025rem;
 	font-size: 0.722rem;	
-	line-height: 1.6111111rem;
-	margin-top: 1.6111111rem;
+	line-height: 1.6111111em;
+	margin-top: 1.6111111em;
 	margin-bottom: 0rem;
 }
 p, ul, ol, pre, table, blockquote {
-	margin-top: 0rem;
-	margin-bottom: 1.6111111rem;
+	margin-top: 0em;
+	margin-bottom: 1.6111111em;
 }
 ul ul, ol ol, ul ol, ol ul {
-	margin-top: 0rem;
-	margin-bottom: 0rem;
+	margin-top: 0em;
+	margin-bottom: 0em;
 }
 
 /* COSMETICS */

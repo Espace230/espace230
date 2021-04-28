@@ -90,6 +90,7 @@ ul ul, ol ol, ul ol, ol ul {
 
 /* h1 {font-family: 'Anton', sans-serif; color: #121212; font-weight: 700; text-transform:uppercase;}  */
 body, h2, h3, h4, article, p, ul, ol {font-family: 'Inter', sans-serif; color: #242424;}
+h2, h3, h4 {color: #141516;} /* color: #242424; */
 a {font-weight: 600; color:#092c79; text-decoration: none;}
 .link {font-weight: 600; color:#141516; text-decoration: underline;}
 .nodeco  {color:#141516; text-decoration: none;}

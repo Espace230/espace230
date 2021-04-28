@@ -30,8 +30,9 @@ li.main-nav:not(.active):hover { filter: invert(100%); }
 
 div.splash > .main-content > img {
 	position: absolute;
-	left: 0;
-	bottom: 0;
+	left: 1vw;
+	/* left: 0; */
+	bottom: 1vh;
 	/* width: 50%; */
 	width: 70%;
 	height: auto;
@@ -144,11 +145,15 @@ li.main-nav:not(.active) .section-content {
 		.mobile-hidden { visibility: hidden; }
 	}
 	
-@media screen and (orientation: landscape) {
+@media screen and (orientation: landscape)and (max-width: 896px) {
 	/* i.active > div.section-content > .main-content { padding-top: 2rem; } */
+	html, .root, body, .article {
+		font-size: 1.6111111vw;
+		}
 	.section-title { padding-bottom: 0.5rem; }
 }
-@media screen and (orientation: landscape) and (max-width: 568px) {
+
+@media screen and (orientation: landscape) and (max-width: 667px) { /* max-width: 568px */
 	li.main-nav.active > div.section-content > .main-content { padding-top: 1.8rem; }
 	h1, .h1 { 
 		font-size: 2.6111111rem;
@@ -162,7 +167,12 @@ li.main-nav:not(.active) .section-content {
 
 @media screen and (orientation: portrait) {
 	ul { flex-direction: column; margin-top: 1rem;}
-	div.splash > .main-content > img { bottom: 1rem; width: 80%; }
+	div.splash > .main-content > img { 
+		bottom: 2vh; 
+		width: 96vw; 
+		/* bottom: 1rem; 
+		width: 80%;  */
+	}
 	
 	li.main-nav.active {	
 		order: 5;
@@ -202,22 +212,40 @@ li.main-nav:not(.active) .section-content {
 
 
 }
-@media screen and (orientation: portrait) and (min-width:768px) {
+
+@media only screen and (orientation: portrait) {
 	li.main-nav { transition: none; }
 	li.main-nav:not(.active) {
-		min-height: 3.5vh;
+		min-height: 5.25vh;
 		max-height: 4.25vh;
 		/* margin-top: -0.5vh; */
-		
+	}
+}
+
+
+@media screen and (orientation: portrait) and (max-height:896px) {
+	
+	li.main-nav:not(.active) {
+		min-height: 3.5vh;
+		max-height: 3.5vh;
 	}
 	
 }
 
+@media screen and (orientation: portrait) and (max-height:736px) {
 
-@media screen and (orientation: portrait) and (max-width:768px) {
-	li.main-nav { transition: none; }
+	
 	li.main-nav:not(.active) {
-		min-height: 2.25vh;
-		max-height: 5.25vh; 	/* 5.5vh; */
+		min-height: 3.25vh;
+		max-height: 4vh;
+	}
+	
+}
+
+@media screen and (orientation: portrait) and (max-height:454px) {
+	
+	li.main-nav:not(.active) {
+		min-height: 5vh;
+	/* max-height: 5.25vh;  */
 	}
 }

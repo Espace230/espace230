@@ -134,7 +134,7 @@ a, b, i, strong, em, small, code {line-height: 1rem;}
 .img-frame {border: 1px solid #a4a4a4;}
 
 .button { 
-	border: 2px solid #121212;/*  #626262 #0047ab; #092729 */
+	border: 2.5px solid #121212;/*  #626262 #0047ab; #092729 */
 	background: #121212;  /* #626262  #0F1E4E */
 	color: #fff;
 	/* background: #fff; 
@@ -162,12 +162,12 @@ a, b, i, strong, em, small, code {line-height: 1rem;}
 /* button:hover {border: 2px solid #2B59C3; background: #2B59C3; color:#fdfdff; transition: 0.3s;} #0F1E4E */
 
 .button-white { 
-	border: 2px solid #121212;/*  #626262 #0047ab; #092729 */
+	border: 2.5px solid #121212;/*  #626262 #0047ab; #092729 */
 	background: #fff;  /* #626262  #0F1E4E */
 	color: #121212;
 }
 .button-white:hover {
-	border: 2px solid #121212; 
+	border: 2.5px solid #121212; 
 	background: #121212; 
 	color:#fff; transition: 0.3s;
 }

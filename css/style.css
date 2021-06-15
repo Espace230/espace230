@@ -94,7 +94,9 @@ h2, h3, h4 {color: #141516;} /* color: #242424; */
 a {font-weight: 600; color:#092c79; text-decoration: none;}
 .link {font-weight: 600; color:#141516; text-decoration: underline;}
 .nodeco  {color:#141516; text-decoration: none;}
-.icon, .fa, .sa {color: #444;} 
+.icon, .fa, .sa, .vendu, .grid-opening-hours {color: #333;}  /* #444 */
+
+
 
 
 
@@ -115,6 +117,10 @@ a, b, i, strong, em, small, code {line-height: 1rem;}
 .half-bottom-margin {margin-bottom: 0.722rem;}
 .half-top-margin {margin-top: 0.722rem;}
 .no-margins {margin-top: 0; margin-bottom: 0;}
+.medium {font-weight:500;}
+.semi-bold {font-weight:600;}
+.bold {font-weight:700;}
+.uppercase {text-transform:uppercase;}
 
 /* Artwork Descriptions */
 .author {font-weight: 600;}
@@ -123,7 +129,7 @@ a, b, i, strong, em, small, code {line-height: 1rem;}
 /* .acquire {float: right; line-height: inherit;}
 .acquire:hover .price {display: none;}
 .acquire:hover:before {content:"Acheter ->"; color:#092c79;} */
-
+.vendu {font-weight: 800; color: #771111;}
 
 .img-frame {border: 1px solid #a4a4a4;}
 
@@ -212,18 +218,18 @@ sub { bottom: -0.25em; }
 .Sunday { grid-area: Sunday; }
 .Sunday-Hours { grid-area: Sunday-Hours; }
 
-/* .grid-opening-hours {
+.grid-opening-hours-simplified {
 	display: grid;
 	grid-template-rows: repeat(2, 1fr); 
 	grid-column-gap: 0.75rem;
 	grid-row-gap: 0; 
-	grid-template-areas: "grid-open hours" "grid-rdv rdv";
+	grid-template-areas: "grid-rdv rdv" "grid-open hours";
 	justify-content: flex-start;
 }
-.grid-open { grid-area: grid-open; font-weight:700; }
+.grid-open { grid-area: grid-open;}
 .hours { grid-area: hours; }
-.grid-rdv { grid-area: grid-rdv; font-weight:700; }
-.rdv { grid-area: rdv; } */
+.grid-rdv { grid-area: grid-rdv;}
+.rdv { grid-area: rdv; }
 
 
 @font-face {

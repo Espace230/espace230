@@ -136,10 +136,6 @@ li.main-nav:not(.active) .section-content {
 /* @media screen and (orientation: landscape) and (min-width: 568px) { */
 @media screen and (min-width: 374px) {
 	.button-buy { margin-top: -4em; }
-
-	/* Artwork Scrolling -- make it sticky */
-.artwork-list { scroll-snap-type: y proximity; }
-.artworks { scroll-snap-align: start; }
 }
 
 @media screen and (max-width: 768px) {

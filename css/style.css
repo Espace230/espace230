@@ -155,7 +155,7 @@ a, b, i, strong, em, small, code {line-height: 1rem;}
 	transition: 0.3s;
 }
 
-
+.artworks {margin-bottom:3em;}
 .button:hover {border: 2px solid #848484; background: #848484; color:#fdfdff; transition: 0.3s;}
 /* button:hover {border: 2px solid #092c79; background: #092c79; color:#fdfdff; transition: 0.3s;} */
 /* button:hover {border: 2px solid #121212; background: #121212; color:#fff; transition: 0.3s;}  */

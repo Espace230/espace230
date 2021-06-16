@@ -121,8 +121,8 @@ li.main-nav:not(.active) .section-content {
 
 
 /* Artwork Scrolling -- make it sticky */
-.artwork-list { scroll-snap-type: y proximity; }
-.artworks { scroll-snap-align: start; }
+/* .artwork-list { scroll-snap-type: y proximity; }
+.artworks { scroll-snap-align: start; } */
 
 
 .lightbox {

@@ -252,7 +252,7 @@
 
 	/* Artwork Descriptions */
 	.modal-text {
-		padding-left: 0.5vw;
+		padding-left: 1vw; /* 0.5vw */
 		bottom: 1.6111111em;
 		position: fixed;
 	}

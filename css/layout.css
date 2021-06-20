@@ -134,15 +134,22 @@ li.main-nav:not(.active) .section-content {
 	overflow-y: hidden;
 }
 .lightbox:target { display: block; }
-.lightbox span {
-  display: block;
+
+.lightbox span:not(.modal-price) {
+	display: block;
   width: 100%;
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
 }
-
+.lightbox > span > div > a, .lightbox > span > div > button {
+	display: block;
+	bottom: 1.6111111em;
+	right: 1vw;	
+	position: fixed;
+  z-index: 1999999;
+}
 
 
 /* MOBILE LAYOUT */

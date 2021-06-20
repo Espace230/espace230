@@ -256,6 +256,13 @@
 		bottom: 1.6111111em;
 		position: fixed;
 	}
+	.modal-price {
+		padding-right: 1vw; /* 0.5vw */
+		bottom: 1.6111111em;
+		right: 1vw;
+		position: fixed;
+	}
+
 	.author {
 		font-weight: 700;
 	}

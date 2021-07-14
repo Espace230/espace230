@@ -1,4 +1,4 @@
-ul {
+ul.nav {
 	display: flex;
 	height: 100%;
 	width:100%;
@@ -38,7 +38,7 @@ div.splash > .main-content > img {
 	height: auto;
  }
 
-li.active {
+li.main-nav.active {
 	flex: 9;
 	cursor: default;
 }
@@ -143,9 +143,11 @@ li.main-nav:not(.active) .section-content {
   background-repeat: no-repeat;
   background-size: contain;
 }
-.lightbox > span > div > a, .lightbox > span > div > button {
+.lightbox > span > div > a, 
+.lightbox > span > div > button {
 	display: block;
-	bottom: 1.6111111em;
+	/* bottom: 1.6111111em; */
+	bottom: 2.2em;
 	right: 1vw;	
 	position: fixed;
   z-index: 1999999;

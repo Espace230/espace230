@@ -335,7 +335,7 @@ li.carousel-slide {
 
 .img-frame {
 	border: 1px solid #a4a4a4;
-	width: 560px;
+	<!-- width: 560px; !!!BUG!!!-->
 	height: 100%;
 }
 

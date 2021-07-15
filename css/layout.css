@@ -172,7 +172,7 @@ li.main-nav:not(.active) .section-content {
 		.mobile-hidden { visibility: hidden; }
 	}
 	
-@media screen and (orientation: landscape)and (max-width: 896px) {
+@media screen and (orientation: landscape) and (max-width: 896px) {
 	/* i.active > div.section-content > .main-content { padding-top: 2rem; } */
 	html, .root, body, .article {
 		font-size: 1.6111111vw;

@@ -188,7 +188,8 @@ strong {
 }
 
 
-/* ALIGN EVERYTHING ************************************ */
+
+/* BRANDING TWEAKS ************************************* */
 
 hr,
 .hr {
@@ -252,7 +253,6 @@ code {
 	text-transform: uppercase;
 }
 
-
 sub, sup {
 	line-height: 0;
 	position: relative;
@@ -267,6 +267,13 @@ sub { bottom: -0.25em; }
 	font-weight: 600;
 }
 
+.img-frame {
+	border: 1px solid #a8a8a8; /* #a4a4a4 */
+}
+
+.social-row {
+	line-height: 2.416666rem;
+}
 
 
 /* ARTWORK DESCRIPTIONS AND LAYOUT ********************* */
@@ -308,7 +315,7 @@ sub { bottom: -0.25em; }
 
 /* CAROUSEL ******************************************** */
 
-.carousel {
+.carousel-viewport {
 	padding: 0;
 	display: grid;
 	grid-template-rows: 1fr;
@@ -319,14 +326,13 @@ sub { bottom: -0.25em; }
 	height: auto;
 	scroll-snap-type: both mandatory;
 	scroll-padding: 1rem;
-	scrollbar-width: 1px;
+	scrollbar-width: none;
 }
 
 .carousel-NB2020 {
 	/* Make sure the 'repeat(xx,' corresponds with the number of slides for this event */
 	grid-template-columns: repeat(13, 100%); 
 }
-
 
 .activeslide {
 	scroll-snap-type: unset;
@@ -337,18 +343,12 @@ li.carousel-slide {
 	display: inline-block;
 	border-radius: 3px;
 	font-size: 0;
-	width: inherit;
 }
 
-
-.img-frame {
-	border: 1px solid #a8a8a8; /* #a4a4a4 */
-}
 .carousel-img {	
 	width: 100%;
-	object-fit: contain;
+	/* object-fit: contain; */
 }
-
 
 
 
@@ -416,7 +416,6 @@ button.btn-hover-buy {
 }
 button.btn-hover-buy:hover > span { display: none; }
 button.btn-hover-buy:hover:before { content:"ACHETER"; }
-
 
 
 

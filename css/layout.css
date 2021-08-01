@@ -38,6 +38,11 @@ div.splash > .main-content > img {
 	height: auto;
  }
 
+img.partenaires {
+	width: 67%;
+	height: auto;
+ }
+
 li.main-nav.active {
 	flex: 9;
 	cursor: default;

@@ -197,6 +197,13 @@ hr,
 	margin: -2px 0;
 }
 
+hr.shorted {
+	border: 1px solid;
+	margin: -2px 0;
+	width: 20%;
+	color:#AAA;
+}
+
 a,
 b,
 i,
@@ -265,6 +272,12 @@ sub { bottom: -0.25em; }
 .copy {
 	font-size: 0.722rem;
 	font-weight: 600;
+}
+
+.text-partners {
+	font-size: 0.722rem;
+	font-weight: 500;
+	line-height: 1rem;
 }
 
 .img-frame {

@@ -144,7 +144,7 @@ li.main-nav:not(.active) .section-content {
 }
 .lightbox:target { display: block; }
 
-.lightbox span:not(.modal-price) {
+.lightbox section:not(.modal-price) {
 	display: block;
   background-position: center;
   background-repeat: no-repeat;
@@ -152,8 +152,8 @@ li.main-nav:not(.active) .section-content {
   height: 100%;
   width: 100%;
 }
-.lightbox > span > div > a, 
-.lightbox > span > div > button {
+.lightbox > section > div > a, 
+.lightbox > section > div > button {
 	/* bottom: 1.6111111em; */
 	bottom: 2.2em;
 	display: block;

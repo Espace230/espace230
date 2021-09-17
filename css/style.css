@@ -463,12 +463,15 @@ button.btn-hover-buy:hover:before { content:"ACHETER"; }
 	grid-template-rows: repeat(2, 1fr);
 	grid-column-gap: 0.75rem;
 	grid-row-gap: 0;
-	 grid-template-areas: "grid-open hours" "grid-rdv rdv";
+	 /* grid-template-areas: "grid-open hours" "grid-rdv rdv"; */
+	 grid-template-areas: "grid-open hours" "grid-open-wknd hours-wknd" "grid-rdv rdv";
 	justify-content: flex-start;
 }
 
 .grid-open { grid-area: grid-open; }
 .hours { grid-area: hours; }
+.grid-open-wknd { grid-area: grid-open-wknd; }
+.hours-wknd { grid-area: hours-wknd; }
 .grid-rdv { grid-area: grid-rdv; }
 .rdv { grid-area: rdv; }
 

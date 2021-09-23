@@ -167,42 +167,53 @@ li.main-nav:not(.active) .section-content {
 
 /* @media screen and (orientation: landscape) and (min-width: 568px) { */
 @media screen and (min-width: 374px) {
+	
 	.button-buy { margin-top: -4em; }
+
 }
 
 @media screen and (max-width: 768px) {
+	
 	/* html, .root { font-size: 13px; } */
+	
 	html, .root { font-size: 0.72222222rem; }
+	
 	h1, .h1 { 
 		letter-spacing: -0.1rem; 
 		margin-top: 1.6111111rem;
 		margin-bottom: 1.6111111rem;
-		}
-		.mobile-hidden { visibility: hidden; }
 	}
+	.mobile-hidden { visibility: hidden; }
+
+}
 	
 @media screen and (orientation: landscape) and (max-width: 896px) {
+	
 	/* i.active > div.section-content > .main-content { padding-top: 2rem; } */
 	html, .root, body, .article {
 		font-size: 1.6111111vw;
 		}
+
 	.section-title { padding-bottom: 0.5rem; }
 }
 
 @media screen and (orientation: landscape) and (max-width: 667px) { /* max-width: 568px */
+	
 	li.main-nav.active > div.section-content > .main-content { padding-top: 1.8rem; }
+	
 	h1, .h1 { 
 		font-size: 2.6111111rem;
 		line-height: 3.2222222rem;
 		margin-top: 1.6111111rem;
 		margin-bottom: 1.6111111rem;
 	} 
+
 }
 
-
-
 @media screen and (orientation: portrait) {
+	
 	ul { flex-direction: column; margin-top: 1rem;}
+	
 	div.splash > .main-content > img { 
 		bottom: 2vh; 
 		width: 96vw; 
@@ -229,35 +240,36 @@ li.main-nav:not(.active) .section-content {
 	img .name {
 		height: 100%;
 		width: 100%;
-    	object-fit: contain;
-    	overflow: hidden;
+    object-fit: contain;
+    overflow: hidden;
 	}
 
 	li.main-nav:not(.active) {
 		display: block;
 		min-height: 3.5vh; 	/* 5.5vh; */
 		max-height: 4.25vh; 	/* 5.5vh; */
-		}
+	}
 	
 	
 	li.main-nav .section-title img {
 		transform-origin: top left;
 		transform: rotate(90deg) translateY(-100%) translateY(-1em);
 		max-width: 7.5%;	/* 10% */
-		} 
-
+	} 
 
 }
 
 @media only screen and (orientation: portrait) {
+	
 	li.main-nav { transition: none; }
+	
 	li.main-nav:not(.active) {
 		min-height: 5.25vh;
 		max-height: 4.25vh;
 		/* margin-top: -0.5vh; */
 	}
-}
 
+}
 
 @media screen and (orientation: portrait) and (max-height:896px) {
 	
@@ -270,7 +282,6 @@ li.main-nav:not(.active) .section-content {
 
 @media screen and (orientation: portrait) and (max-height:736px) {
 
-	
 	li.main-nav:not(.active) {
 		min-height: 3.25vh;
 		max-height: 4vh;
@@ -284,4 +295,5 @@ li.main-nav:not(.active) .section-content {
 		min-height: 5vh;
 	/* max-height: 5.25vh;  */
 	}
+
 }

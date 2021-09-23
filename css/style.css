@@ -346,6 +346,10 @@ sub { bottom: -0.25em; }
 	/* Make sure the 'repeat(xx,' corresponds with the number of slides for this event */
 	grid-template-columns: repeat(13, 100%); 
 }
+.carousel-MONO2021 {
+	/* Make sure the 'repeat(xx,' corresponds with the number of slides for this event */
+	grid-template-columns: repeat(3, 100%); 
+}
 
 .activeslide {
 	scroll-snap-type: unset;

@@ -204,7 +204,8 @@ hr.shorted {
 	color:#AAA;
 }
 
-a,
+/* WHY WAS THIS BELOW ACTIVATED ? */
+/* a, */
 b,
 i,
 strong,
@@ -322,6 +323,7 @@ sub { bottom: -0.25em; }
 }
 .acquire {
 	font-weight: 700;
+	/* text-decoration: underline; */
 }
 
 
@@ -408,6 +410,7 @@ li.carousel-slide {
 
 .button-white {
 	border: 2.5px solid #141516;
+	
 	/*  #626262 #0047ab; #092729 */
 	background: #fff;
 	/* #626262  #0F1E4E */
@@ -429,7 +432,7 @@ li.carousel-slide {
 }
 button.btn-hover-buy {
 	width: 132px;
-	/* border: 2.5px solid #eee */
+	border: 2.5px solid #eee;
 }
 button.btn-hover-buy:hover > span { display: none; }
 button.btn-hover-buy:hover:before { content:"ACHETER"; }

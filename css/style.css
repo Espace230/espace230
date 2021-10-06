@@ -432,7 +432,7 @@ li.carousel-slide {
 }
 button.btn-hover-buy {
 	width: 132px;
-	border: 2.5px solid #eee;
+	/* border: 2.5px solid #eee; */
 }
 button.btn-hover-buy:hover > span { display: none; }
 button.btn-hover-buy:hover:before { content:"ACHETER"; }

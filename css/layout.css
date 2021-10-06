@@ -221,10 +221,11 @@ li.main-nav:not(.active) .section-content {
 	
 	/* i.active > div.section-content > .main-content { padding-top: 2rem; } */
 	html, .root, body, .article {
-		font-size: 1.6111111vw;
+		font-size: 2vw;
 		}
 
 	.section-title { padding-bottom: 0.5rem; }
+	.button-buy { margin-top: 1rem; float: left; }
 }
 
 @media screen and (orientation: landscape) and (max-width: 667px) { /* max-width: 568px */
@@ -237,6 +238,8 @@ li.main-nav:not(.active) .section-content {
 		margin-top: 1.6111111rem;
 		margin-bottom: 1.6111111rem;
 	} 
+	
+	button.btn-hover-buy { width: 88px; }
 
 }
 
@@ -286,6 +289,13 @@ li.main-nav:not(.active) .section-content {
 		transform: rotate(90deg) translateY(-100%) translateY(-1em);
 		max-width: 7.5%;	/* 10% */
 	} 
+	.button-buy {
+	margin-top: 1rem; 
+	float: left;
+	}
+	button.btn-hover-buy {
+		width: 88px;
+	}
 
 }
 

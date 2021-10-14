@@ -33,8 +33,8 @@ div.splash > .main-content > img {
 	left: 1vw;
 	/* left: 0; */
 	bottom: 1vh;
-	/* width: 50%; */
-	width: 70%;
+	/* width: 70%; */
+	width: 50%;
 	height: auto;
  }
 
@@ -149,6 +149,7 @@ li.main-nav:not(.active) .section-content {
 	height: auto; 
 	width: 100%; 
 } 
+
 
 .price-right { 
 	float: right; 

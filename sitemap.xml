@@ -1,94 +1,245 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<?xml version="1.0" encoding="UTF-8" ?>
+<urlset  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"> 
 <url>
-    <loc>https://espace230.com/</loc>
-    <lastmod>2020-11-10T02:30:20+05:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.00</priority>
+<loc>https://espace230.com/mailto:info@espace230.com</loc>
+</url>
+<url>
+<loc>https://espace230.com/tel:514-965-1579</loc>
 </url>
 <url>
 <loc>https://espace230.com</loc>
-</url>
-<url>
-<loc>https://espace230.com/mailto:info@lbstjean.com</loc>
-</url>
-<image:image>
-<image:loc>https://espace230.com/images/thumbnail.jpg</image:loc>
-<image:title>L&amp;Espace 230 au Belgo - Ateliers d'artistes &slash; Galerie d'art</image:title>
-</image:image>
 <image:image>
 <image:loc>https://espace230.com/svg/ESPACE-230.svg</image:loc>
+<image:title>Espace 230</image:title>
 </image:image>
 <image:image>
-<image:loc>https://espace230.com/svg/ESPACE-230-Logotype.svg</image:loc>
-<image:title>(Logotype) Espace 230 - Ateliers d'artistes &slash; Galerie d'art</image:title>
+<image:loc>https://espace230.com/svg/ESPACE230-Fall-2021-Website-Logo.svg</image:loc>
+<image:title>Espace 230 / Art contemporain</image:title>
 </image:image>
 <image:image>
 <image:loc>https://espace230.com/svg/ATELIERS.svg</image:loc>
+<image:title>Ateliers</image:title>
 </image:image>
 <image:image>
-<image:loc>https://espace230.com/images/BG_ESPACE.jpg</image:loc>
-<image:title>Les ateliers d&amp;apos;artistes de l'Espace 230, Édifice Belgo, Montréal QC</image:title>
+<image:loc>https://espace230.com/images/Espace-230--hero-image.jpg</image:loc>
+<image:title>Ateliers d&amp;apos;artistes</image:title>
 </image:image>
 <image:image>
 <image:loc>https://espace230.com/svg/Espace-230-Floor-Plan-Grayscale.svg</image:loc>
+<image:title>Plan de l&amp;apos;espace</image:title>
 </image:image>
 <image:image>
 <image:loc>https://espace230.com/images/Galerie.jpg</image:loc>
 <image:title>La galerie de l&amp;apos;Espace 230.jpg</image:title>
 </image:image>
 <image:image>
-<image:loc>https://espace230.com/svg/ARTISTES.svg</image:loc>
+<image:loc>https://espace230.com/images/Belgo_Montreal_1912.jpg</image:loc>
+<image:title>Corner Bleury and St. Catherine Streets, Montreal, QC, 1916</image:title>
 </image:image>
 <image:image>
-<image:loc>https://espace230.com/images/Louis-Bernard-St-Jean.jpg</image:loc>
+<image:loc>https://espace230.com/svg/ARTISTES.svg</image:loc>
+<image:title>Artistes</image:title>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/images/Louis-Bernard-St-Jean--Photo-profil-2021.jpg</image:loc>
 <image:title>Portrait de l&amp;apos;artiste peintre Montréalais Louis-Bernard St-Jean.jpg</image:title>
 </image:image>
 <image:image>
-<image:loc>https://espace230.com/images/artwork-SA.jpg</image:loc>
-<image:title>Tableau de l&amp;artiste peintre Sylvie Adams.jpg</image:title>
+<image:loc>https://espace230.com/images/Sylvie-Adams-artwork.jpg</image:loc>
+<image:title>Tableau de l&amp;apos;artiste peintre Sylvie Adams.jpg</image:title>
 </image:image>
 <image:image>
 <image:loc>https://espace230.com/svg/EXPOSITIONS.svg</image:loc>
+<image:title>Expositions</image:title>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/images/Poster-Monochrome-Expo-solo-Espace-230.jpg</image:loc>
+<image:title>Affiche de L&amp;apos;exposition solo Monochrome</image:title>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/images/expo-Monochrome-2021-Trois-tableaux-verticaux-40x30po.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/images/expo-Monochrome-2021-Le-plafond-de-verre.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/images/expo-Monochrome-2021-Petits-tableaux.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/images/Salon-des-indépendants-III--Poster-1920x1080px.jpg</image:loc>
+<image:title>Affiche de L&amp;apos;exposition de groupe Le salon des indépendants III</image:title>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/images/exposition-permanente-2021.jpg</image:loc>
+<image:title>La galerie de l&amp;apos;Espace 230.jpg</image:title>
 </image:image>
 <image:image>
 <image:loc>https://espace230.com/images/poster_Nuit-Blanche_2020.jpg</image:loc>
-<image:title>Poster de l&amp;événement Nuit Blanche Verte 2020 à l&amp;Espace 230, édifice Belgo, Montréal Québec.jpg</image:title>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/images/nuit-blanche-2020-espace-230-01.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/images/nuit-blanche-2020-espace-230-03.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/images/nuit-blanche-2020-espace-230-04.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/images/nuit-blanche-2020-espace-230-05.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/images/nuit-blanche-2020-espace-230-06.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/images/nuit-blanche-2020-espace-230-07.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/images/nuit-blanche-2020-espace-230-08.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/images/nuit-blanche-2020-espace-230-09.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/images/nuit-blanche-2020-espace-230-13.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/images/nuit-blanche-2020-espace-230-12.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/images/nuit-blanche-2020-espace-230-10.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/images/nuit-blanche-2020-espace-230-11.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/images/nuit-blanche-2020-espace-230-02.jpg</image:loc>
 </image:image>
 <image:image>
 <image:loc>https://espace230.com/svg/ŒUVRES-D-ART.svg</image:loc>
 </image:image>
 <image:image>
-<image:loc>https://espace230.com/artworks/Louis-Bernard-St-Jean--La-femme-a-la-peau-bleue--2019-huile-sur-papier-Arches--12x16po.jpg</image:loc>
-<image:title>Tableau intitulé &quot;La femme à la peau bleue&quot; par l&amp;artiste peintre Louis-Bernard St-Jean. Huile sur papier Arches, 12 x 16 pouces</image:title>
+<image:loc>https://espace230.com/artworks/Louis-Bernard-St-Jean--Le-plafond-de-verre--2021-Huile-sur-bois-57x87po.jpg</image:loc>
 </image:image>
 <image:image>
-<image:loc>https://espace230.com/artworks/Louis-Bernard-St-Jean--Cevennes--2018-huile-sur-papier-Arches--16x12po.jpg</image:loc>
-<image:title>Tableau intitulé &quot;Cévennes&quot; par l&amp;artiste peintre Louis-Bernard St-Jean. Huile sur papier Arches, 16 x 12 pouces</image:title>
+<image:loc>https://espace230.com/artworks/Louis-Bernard-St-Jean--Swell-I--2021-Huile-sur-bois-24x30po.jpg</image:loc>
 </image:image>
 <image:image>
-<image:loc>https://espace230.com/artworks/Louis-Bernard-St-Jean--Boulevard-Saint-Laurent--2019-huile-sur-papier-Arches-9x12po.jpg</image:loc>
-<image:title>Tableau intitulé &quot;Boulevard Saint Laurent&quot; par l&amp;artiste peintre Louis-Bernard St-Jean. Huile sur papier Arches, 9 x 12 pouces</image:title>
+<image:loc>https://espace230.com/artworks/Louis-Bernard-St-Jean--Nouvelle-vague--2021-Huile-sur-bois-40x30po.jpg</image:loc>
 </image:image>
 <image:image>
-<image:loc>https://espace230.com/artworks/Louis-Bernard-St-Jean--Pied-de-Vent--2019-huile-sur-papier-Arches-22x30po.jpg</image:loc>
-<image:title>Tableau intitulé &quot;Pied-de-vent&quot; par l&amp;artiste peintre Louis-Bernard St-Jean. Huile sur papier Arches, 22 x 30 pouces</image:title>
+<image:loc>https://espace230.com/artworks/Louis-Bernard-St-Jean--Premiere-vague--2021-Huile-sur-bois-40x30po.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/artworks/Louis-Bernard-St-Jean--Plumes--2021-Huile-sur-bois-30x30po.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/artworks/Louis-Bernard-St-Jean--Sauvagines--2021-huile-sur-panneau-de-bois-30x40po.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/artworks/Louis-Bernard-St-Jean--Ressac--2021-Huile-sur-bois-36x48po.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/artworks/Louis-Bernard-St-Jean--Quand-sonne-le-glas--2021-Huile-sur-bois-36x48po.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/artworks/Louis-Bernard-St-Jean--Midnight-Sunset--2021-Huile-sur-bois-18x24po.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/artworks/Louis-Bernard-St-Jean--Sans-titre-verticale--2021-huile-sur-panneau-de-bois-9x7po.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/artworks/Louis-Bernard-St-Jean--Monochrome-I--2021-huile-sur-panneau-de-bois-12x16po.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/artworks/Louis-Bernard-St-Jean--Monochrome-II--2021-huile-sur-panneau-de-bois-12x9po.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/artworks/Louis-Bernard-St-Jean--Monochrome-III--2021-huile-sur-panneau-de-bois-12x16po.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/artworks/Louis-Bernard-St-Jean--Monochrome-IV--2021-huile-sur-panneau-de-bois-12x9po.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/artworks/Louis-Bernard-St-Jean--Monochrome-V--2021-huile-sur-panneau-de-bois-12x16po.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/artworks/Louis-Bernard-St-Jean--Perseides--2021-huile-sur-panneau-de-bois-10x10po.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/artworks/Louis-Bernard-St-Jean--Swell-III--2021-huile-sur-panneau-de-bois-9x12po.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/artworks/Louis-Bernard-St-Jean--Swell-IV--2021-huile-sur-panneau-de-bois-9x12po.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/artworks/Louis-Bernard-St-Jean--Sans-titre--2021-huile-sur-panneau-de-bois-5x7po.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/artworks/Louis-Bernard-St-Jean--Terra-Obscura-II--2021-huile-sur-panneau-de-bois-12x16po.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/artworks/Louis-Bernard-St-Jean--La-femme-a-la-peau-bleue--2019-huile-sur-papier-Arches-12x16po.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/artworks/Louis-Bernard-St-Jean--Nevermind--2017-huile-sur-toile-48x60po.jpg</image:loc>
 </image:image>
 <image:image>
 <image:loc>https://espace230.com/artworks/Louis-Bernard-St-Jean--Le-Balcon--2019-huile-sur-papier-Arches-9x12po.jpg</image:loc>
-<image:title>Tableau intitulé &quot;Le Balcon&quot; par l&amp;artiste peintre Louis-Bernard St-Jean. Huile sur papier Arches, 9 x 12 pouces</image:title>
 </image:image>
 <image:image>
-<image:loc>https://espace230.com/artworks/Louis-Bernard-St-Jean--Le-ruisseau--2019-huile-sur-papier-Arches-12x16po.jpg</image:loc>
-<image:title>Tableau intitulé &quot;Le ruisseau&quot; par l&amp;artiste peintre Louis-Bernard St-Jean. Huile sur papier Arches, 12 x 16 pouces</image:title>
+<image:loc>https://espace230.com/artworks/Louis-Bernard-St-Jean--Burning-Down-the-House--2016-huile-sur-toile-48x60po.jpg</image:loc>
 </image:image>
 <image:image>
 <image:loc>https://espace230.com/artworks/Louis-Bernard-St-Jean--Les-Monts-Valin--2018-huile-sur-papier-Arches-22x30po.jpg</image:loc>
-<image:title>Tableau intitulé &quot;Les Monts-Valin&quot; par l&amp;artiste peintre Louis-Bernard St-Jean. Huile sur papier Arches, 22 x 30 pouces</image:title>
 </image:image>
 <image:image>
-<image:loc>https://espace230.com/artworks/Louis-Bernard-St-Jean--Le-depart--2018-huile-sur-papier-Arches-22x30po.jpg</image:loc>
-<image:title>Tableau intitulé &quot;Le départ&quot; par l&amp;artiste peintre Louis-Bernard St-Jean. Huile sur papier Arches, 22 x 30 pouces</image:title>
+<image:loc>https://espace230.com/artworks/Louis-Bernard-St-Jean--Lac-Joly--2019-huile-sur-panneau-de-bois-22x30po.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/artworks/Louis-Bernard-St-Jean--Novembre--2019-huile-sur-bois-5x7po.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/artworks/Louis-Bernard-St-Jean--Hirondelles--2021-huile-sur-panneau-de-bois-5x7po.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/artworks/Louis-Bernard-St-Jean--Magic-Carpet-Ride--2017-huile-sur-toile-60x48po.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/artworks/Louis-Bernard-St-Jean--Bouleaux--2020-huile-sur-panneau-de-bois-22x30po-cadre.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/artworks/Louis-Bernard-St-Jean--Eleven-Points--huile-sur-papier-Arches-22x30po.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/artworks/Louis-Bernard-St-Jean--Terra-Obscura--2021-huile-sur-panneau-de-bois-36x48po.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/artworks/Louis-Bernard-St-Jean--Cevennes--2018-huile-sur-papier-Arches-16x12po.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/artworks/Louis-Bernard-St-Jean--Le-depart--2018--huile-sur-papier-Arches-22x30po.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/artworks/Louis-Bernard-St-Jean--Boulevard-Saint-Laurent--2019-huile-sur-papier-Arches-9x12po.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/artworks/Louis-Bernard-St-Jean--Pied-de-Vent--2019-huile-sur-papier-Arches-22x30po.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/artworks/Louis-Bernard-St-Jean--Le-ruisseau--2019-huile-sur-papier-Arches-12x16po.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/artworks/Louis-Bernard-St-Jean--Monarque--2019-huile-sur-bois-5x7po.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/artworks/Louis-Bernard-St-Jean--Orbital--2019-huile-sur-bois-5x7po.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/artworks/Louis-Bernard-St-Jean--Io--2019-huile-sur-bois-5x7po.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://espace230.com/artworks/Louis-Bernard-St-Jean--Le-phare--2019-huile-sur-bois-5x7po.jpg</image:loc>
 </image:image>
 <image:image>
 <image:loc>https://espace230.com/svg/CONTACT.svg</image:loc>
@@ -97,11 +248,8 @@
 <image:loc>https://espace230.com/images/Les-Ateliers-2020.jpg</image:loc>
 <image:title>Les ateliers de l&amp;apos;Espace 230</image:title>
 </image:image>
-</url>
-<url>
-<loc>https://espace230.com/mailto:info@espace230.com</loc>
-</url>
-<url>
-<loc>https://espace230.com/tel:514-965-1579</loc>
+<image:image>
+<image:loc>https://espace230.com/svg/CMYK_Logo_CAM+Montreal__no_left-margin.svg</image:loc>
+</image:image>
 </url>
 </urlset>

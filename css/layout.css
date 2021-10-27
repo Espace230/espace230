@@ -21,7 +21,10 @@ li.main-nav {
 	overflow: hidden;
 }
 	
-	
+a.nav-link {
+	height: auto;
+	width: 100%;
+}	
 /* li.main-nav .section-title { 
 	transition: all .60s ease-in; 
 	} */
@@ -154,13 +157,7 @@ li.main-nav:not(.active) .section-content {
 	bottom: 0;
 	left: 0;
 }
-.gallery-title a img { 
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	width: 4vw; 
-}
-.gallery-title a svg { 
+.side-banner { 
 	position: fixed;
 	bottom: 0;
 	left: 0;
@@ -277,7 +274,7 @@ li.main-nav:not(.active) .section-content {
 
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
 	.gallery-column {
 			flex: 30%;
 			max-width: 30%;
@@ -370,11 +367,13 @@ li.main-nav:not(.active) .section-content {
 	}
 	
 	
-	li.main-nav .section-title a svg {
+	li.main-nav .section-title a svg,li.main-nav .section-title a img {
 		transform-origin: top left;
 		transform: rotate(90deg) translateY(-100%) translateY(-1em);
+		width:100vw;
 		max-width: 7.5%;	/* 10% */
 	} 
+	/* li.main-nav .section-title a img {visibility:hidden;} */
 	.button-buy {
 	margin-top: 1rem; 
 	float: left;

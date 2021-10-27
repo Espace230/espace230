@@ -154,13 +154,13 @@ li.main-nav:not(.active) .section-content {
 	bottom: 0;
 	left: 0;
 }
-.gallery-title img { 
+.gallery-title a img { 
 	position: fixed;
 	bottom: 0;
 	left: 0;
 	width: 4vw; 
 }
-.gallery-title svg { 
+.gallery-title a svg { 
 	position: fixed;
 	bottom: 0;
 	left: 0;

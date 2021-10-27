@@ -16,9 +16,9 @@ li.main-nav {
 	padding: 0;
 	background: #fff; /* #121212; */
 	cursor: pointer;
-	transition: all .35s ease-out; 
+	/* transition: all .35s ease-out; */
+	/* ↑ Disable transition for direct Section access via url#hash */
 	overflow: hidden;
-	
 }
 	
 	
@@ -26,14 +26,12 @@ li.main-nav {
 	transition: all .60s ease-in; 
 	} */
 
-li.main-nav:not(.active):hover { filter: invert(100%); } 
+li.main-nav:not(.active):hover { filter: invert(100%); transition: all .35s ease-out; } 
 
 div.splash > .main-content > img {
 	position: absolute;
-	left: 1vw;
-	/* left: 0; */
-	bottom: 1vh;
-	/* width: 70%; */
+	left: 1vw; /* left: 0; */
+	bottom: 1vh; /* width: 70%; */
 	width: 50%;
 	height: auto;
  }
@@ -56,6 +54,7 @@ li.main-nav.active .section-content {
 }
 
 li.main-nav .section-title {
+
 	flex: 1; /* 0.9 */
 	display: flex;
 	width: auto; 
@@ -75,7 +74,7 @@ li.main-nav .section-content {
 	padding: 0;
 	transition: all .25s .1s ease-out;
 	overflow: auto;
-	z-index:80;
+	z-index: 80;
 	justify-content: center;
 	-ms-overflow-style: none;
 	scrollbar-width: none;
@@ -90,7 +89,7 @@ li.main-nav .section-content::-webkit-scrollbar { display: none; }
 	width: 100%; 
 	}
 
-li.main-nav.active.Espace230 > .section-title { 
+li.main-nav.active.header > .section-title { 
 	display: none; 
 	/* transition: all .25s .1s ease-out; */
 }
@@ -130,7 +129,7 @@ li.main-nav:not(.active) .section-content {
 .artworks { scroll-snap-align: start; } */
 
 
-.gallery {
+/* .gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(6, auto);
@@ -143,6 +142,58 @@ li.main-nav:not(.active) .section-content {
 }
 .gallery-item {
     margin:0;
+} */
+
+.gallery-title { 
+	width: 4vw; 
+	height: 100%; 
+	/* max-height: 100vh;  */
+	background: #fff; 
+	filter: invert(100%);
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.gallery-title img { 
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+
+.gallery {
+  display: none;
+  background: #fff;
+	overflow-y: auto;
+	position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+	z-index: 999995;
+}
+.gallery:target { display: block; }
+
+.gallery-section {
+	padding-left:4vw;
+	z-index: 999999;
+	overflow-y: auto;
+}
+.gallery-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  /* padding: 0 4px; */
+}
+
+.gallery-column {
+  flex: 24%;
+  max-width: 24%;
+  padding: 0;
+  /* padding: 0 4px; */
+	transition: all .35s ease-out;
+}
+
+.gallery-column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
 }
 
 .artworks > a > img { 
@@ -163,8 +214,12 @@ li.main-nav:not(.active) .section-content {
   position: fixed;
   top: 0; left: 0; right: 0; bottom: 0;
   z-index: 999999;
+	transition: all .35s ease-out;
 }
-.lightbox:target { display: block; }
+.lightbox:target { 
+	display: block; 
+	transition: all .35s ease-out;
+}
 
 .lightbox section:not(.modal-price) {
 	display: block;
@@ -192,6 +247,18 @@ li.main-nav:not(.active) .section-content {
   z-index: 1999999;
 }
 
+#gallery-button-show {
+	display:block;
+	position: fixed;
+	right: 3vh;	
+  bottom: 3vh;
+	width: 3rem;
+	height: auto;
+}
+
+
+
+
 
 
 /* MOBILE LAYOUT */
@@ -203,7 +270,14 @@ li.main-nav:not(.active) .section-content {
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
+	.gallery-column {
+			flex: 30%;
+			max-width: 30%;
+		}
+	}
+
+	@media screen and (max-width: 768px) {
 	
 	/* html, .root { font-size: 13px; } */
 	
@@ -215,9 +289,7 @@ li.main-nav:not(.active) .section-content {
 		margin-bottom: 1.6111111rem;
 	}
 	.mobile-hidden { visibility: hidden; }
-
 }
-	
 @media screen and (orientation: landscape) and (max-width: 896px) {
 	
 	/* i.active > div.section-content > .main-content { padding-top: 2rem; } */
@@ -227,8 +299,14 @@ li.main-nav:not(.active) .section-content {
 
 	.section-title { padding-bottom: 0.5rem; }
 	.button-buy { margin-top: 1rem; float: left; }
-}
 
+}
+@media screen and (max-width: 667px) {
+	.gallery-column {
+		flex: 50%;
+		max-width: 50%;
+	}
+}
 @media screen and (orientation: landscape) and (max-width: 667px) { /* max-width: 568px */
 	
 	li.main-nav.active > div.section-content > .main-content { padding-top: 1.8rem; }
@@ -241,7 +319,7 @@ li.main-nav:not(.active) .section-content {
 	} 
 	
 	button.btn-hover-buy { width: 88px; }
-
+	
 }
 
 @media screen and (orientation: portrait) {
@@ -285,7 +363,7 @@ li.main-nav:not(.active) .section-content {
 	}
 	
 	
-	li.main-nav .section-title img {
+	li.main-nav .section-title a svg {
 		transform-origin: top left;
 		transform: rotate(90deg) translateY(-100%) translateY(-1em);
 		max-width: 7.5%;	/* 10% */

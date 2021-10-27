@@ -4,7 +4,8 @@
 /* NB !-- Add a reset... */
 
 body {
-	-webkit-font-smoothing: antialiased;
+	-webkit-font-smoothing: subpixel-antialiased;
+	/* -webkit-font-smoothing: antialiased; */
 	-moz-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	text-rendering: optimizelegibility;
@@ -343,7 +344,7 @@ sub { bottom: -0.25em; }
 	scroll-padding: 1rem;
 	scrollbar-width: none;
 }
-
+.carousel-viewport::-webkit-scrollbar { display: none; }
 .carousel-NB2020 {
 	/* Make sure the 'repeat(xx,' corresponds with the number of slides for this event */
 	grid-template-columns: repeat(13, 100%); 

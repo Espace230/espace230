@@ -200,12 +200,21 @@ li.main-nav:not(.active) .section-content {
 }
 
 #gallery-button-show {
-	display:block;
-	position: fixed;
+	display:none;
+	/* position: fixed;
 	right: 3vh;	
   bottom: 3vh;
-	width: 3rem;
+	width: 2.5em;
+	height: auto; */
+}
+li.active #gallery-button-show {
+	display:block;
+	position: absolute;
+	right: 8%;	
+  bottom: 3vh;
+	width: 2.5em;
 	height: auto;
+	z-index: 9999999999;
 }
 
 .artworks > a > img { 

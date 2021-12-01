@@ -132,7 +132,7 @@ article,
 p,
 ul,
 ol {
-	font-family: 'Inter', sans-serif;
+	font-family: 'Inter', 'Helvetica', 'Arial', sans-serif;
 	color: #242424;
 }
 
@@ -261,6 +261,9 @@ code {
 .uppercase {
 	text-transform: uppercase;
 }
+.underscore {
+	text-decoration: underline;
+}
 
 sub, sup {
 	line-height: 0;
@@ -288,6 +291,13 @@ sub { bottom: -0.25em; }
 
 .social-row {
 	line-height: 2.416666rem;
+}
+
+.newsflash {
+	border-top: 1px solid black; 
+	border-bottom: 1px solid black; 
+	padding-left:0.4em; 
+	padding-right:0.4em;
 }
 
 

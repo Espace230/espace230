@@ -8,8 +8,13 @@
             "type": "image/png"
         },
         {
-            "src": "/icons/android-chrome-512x512.png?v=2021.03",
+            "src": "/icons/android-chrome-512x512.png?v=2021.04",
             "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "/icons/android-chrome-1024x1024.png?v=2021.04",
+            "sizes": "1024x1024",
             "type": "image/png"
         }
     ],

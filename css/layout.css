@@ -33,9 +33,12 @@ li.main-nav:not(.active):hover { filter: invert(100%); transition: all .35s ease
 
 div.splash > .main-content > img {
 	position: absolute;
-	left: 1vw; /* left: 0; */
-	bottom: 1vh; /* width: 70%; */
-	width: 50%;
+	/* left: 1vw;  */
+	left: 0;
+	/* bottom: 1vh;  */
+	bottom: 0; 
+	width: 70%;
+	/* width: 50%; */
 	height: auto;
  }
 
@@ -267,7 +270,6 @@ li.active #gallery-button-show {
 	right: 1vw;	
   z-index: 1999999;
 }
-
 
 /* MOBILE LAYOUT */
 

@@ -1,0 +1,295 @@
+<!-- link.html -->
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Espace 230 / Art contemporain</title>
+</head>
+<link rel="stylesheet" href="./css/art-gallery-icons.css">
+<style>
+	/* Font Inter Variable */
+	@font-face {
+		font-family: 'Inter';
+		font-weight: 100 900;
+		font-display: swap;
+		font-style: normal;
+		font-named-instance: 'Regular';
+		src: url("./fonts/Inter-roman.var.woff2?v=3.19") format("woff2");
+	}
+
+	@font-face {
+		font-family: 'Inter';
+		font-weight: 100 900;
+		font-display: swap;
+		font-style: italic;
+		font-named-instance: 'Italic';
+		src: url("./fonts/Inter-italic.var.woff2?v=3.19") format("woff2");
+	}
+
+</style>
+<style>
+	html {
+		/* avoid background bounce */
+		height: 100%;
+		overflow: hidden;
+	}
+
+	body {
+		/* reset */
+		padding: 0;
+		margin: 5vw 5vw 5vw 5vw;
+		/* avoid background bounce */
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		overflow: auto;
+		color: #141516;
+		font-family: 'Inter', 'Helvetica', 'Arial', 'Open Sans', sans-serif;
+		font-size: 0.875em;
+		line-height: 1.2rem;
+		/* letter-spacing: 0.0625rem; */
+		background: #fff;
+		/* background: rgba(0, 0, 0, 0.75) url('assets/background-1440p.jpg') no-repeat center fixed; */
+		background-size: cover;
+
+	}
+
+	h1,
+	.h1 {
+		font-size: 1.222rem;
+		line-height: 1.6111111rem;
+		margin-top: 1.6111111rem;
+		margin-bottom: 0;
+		font-weight: 800;
+		letter-spacing: -0.03rem;
+	}
+
+	h2,
+	.h2 {
+		font-weight: 800;
+		letter-spacing: 0.025rem;
+		font-size: 1rem;
+		line-height: 1.6111111em;
+		margin-top: 1.6111111em;
+		margin-bottom: 0;
+	}
+
+	a {
+		font-weight: 600;
+		/* color: #092c79; */
+		color: #484848;
+		text-decoration: none;
+		transition: ease-in-out 0.3s;
+	}
+
+	a:hover {
+		color: #092c79;
+		/* color: #0047ab; */
+		transition: 0.3s;
+	}
+
+	.link {
+		font-weight: 500;
+		color: #092c79;
+		/* color: #484848; */
+		text-decoration: none;
+		transition: ease-in-out 0.3s;
+	}
+
+	.link:hover {
+		/* color: #092c79; */
+		color: #0047ab;
+		transition: 0.3s;
+	}
+
+	/* TYPOGRAPHY TWEAKS */
+	.nowrap {
+		white-space: nowrap;
+	}
+
+	.no-bottom-margin {
+		margin-bottom: 0;
+	}
+
+	.no-top-margin {
+		margin-top: 0;
+	}
+
+	.half-bottom-margin {
+		margin-bottom: 0.722rem;
+	}
+
+	.half-top-margin {
+		margin-top: 0.722rem;
+	}
+
+	.no-margins {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+	.medium {
+		font-weight: 500;
+	}
+
+	.semi-bold {
+		font-weight: 600;
+	}
+
+	.bold {
+		font-weight: 700;
+	}
+
+	.extra-bold {
+		font-weight: 800;
+	}
+
+	.uppercase {
+		text-transform: uppercase;
+	}
+
+	.underscore {
+		text-decoration: underline;
+	}
+
+	hr,
+	.hr {
+		border: 1px solid;
+		margin: -2px 0;
+	}
+
+	/* STRUCTURE */
+	.logotype {
+		display: block;
+		height: auto;
+		max-width: 100%;
+	}
+
+	.intro {
+		text-align: center;
+		padding: 0 1.25em 1.25em 1.25em;
+		font-weight: 500;
+	}
+
+	.icons-row {
+		padding-bottom: 0.25rem;
+	}
+
+	.icons {
+		width: auto;
+		font-size: 1.2555555rem;
+		border: none;
+		display: inline-block;
+		padding: 0.5rem;
+		color: #141516;
+	}
+
+	.icons-sml {
+		padding: 0;
+		margin: 0;
+	}
+
+	.footer {
+		/* position: absolute;
+		bottom: 0; */
+		width: 90vw;
+		text-align: left;
+		margin-top: 2em;
+		font-weight: 600;
+		font-size: 0.75rem;
+		color: #111;
+	}
+
+
+
+
+	/* OPENING HOURS GRID */
+	.grid-opening-hours-simplified {
+		display: grid;
+		grid-template-rows: repeat(2, 1fr);
+		grid-column-gap: 0.75rem;
+		grid-row-gap: 0.25rem;
+		grid-template-areas: "grid-open hours""grid-open-wknd hours-wknd""grid-rdv rdv";
+		justify-content: flex-start;
+
+	}
+
+	.grid-open {
+		grid-area: grid-open;
+	}
+
+	.hours {
+		grid-area: hours;
+	}
+
+	.grid-open-wknd {
+		grid-area: grid-open-wknd;
+	}
+
+	.hours-wknd {
+		grid-area: hours-wknd;
+	}
+
+	.grid-rdv {
+		grid-area: grid-rdv;
+	}
+
+	.rdv {
+		grid-area: rdv;
+	}
+
+</style>
+
+<body>
+
+	<a href="https://espace230.com" target="_blank">
+		<img src="./svg/ESPACE230-Fall-2021-Website-Logo.svg" alt="Espace 230 Logotype" class="logotype">
+	</a>
+	<div class="intro">
+		<!-- <p><a class="link" target="_blank" style="font-weight:600" href="https://www.instagram.com/espace230/"> @espace230</a></p> -->
+		<div class="icons-row">
+			<a class="icons" target="_blank" href="https://espace230.com"><i class="icon-desktop"></i></a><a class="icons" target="_blank" href="https://www.facebook.com/espace230"><i class="icon-facebook"></i></a><a class="icons" target="_blank" href="https://www.instagram.com/espace230"><i class="icon-instagram"></i></a> <a class="icons" target="_blank" href="mailto:info@espace230.com"><i class="icon-mail"></i></a><a class="icons" target="_blank" href="https://g.page/espace230"><i class="icon-location"></i></a>
+		</div>
+		<p>Atelier et galerie d'art contemporain, situé dans l'édifice Belgo, au cœur du Quartier des spectacles à Montréal.</p>
+	</div>
+
+	<hr>
+
+	<h1 class="no-bottom-margin">Espace 230 / Art contemporain</h1>
+	<div class="half-bottom-margin">
+		<!-- <a style="display:inline-block;" class="icons" href="https://g.page/espace230" target="_blank"><i class="icon-location"></i></a> -->
+		<!-- <span style="display:inline-block">230-372 Rue Sainte-Catherine Ouest</span><span> Montréal Québec&ensp;H3B&nbsp;1A2</span> -->
+		<p><a style="color:inherit" href="https://g.page/espace230" target="_blank">372 Rue Sainte-Catherine Ouest, suite 230 Montréal Québec&ensp;H3B&nbsp;1A2</a></p>
+
+		<!-- <a href="https://g.page/espace230" target="_blank"><i class="icon icons-sml icon-location hx-inline"></i></a><a href="https://facebook.com/espace230" target="_blank"><i class="icon icons-sml icon-facebook hx-inline"></i></a>
+		<a href="https://instagram.com/espace230" target="_blank"><i class="icon icons-sml icon-instagram hx-inline"></i></a><span>&ensp;|&ensp;</span> -->
+		<a class="nodeco link" target="_blank" href="https://espace230.com">espace230.com</a><span>&ensp;·&ensp;</span><a class="nodeco link" target="_blank" href="mailto:info@espace230.com">info@espace230.com</a>
+		<!-- <a class="link" href="https://espace230.com" target="_blank">espace230.com</a> -->
+	</div>
+
+	<h2 class="half-top-margin">Heures d'ouverture</h2>
+	<div class="grid-opening-hours-simplified no-bottom-margin">
+		<div class="grid-open semi-bold">Mercredi à vendredi</div>
+		<div class="hours">10h à 18h</div>
+		<div class="grid-open-wknd semi-bold">Samedi</div>
+		<div class="hours-wknd">12h à 17h&ensp;<em>(lors d'exposition)</em></div>
+		<div class="grid-rdv semi-bold">Dimanche à mardi</div>
+		<div class="rdv">
+			<em><a style="font-weight:inherit" href="mailto:info@espace230.com">ouvert sur demande</a></em>
+		</div>
+	</div>
+	<br />
+
+	<!-- Footer -->
+	<div class="footer">
+		<br />
+		<hr />
+		<p style="margin-top:0.25em">Copyright &copy; 2022<span style="float: right;">Espace 230 / Art contemporain</span>
+	</div>
+	<br />
+</body>
+
+</html>

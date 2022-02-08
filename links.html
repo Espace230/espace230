@@ -6,10 +6,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Espace 230 / Art contemporain</title>
 
-	<meta name="apple-mobile-web-app-status-bar-style" content="hidden">
 	<meta name="apple-mobile-web-app-capable" content="yes">
-	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="apple-mobile-web-app-status-bar-style" content="hidden">
+	<!-- <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"> -->
 	<meta name="apple-mobile-web-app-title" content="Espace 230">
+	<meta name="apple-mobile-web-app-url" content="https://espace230.com/links" />
 	<meta name="application-name" content="Espace 230">
 	<link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png?v=2021.03">
 	<link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png?v=2021.03">
@@ -70,7 +71,18 @@
 		background: #fff;
 		/* background: rgba(0, 0, 0, 0.75) url('assets/background-1440p.jpg') no-repeat center fixed; */
 		background-size: cover;
+		-webkit-font-smoothing: subpixel-antialiased;
+		/* -webkit-font-smoothing: antialiased; */
+		-moz-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		text-rendering: optimizelegibility;
+		font-kerning: normal;
+		-ms-overflow-style: none;
+		scrollbar-width: none;
+	}
 
+	body::-webkit-scrollbar {
+		display: none;
 	}
 
 	h1,
@@ -297,8 +309,6 @@
 			<em><a class="link" style="font-weight:inherit" href="mailto:info@espace230.com">ouvert sur demande</a></em>
 		</div>
 	</div>
-	<br />
-
 	<!-- Footer -->
 	<div class="footer">
 		<br />

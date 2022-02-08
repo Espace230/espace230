@@ -1,12 +1,12 @@
 @charset "UTF-8";
 @font-face {
   font-family: 'art-gallery-icons';
-  src: url('../font/art-gallery-icons.eot?43828529');
-  src: url('../font/art-gallery-icons.eot?43828529#iefix') format('embedded-opentype'),
-       url('../font/art-gallery-icons.woff2?43828529') format('woff2'),
-       url('../font/art-gallery-icons.woff?43828529') format('woff'),
-       url('../font/art-gallery-icons.ttf?43828529') format('truetype'),
-       url('../font/art-gallery-icons.svg?43828529#art-gallery-icons') format('svg');
+  src: url('../fonts/art-gallery-icons.eot?43828529');
+  src: url('../fonts/art-gallery-icons.eot?43828529#iefix') format('embedded-opentype'),
+       url('../fonts/art-gallery-icons.woff2?43828529') format('woff2'),
+       url('../fonts/art-gallery-icons.woff?43828529') format('woff'),
+       url('../fonts/art-gallery-icons.ttf?43828529') format('truetype'),
+       url('../fonts/art-gallery-icons.svg?43828529#art-gallery-icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -16,7 +16,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'art-gallery-icons';
-    src: url('../font/art-gallery-icons.svg?43828529#art-gallery-icons') format('svg');
+    src: url('../fonts/art-gallery-icons.svg?43828529#art-gallery-icons') format('svg');
   }
 }
 */

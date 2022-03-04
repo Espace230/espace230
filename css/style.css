@@ -12,15 +12,12 @@ body {
 	font-kerning: normal;
 	overscroll-behavior: none;
 	overflow: hidden;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
 }
 
 body::-webkit-scrollbar {
 	display: none;
-}
-
-body {
-	-ms-overflow-style: none;
-	scrollbar-width: none;
 }
 
 html,
@@ -110,6 +107,14 @@ table,
 blockquote {
 	margin-top: 0;
 	margin-bottom: 1.6111111em;
+}
+ 
+summary {
+	padding-bottom: 0.6111111em;
+	margin-left: -1em !important;
+}
+details {
+	padding-bottom: 0.6111111em;
 }
 
 ul ul,

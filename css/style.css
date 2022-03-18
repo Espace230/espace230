@@ -130,6 +130,7 @@ ol ul {
 
 /* h1 {font-family: 'Anton', sans-serif; color: #121212; font-weight: 700; text-transform:uppercase;}  */
 body,
+h1, 
 h2,
 h3,
 h4,
@@ -141,7 +142,7 @@ ol {
 	color: #242424;
 }
 
-h2, h3, h4 {
+h1, h2, h3, h4 {
 	color: #141516;
 } /* color: #242424; */
 
@@ -326,10 +327,11 @@ sub { bottom: -0.25em; }
 .author {
 	font-weight: 700;
 }
+
 .title {
 	font-weight: 800;
 }
-.description {
+.artist, .description {
 	font-weight: 500; 
 }
 .artwork {

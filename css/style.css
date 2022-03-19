@@ -303,10 +303,16 @@ sub { bottom: -0.25em; }
 }
 
 .newsflash {
-	border-top: 1px solid black; 
+	border-left: 2px solid black;
+	padding: 0.5rem 1rem;
+	margin-left: 0.75rem;
+	/* border-top: 1px solid black; 
 	border-bottom: 1px solid black; 
-	padding-left:0.4em; 
-	padding-right:0.4em;
+	padding: 0.4em 0;
+	margin-left: 0.625em;
+	margin-right: 0.625em; */
+	/* padding-left:0.5em; 
+	padding-right:0.5em; */
 }
 
 

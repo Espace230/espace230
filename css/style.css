@@ -445,12 +445,17 @@ li.carousel-slide {
 	transition: 0.3s;
 }
 
-.button-buy {
-	/* margin-top: 1.6111111rem;  */
-	/* margin-bottom: 1.6111111rem;  */
-	/* display: inline-block; */
+/* .modal-text>button, article>button {
 	float: right;
+} */
+
+.button-buy {
+/* margin-top: 1.6111111rem; */
+/* margin-bottom: 1.6111111rem; */
+/* display: inline-block; */
+float: right;
 }
+
 button.btn-hover-buy {
 	width: 132px;
 	/* border: 2.5px solid #eee; */

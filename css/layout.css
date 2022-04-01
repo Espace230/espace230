@@ -38,12 +38,11 @@ li.main-nav:not(.active):hover {
 
 div.splash > .main-content > img {
 	position: absolute;
-	/* left: 1vw;  */
-	left: 0;
-	/* bottom: 1vh;  */
-	bottom: 0;
-	width: 70%;
-	/* width: 50%; */
+	left: -1vh;
+	/* bottom: 0vh;  */
+	bottom: -2vh;
+	/* width: 70%; */
+	width: 50%;
 	height: auto;
 }
 

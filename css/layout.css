@@ -215,7 +215,8 @@ li.main-nav:not(.active) .section-content {
 .gallery-column {
 	flex: 23.75vw;
 	/* flex @ 23.75vw to avoid rounding errors and keep 4 works per row */
-	max-width: 24vw;
+	max-width: 25%;
+	/* max-width: 24vw; */
 	padding: 0;
 	/* padding: 0 4px; */
 	transition: all .35s ease-out;

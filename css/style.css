@@ -522,19 +522,29 @@ button.btn-hover-buy {
 }
 
 /* TO DISPLAY 'ACHETER' ON HOVER: */
-button.btn-hover-buy:hover > span {
+/* button.btn-hover-buy:hover > span {
+	display: none;
+}
+button.btn-hover-buy:hover:before {
+	content: "ACHETER";
+} */
+
+/* TO DISPLAY PRICE ON HOVER: */
+button.btn-hover-buy > span {
 	display: none;
 }
 
-button.btn-hover-buy:hover:before {
+button.btn-hover-buy:before {
 	content: "ACHETER";
 }
 
-/* TO DISPLAY PRICE ON HOVER: */
-/* button.btn-hover-buy > span { display: none; }
-button.btn-hover-buy:before { content:"ACHETER"; }
-button.btn-hover-buy:hover:before { content:""; }
-button.btn-hover-buy:hover > span { display: block; } */
+button.btn-hover-buy:hover:before {
+	content: "";
+}
+
+button.btn-hover-buy:hover > span {
+	display: block;
+}
 
 .drop-shadow {
 	/* max-width: 80%;
@@ -546,6 +556,14 @@ button.btn-hover-buy:hover > span { display: block; } */
 .float-right {
 	align-self: flex-end;
 }
+
+
+/* button.ext-link > span:after {
+	content: ' ⌝';
+	position: relative;
+	top: -5px;
+	right: -5px;
+} */
 
 
 /* OPENING HOURS *************************************** */

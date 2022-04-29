@@ -391,8 +391,10 @@ li.active #gallery-button-show {
 	}
 }
 
-@media screen and (orientation: landscape) and (max-width: 667px) {
+/* @media screen and (orientation: landscape) and (max-width: 667px) { */
+@media screen and (orientation: landscape) and (max-width: 736px) {
 	/* max-width: 568px */
+
 
 	li.main-nav.active > div.section-content > .main-content {
 		padding-top: 1.8rem;
@@ -410,7 +412,16 @@ li.active #gallery-button-show {
 		width: 88px;
 	}
 
+	.gallery-title {
+		width: 8%
+	}
+
+	.side-banner {
+		width: 8vw;
+	}
 }
+
+
 
 @media screen and (orientation: portrait) {
 

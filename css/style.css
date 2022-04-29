@@ -402,6 +402,13 @@ sub {
 	/* text-decoration: underline; */
 }
 
+.price {
+	color: #484848;
+}
+
+.por {
+	font-style: italic;
+}
 
 
 /* CAROUSEL ******************************************** */
@@ -516,10 +523,10 @@ li.carousel-slide {
 	float: right;
 }
 
-button.btn-hover-buy {
+/* button.btn-hover-buy {
 	width: 132px;
-	/* border: 2.5px solid #eee; */
-}
+} */
+/* border: 2.5px solid #eee; */
 
 /* TO DISPLAY 'ACHETER' ON HOVER: */
 /* button.btn-hover-buy:hover > span {
@@ -530,7 +537,8 @@ button.btn-hover-buy:hover:before {
 } */
 
 /* TO DISPLAY PRICE ON HOVER: */
-button.btn-hover-buy > span {
+/* ***DEPRECATED*** */
+/* button.btn-hover-buy > span {
 	display: none;
 }
 
@@ -544,7 +552,7 @@ button.btn-hover-buy:hover:before {
 
 button.btn-hover-buy:hover > span {
 	display: block;
-}
+} */
 
 .drop-shadow {
 	/* max-width: 80%;
@@ -557,13 +565,42 @@ button.btn-hover-buy:hover > span {
 	align-self: flex-end;
 }
 
-
 /* button.ext-link > span:after {
 	content: ' ⌝';
 	position: relative;
 	top: -5px;
 	right: -5px;
 } */
+
+/* .icon-square:after {
+	content: url(./svg/square_44px_icon.svg);
+} */
+
+.button-icon svg {
+	width: 21px;
+	height: 21px;
+	padding-left: 8px !important;
+	margin-bottom: -5px !important;
+	margin-right: -16px !important;
+	margin-top: -3px !important;
+}
+
+/* Old Values */
+/* padding-left: 10px;
+	margin-bottom: -6px;
+	margin-right: -16px; */
+
+/* Left-Side Icon */
+/* padding-right: 10px;
+	padding-bottom: 1px;
+	margin-bottom: -6px;
+	margin-left: -16px; */
+
+
+.button-icon:hover svg {
+	filter: invert(100%);
+}
+
 
 
 /* OPENING HOURS *************************************** */

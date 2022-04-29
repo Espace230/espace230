@@ -402,10 +402,6 @@ sub {
 	/* text-decoration: underline; */
 }
 
-.price {
-	color: #484848;
-}
-
 .por {
 	font-style: italic;
 }

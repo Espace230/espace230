@@ -517,11 +517,13 @@ li.carousel-slide {
 	/* margin-bottom: 1.6111111rem; */
 	/* display: inline-block; */
 	float: right;
+	max-width: 132px;
 }
 
-/* button.btn-hover-buy {
-	width: 132px;
-} */
+.btn-hover-buy {
+	max-width: 132px;
+}
+
 /* border: 2.5px solid #eee; */
 
 /* TO DISPLAY 'ACHETER' ON HOVER: */

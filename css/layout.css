@@ -411,8 +411,8 @@ li.active #gallery-button-show {
 		margin-bottom: 1.6111111rem;
 	}
 
-	button.btn-hover-buy {
-		width: 88px;
+	.btn-hover-buy {
+		max-width: 88px;
 	}
 
 	.gallery-title {
@@ -497,8 +497,8 @@ li.active #gallery-button-show {
 		float: left;
 	}
 
-	button.btn-hover-buy {
-		width: 88px;
+	.btn-hover-buy {
+		max-width: 88px;
 	}
 
 }

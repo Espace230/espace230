@@ -4,7 +4,7 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections: 
-upload_dir: uploads
+upload_dir: images
 public_path: "/images"
 front_matter_path: ''
 use_front_matter_path: false

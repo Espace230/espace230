@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 ul.nav {
 	display: flex;
 	height: 100%;
@@ -341,7 +343,7 @@ li.active #gallery-button-show {
 
 	html,
 	.root {
-		font-size: 0.72222222rem;
+		font-size: 0.72222222em;
 	}
 
 	h1,
@@ -359,12 +361,17 @@ li.active #gallery-button-show {
 @media screen and (orientation: landscape) and (max-width: 896px) {
 
 	/* i.active > div.section-content > .main-content { padding-top: 2rem; } */
+
+
+	/* MODIFICATION MADE ON TUESDAY MAY 24, 2022 */
 	html,
 	.root,
 	body,
 	.article {
-		font-size: 2vw;
+		font-size: 1em;
 	}
+
+	/* 2vw */
 
 	.section-title {
 		padding-bottom: 0.5rem;
@@ -438,8 +445,13 @@ li.active #gallery-button-show {
 	}
 
 	div.splash > .main-content > img {
+		bottom: 1vh;
+		width: auto;
+		left: -1vw;
+		right: -1vw;
+		/* // 2022-06-09 alignment fix for device portrait mode
 		bottom: 2vh;
-		width: 96vw;
+		width: 96vw;  */
 		/* bottom: 1rem; 
 		width: 80%;  */
 	}

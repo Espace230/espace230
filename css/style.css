@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* NOTES *********************************************** */
 /* Font Inter ; Size 18px ; line-Height 1.6 ; Scale Factor 1.414 */
 
@@ -100,9 +101,20 @@ h5,
 	margin-bottom: 0;
 }
 
+/* ol reset */
+ol {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
 p,
 ul,
-ol,
+/* ol, */
 pre,
 table,
 blockquote {
@@ -407,51 +419,6 @@ sub {
 }
 
 
-/* CAROUSEL ******************************************** */
-
-.carousel-viewport {
-	padding: 0;
-	display: grid;
-	grid-template-rows: 1fr;
-	grid-column-gap: 1rem;
-	grid-row-gap: 1rem;
-	overflow-x: scroll;
-	overflow-y: hidden;
-	height: auto;
-	scroll-snap-type: both mandatory;
-	scroll-padding: 1rem;
-	scrollbar-width: none;
-}
-
-.carousel-viewport::-webkit-scrollbar {
-	display: none;
-}
-
-.carousel-NB2020 {
-	/* Make sure the 'repeat(xx,' corresponds with the number of slides for this event */
-	grid-template-columns: repeat(13, 100%);
-}
-
-.carousel-MONO2021 {
-	/* Make sure the 'repeat(xx,' corresponds with the number of slides for this event */
-	grid-template-columns: repeat(3, 100%);
-}
-
-.activeslide {
-	scroll-snap-type: unset;
-}
-
-li.carousel-slide {
-	scroll-snap-align: center;
-	display: inline-block;
-	border-radius: 3px;
-	font-size: 0;
-}
-
-.carousel-img {
-	width: 100%;
-	/* object-fit: contain; */
-}
 
 
 
@@ -713,6 +680,56 @@ button.btn-hover-buy:hover > span {
 	grid-area: rdv;
 }
 
+
+/* CAROUSEL ******************************************** */
+
+.carousel {
+	padding: 0 !important;
+	margin: 0 !important;
+	width: 90% !important;
+	/* max-width: 560px; */
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-column-gap: 1rem;
+	grid-row-gap: 1rem;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	height: auto;
+	scroll-snap-type: both mandatory;
+	scroll-padding: 1rem;
+	scrollbar-width: none;
+	padding-inline-start: 0 !important;
+	padding-inline-end: 0 !important;
+}
+
+.carousel::-webkit-scrollbar {
+	display: none;
+}
+
+.carousel-NB2020 {
+	/* Make sure the 'repeat(xx,' corresponds with the number of slides for this event */
+	grid-template-columns: repeat(13, 80%);
+}
+
+.carousel-MONO2021 {
+	/* Make sure the 'repeat(xx,' corresponds with the number of slides for this event */
+	grid-template-columns: repeat(3, 80%);
+}
+
+.activeslide {
+	scroll-snap-type: unset;
+}
+
+li.carousel-slide {
+	scroll-snap-align: center;
+	display: inline-block;
+}
+
+.carousel-img {
+	/* width: 100%;
+	max-width: 560px; */
+	object-fit: contain;
+}
 
 
 /* CUSTOM ICONS FONT *********************************** */

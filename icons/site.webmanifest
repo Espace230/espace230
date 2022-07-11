@@ -3,7 +3,7 @@
     "short_name": "Espace 230",
     "icons": [
         {
-            "src": "/icons/android-chrome-192x192.png?v=2021.03",
+            "src": "/icons/android-chrome-192x192.png?v=2021.04",
             "sizes": "192x192",
             "type": "image/png"
         },

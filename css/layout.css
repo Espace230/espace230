@@ -176,12 +176,6 @@ li.main-nav:not(.active) .section-content {
 	max-width: 560px;
 }
 
-.main-content img {
-	width: 100%;
-	height: auto;
-	max-width: 560px;
-}
-
 .gallery-item {
 	margin: 0;
 }
@@ -385,14 +379,13 @@ li.active #gallery-button-show {
 
 
 	/* MODIFICATION MADE ON TUESDAY MAY 24, 2022 */
-	html,
+	/* Commented back July 11, 2022 */
+	/* html,
 	.root,
 	body,
 	.article {
-		/* font-size: 1em; */
-		font-size: 0.875em;
-		/* Modified July 11th, 2022 */
-	}
+		font-size: 1em;
+	} */
 
 	/* 2vw */
 
@@ -427,7 +420,6 @@ li.active #gallery-button-show {
 /* @media screen and (orientation: landscape) and (max-width: 667px) { */
 @media screen and (orientation: landscape) and (max-width: 736px) {
 	/* max-width: 568px */
-
 
 	li.main-nav.active > div.section-content > .main-content {
 		padding-top: 1.8rem;

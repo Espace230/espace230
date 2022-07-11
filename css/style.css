@@ -717,8 +717,8 @@ button.btn-hover-buy:hover > span {
 	width: 100%;
 }
 
-/* .carousel_nav {
-	padding: 1.25rem .5rem;
+.carousel_nav {
+	padding: 0;
 }
 
 .slider-nav {
@@ -732,7 +732,8 @@ button.btn-hover-buy:hover > span {
 	position: relative;
 	text-decoration: none;
 	width: 2rem;
-} */
+}
+
 
 /* CUSTOM ICONS FONT *********************************** */
 

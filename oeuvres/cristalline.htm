@@ -13,8 +13,8 @@
 	<meta name="description" content="Œuvre d'art intitulée «Cristalline», par Louis-Bernard St-Jean. Huile sur panneau de bois, 48 x 48 pouces.">
 	<meta name="keywords" content="Espace 230, atelier, artiste, galerie d'art, artist studio, art gallery, Montreal, artist, artwork, painting, Louis-Bernard St-Jean, Belgo, quartier des spectacles, Montréal">
 	<meta property="og:url" content="https://espace230.com/oeuvres/cristalline.htm">
-<!-- 	<meta property="og:type" content="website"> -->
-	<meta property="og:title" content="Tableau Cristalline&emsp;Espace 230 / Art contemporain">
+	<!-- <meta property="og:type" content="website"> -->
+	<meta property="og:title" content="Tableau intitulé «Cristalline»&ensp;|&ensp;Espace 230 / Art contemporain">
 	<meta property="og:image" content="https://espace230.com/thumbnails/Louis-Bernard-St-Jean--Cristalline-2022-huile-sur-bois-48x48po-4000CAD--2850x1500px.jpg">
 	<meta property="og:description" content="Œuvre d'art originale de Louis-Bernard St-Jean. Huile sur panneau de bois, 48 x 48 pouces.">
 	<meta property="og:locale" content="fr_CA">
@@ -60,7 +60,7 @@
 	</script> -->
 
 	<!-- <link rel="stylesheet" href="../css/anton.css"> -->
-	<link rel="stylesheet" href="../css/style.css">
+	<!-- <link rel="stylesheet" href="../css/style.css"> -->
 	<!-- <link rel="stylesheet" href="../css/layout.css"> -->
 	<!-- <link rel="stylesheet" href="../css/lightbox.css"> -->
 	<!-- <link rel="stylesheet" href="../css/gallery.css"> -->
@@ -93,8 +93,9 @@
 			line-height: 29px;
 		}
 
-		body,
-		.article {
+		body {
+			font-family: 'Inter', 'Helvetica', 'Arial', sans-serif;
+			color: #141516;
 			font-size: 1em;
 			line-height: 1.6111111em;
 			margin: auto;
@@ -102,7 +103,6 @@
 
 		h1,
 		.h1 {
-			font-family: 'Inter', 'Helvetica', 'Arial', sans-serif;
 			font-weight: 800;
 			color: #141516;
 			font-size: 1.6111111em;
@@ -112,7 +112,16 @@
 			letter-spacing: -0.05rem;
 		}
 
-		a.button-light {
+		.logotype {
+			position: fixed;
+			top: 1.6111111rem;
+			left: 1.6111111rem;
+			width: 6.7375493493em;
+			/* width: 9em; */
+		}
+
+
+		/* a.button-light {
 			font-weight: 700;
 			text-transform: uppercase;
 			letter-spacing: 0.01rem;
@@ -136,12 +145,27 @@
 			background: #141516;
 			color: #fff;
 			transition: 0.3s;
+		} */
+
+		.artist {
+			font-weight: 800;
+		}
+
+		.title,
+		.description {
+			font-weight: 500;
+		}
+
+		.artwork {
+			margin-top: 0;
+			margin-bottom: 0;
 		}
 
 		.ext-link {
+			color: #141516;
 			font-weight: 600;
 			letter-spacing: 0.02em;
-			color: #141516;
+			text-decoration: none;
 		}
 
 		.ext-link:hover {
@@ -178,11 +202,9 @@
 		.lightbox>section>div>a {
 			bottom: 1.6111111em;
 			right: 1.6111111em;
-			/* bottom: 2.2em; */
-			/* right: 1vw; */
 			display: block;
 			position: fixed;
-			z-index: 1999999;
+			z-index: 999999;
 		}
 
 
@@ -208,19 +230,6 @@
 			text-align: right;
 			line-height: 0;
 
-		}
-
-		.logotype {
-			position: fixed;
-			/* top: 1em;
-			left: 1em; */
-			top: 1.6111111rem;
-			left: 1.6111111rem;
-			width: 10rem;
-		}
-
-		.mobile-show {
-			display: none;
 		}
 
 
@@ -261,25 +270,19 @@
 </head>
 
 <body>
-
 	<div class="gallery-wrapper">
-
 		<header class="gallery-title" onclick="window.open('https://espace230.com');">
 			<a class="nav-link" href="https://espace230.com">
-				<img class="logotype" style="z-index:999" src="../svg/ESPACE-230-slim.svg" alt="Espace 230">
+				<img class="logotype" style="z-index:999" src="../svg/ESPACE-230-slim.svg" alt="ESPACE 230">
 			</a>
 		</header>
 
 		<div class="lightbox" id="Cristalline">
 			<section style="background-image: url('../artworks/Louis-Bernard-St-Jean--Cristalline-2022-huile-sur-bois-48x48po-4000CAD.jpg')">
 				<div class="modal-text">
-					<h1 class="artwork artist">Cristalline</h1>
-					<p class="artwork title">Louis-Bernard St-Jean</p>
+					<h1 class="artwork title">Cristalline</h1>
+					<p class="artwork artist">Louis-Bernard St-Jean</p>
 					<p class="artwork description">Huile sur panneau de bois, 48 x 48 po.</p>
-					<!-- <h3 class="artwork artist">Louis-Bernard St-Jean</h3>
-					<p class="artwork title">Cristalline</p> -->
-					<!-- <p class="artwork description">Huile sur panneau de bois</p>
-					<p class="artwork dimensions">48 x 48 po.</p> -->
 					<!-- <p>4 000 $</p> -->
 				</div>
 				<div class="modal-enquiry">

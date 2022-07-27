@@ -1349,6 +1349,7 @@
 						<p class="artwork description">Huile sur papier Arches®, 8 x 6 po.</p>
 						<p class="artwork acquire vendu">VENDU</p>
 					</article>
+
 					<article class="artworks">
 						<a href="#CompositionSculpturaleBleue">
 							<img src="./artworks/Louis-Bernard-St-Jean--Composition-sculpturale-bleue-2022-huile-sur-toile-34x48po-3500CAD.jpg" alt="">
@@ -2293,7 +2294,7 @@
 				</div>
 			</section>
 		</div>
-				<div class="lightbox" onclick="location.href='#gallery'" id="LaClairiere">
+		<div class="lightbox" onclick="location.href='#gallery'" id="LaClairiere">
 			<section style="background-image: url('./artworks/Louis-Bernard-St-Jean--La-Clairière-2022-huile-sur-papier-Arches-8x6po.jpg')">
 				<div class="modal-text">
 					<h3 class="artwork artist">Louis-Bernard St-Jean</h3>
@@ -2975,6 +2976,7 @@
 				<!-- ARTWORK-KEYWORD -->
 				<h2 class=" no-bottom-margin" style="margin-left:2rem;">Louis-Bernard St-Jean</h2>
 				<div class="gallery-row">
+
 					<div class="gallery-column">
 						<figure class="gallery-item">
 							<a href="#LaClairiere">
@@ -3383,6 +3385,37 @@
 			}
 		}
 	</script>
+
+	<!-- <script>  // CAROUSEL SLIDER SCRIPT
+		const slider = document.querySelector('.carousel');
+		let isDown = false;
+		let startX;
+		let scrollLeft;
+
+		slider.addEventListener('mousedown', e => {
+			isDown = true;
+			slider.classList.add('activeslide');
+			startX = e.pageX - slider.offsetLeft;
+			scrollLeft = slider.scrollLeft;
+		});
+		slider.addEventListener('mouseleave', _ => {
+			isDown = false;
+			slider.classList.remove('activeslide');
+		});
+		slider.addEventListener('mouseup', _ => {
+			isDown = false;
+			slider.classList.remove('activeslide');
+		});
+		slider.addEventListener('mousemove', e => {
+			if (!isDown) return;
+			e.preventDefault();
+			const x = e.pageX - slider.offsetLeft;
+			const SCROLL_SPEED = 3;
+			const walk = (x - startX) * SCROLL_SPEED;
+			slider.scrollLeft = scrollLeft - walk;
+		});
+	</script> -->
+
 
 </body>
 

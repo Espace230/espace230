@@ -31,8 +31,8 @@ line-height: 3.2222222vh; */
 
 body,
 .article {
-	font-size: 1rem;
-	line-height: 1.6111111rem;
+	font-size: 1em;
+	line-height: 1.6111111em;
 	margin: auto;
 }
 
@@ -84,6 +84,7 @@ h4,
 	margin-top: 1.6111111rem;
 	margin-bottom: 0;
 	font-weight: 800;
+	text-transform: uppercase;
 }
 
 h5,
@@ -246,7 +247,7 @@ hr.shorted {
 	color: #AAA;
 }
 
-/* WHY WAS THIS BELOW ACTIVATED ? */
+/* WHY WAS THIS BELOW ACTIVATED? */
 /* a, */
 b,
 i,
@@ -302,6 +303,11 @@ code {
 
 .semi-bold {
 	font-weight: 600;
+}
+
+.emphasis {
+	font-weight: 500;
+	font-style: italic;
 }
 
 .bold {
@@ -689,6 +695,7 @@ button.btn-hover-buy:hover > span {
 	overflow: hidden;
 	text-align: center;
 	/* width: 100%; */
+	padding: 1em 0;
 }
 
 .slides {

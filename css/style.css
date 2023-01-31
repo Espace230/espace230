@@ -126,7 +126,7 @@ blockquote {
 	;
 }
 
-summary {
+summary :not(.gallery-summary) {
 	padding-bottom: 0.6111111em;
 	margin-left: -1em !important;
 }
@@ -458,6 +458,10 @@ sub {
 	margin-bottom: 4em;
 }
 
+.artist-artwork {
+	margin-bottom: 1em;
+}
+
 .button:hover {
 	border: 2.5px solid #848484;
 	background: #848484;
@@ -491,6 +495,11 @@ sub {
 	/* display: inline-block; */
 	float: right;
 	max-width: 132px;
+}
+
+.LogoNB {
+	max-width: 150px !important;
+	padding: 0 30px;
 }
 
 /* .btn-hover-buy {

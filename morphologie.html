@@ -69,8 +69,12 @@
 			src: url("./fonts/Inter-italic.var.woff2?v=3.19") format("woff2");
 		}
 
-		.encart {
-			padding: 0 1rem;
+		@media screen and (min-width: 374px) {
+			.encart {
+				/* padding: 0 1rem; */
+				margin-left: 1vw;
+				margin-right: 1vw;
+			}
 		}
 
 		p.encart {
@@ -93,7 +97,8 @@
 			<section class="gallery-section" style="margin: 0 2rem;">
 				<div class=" gallery-title" onclick="window.open('https://espace230.com/#expositions', '_self');">
 					<a class="nav-link" href="https://espace230.com/#oeuvres" target="_self">
-						<p style="margin-left:0.5rem; line-height:1rem"><br />Retour<br />⇤</p>
+						<!-- <p style="margin-left:0.5rem; line-height:1rem"><br />Retour<br />⇤</p> -->
+						<p style="margin:1rem 0.5rem; padding:1rem 0.25rem; color:#000; font-size:1.5rem">⇤</p>
 						<img class="side-banner" src="./svg/ESPACE-230.svg" alt="Espace 230">
 					</a>
 				</div>
@@ -118,15 +123,15 @@
 				<div class="gallery-row">
 					<div class="gallery-column">
 						<figure class="gallery-item">
-							<a href="#SentierChuteDuDiable">
-								<img src="./artworks/Kara-Eckler--Sur-le-sentier-de-Chute-du-Diable--2023-Oil-on-canvas-75x66in.jpg" class="gallery-img" alt="">
+							<a href="#Multiplicity">
+								<img src="./artworks/Kara-Eckler--Multiplicity--2023-oil-on-canvas-8x8in.jpg" class="gallery-img" alt="">
 							</a>
 						</figure>
 					</div>
 					<div class="gallery-column">
 						<figure class="gallery-item">
-							<a href="#Multiplicity">
-								<img src="./artworks/Kara-Eckler--Multiplicity--2023-oil-on-canvas-8x8in.jpg" class="gallery-img" alt="">
+							<a href="#SentierChuteDuDiable">
+								<img src="./artworks/Kara-Eckler--Sur-le-sentier-de-Chute-du-Diable--2023-Oil-on-canvas-75x66in.jpg" class="gallery-img" alt="">
 							</a>
 						</figure>
 					</div>
@@ -201,9 +206,14 @@
 
 				<!-- <h2 class="half-top-margin" style="margin-left:0.5em;">Luis Fernando Suárez</h2> -->
 				<h2 class="half-top-margin encart">Luis Fernando Suárez</h2>
-				<p class="encart">Les textures profondément fissurées de Suárez sont extrêmement terreuses; il les crée à partir d'acrylique, d'encre et de plâtre avec ses mains d'une manière qui rappelle ses jours en Colombie dans les jardins familiaux. </p>
+				<!-- <p class="encart">Les textures profondément fissurées de Suárez sont extrêmement terreuses; il les crée à partir d'acrylique, d'encre et de plâtre avec ses mains d'une manière qui rappelle ses jours en Colombie dans les jardins familiaux. </p>
 				<p class="encart">Suárez présente également sa nouvelle série ADN dans cette exposition, où ses œuvres sont simplifiées en une paire de lignes, ne comportant que des gouttes et de la couleur.</p>
-				<p class="encart">Ces œuvres minimales paisibles nous donnent l'occasion de contempler notre connexion à la vie au niveau microscopique, car les formes de ces peintures ressemblent à des brins d'ADN tordus, des structures que nous, les humains, partageons avec les plantes et toute la vie.</p>
+				<p class="encart">Ces œuvres minimales paisibles nous donnent l'occasion de contempler notre connexion à la vie au niveau microscopique, car les formes de ces peintures ressemblent à des brins d'ADN tordus, des structures que nous, les humains, partageons avec les plantes et toute la vie.</p> -->
+
+				<p class="encart">Les textures profondément fissurées de l'œuvre d'art de Suárez (Bogotá, Colombie 1971) évoquent un sentiment de terre qui est difficile à ignorer. Il utilise une approche unique pour créer ces textures en utilisant ses mains pour travailler l'acrylique, l'encre et le plâtre, retrant à ses jours en Colombie où il travaillait souvent dans les jardins familiaux. </p>
+				<p class="encart">De plus, la présence de fissures ou de fissures peut être observée, qui ont été utilisées avec une intention esthétique et conceptuelle. Leur inclusion dans la pièce ajoute de la profondeur et de la texture, ainsi que l'établissement d'un lien avec la fragilité de la vie et la dégradation naturelle que l'artiste cherche à transmettre. La complexité et l'imperfection de la vie sont explorées à travers ces marques, qui peuvent être interprétées de différentes manières par le spectateur. En les intégrant dans l'œuvre d'art, l'objectif est de créer un sentiment d'authenticité et d'humanité qui peut générer un lien émotionnel avec le spectateur.</p>
+
+				<p class="encart">Suárez présente dans cette exposition sa nouvelle série intitulée « ADN », qui présente des œuvres simplifiées ne comportant que des gouttes et de la couleur. La nature minimaliste de ces pièces offre un moment de contemplation concernant notre connexion à la vie au niveau microscopique, car les formes de ces peintures ressemblent à des brins tordus d'ADN — des structures que tous les êtres vivants, y compris les humains et les plantes, partagent.</p>
 				<br />
 				<div class="gallery-row">
 
@@ -276,10 +286,12 @@
 
 
 				<br />
-				<h2 class="half-top-margin encart">Louis-Bernard St-Jean</h2>
+				<!-- <h2 class="half-top-margin encart">Louis-Bernard St-Jean</h2> -->
+				<h2 class="half-top-margin encart">Louis&#8209;Bernard St&#8209;Jean</h2>
 
-				<p class="encart">Les nombreuses randonnées et voyages en planche à pagaie à travers le Québec et à l'étranger de Louis-Bernard St-Jean ont inspiré ses toiles d'un vert profond, faisant ressortir des feuillages riches et abstraits et des scènes de forêt ou de jungle de peinture à l'huile sculptée. Les œuvres de St-Jean de cette série donnent souvent une idée de la forêt vue d'en haut ou au plus profond.</p>
-				<p class="encart">Les lignes verticales, horizontales ou diagonales gravées à l'aide d'outils captent la lumière et font apparaître les tableaux comme des métamorphes. Dans les peintures de St-Jean, les compositions abstraites font allusion aux hautes voûtes forestières, aux danses et rythmes du vent et de la pluie, et parfois spécifiquement, avec des touches de blanc et de couleurs variées contrastant avec les verts prédominants.</p>
+				<p class="encart">Louis-Bernard St-Jean fait régulièrement de la randonnée et de la planche à pagaie à travers le Québec. Ces voyages ont inspiré des tableaux paysagistes abstraits d'un vert profond, faisant apparaître des feuillages riches et des scènes de forêt ou de jungle, faites de peinture à l'huile sculptée.</p>
+				<p class="encart">Dans cette série, les compositions abstraites font allusion aux hautes voûtes forestières, aux rythmes du vent et de la pluie, et parfois spécifiquement, avec des touches de couleurs contrastant avec les verts prédominants.</p>
+				<p class="encart">Les fines lignes verticales, horizontales ou diagonales de peinture, sculptées à l'aide d'outils divers captent la lumière, et font apparaître les tableaux comme des métamorphes : plusieurs œuvres de cette série vont donner la double impression d’observer à la fois la canopée vue de haut, d’être plongé au cœur d’une forêt profonde, ou encore, d’observer de près des mousses et lichens poussant sur une souche.</p>
 				<br />
 				<div class="gallery-row">
 
@@ -393,7 +405,15 @@
 				</div>
 				<p> &nbsp; </p>
 			</section>
+
+			<div class="footer-loose" style="margin-left: 9vw;margin-right: 2vw;">
+				<p>&nbsp;</p>
+				<hr>
+				<p class="no-top-margin copy">Espace 230 / Art contemporain <span style="float: right;">&copy; 2021-2023&ensp;Louis-Bernard St-Jean</span><br /><br /></p>
+				<p>&nbsp;</p>
+			</div>
 		</div>
+
 	</div>
 
 
@@ -681,8 +701,8 @@
 					<h3 class="artwork artist">Louis-Bernard St-Jean</h3>
 					<p class="artwork title">Arboretum</p>
 					<p class="artwork description">Huile sur panneau de bois, 52 x 43 po.</p>
-					<!-- <p class="artwork price">375 $</p>
-						<a href="https://checkout.square.site/merchant/MLKVBC9R2A34R/checkout/W6ESPAC4SHKWOU5JJWW4BOV3" class="button button-white button-buy btn-hover-buy">Acheter</a> -->
+					<p class="artwork price">4 500 $</p>
+					<a href="https://checkout.square.site/merchant/MLKVBC9R2A34R/checkout/ZWQL4TTSGZWAGF7XOPI4LQD6" class="button button-white button-buy btn-hover-buy">Acheter</a>
 				</div>
 			</section>
 		</div>
@@ -692,8 +712,8 @@
 					<h3 class="artwork artist">Louis-Bernard St-Jean</h3>
 					<p class="artwork title">Rio</p>
 					<p class="artwork description">Huile sur panneau de bois, 24 x 12 po.</p>
-					<!-- <p class="artwork price">375 $</p>
-						<a href="https://checkout.square.site/merchant/MLKVBC9R2A34R/checkout/W6ESPAC4SHKWOU5JJWW4BOV3" class="button button-white button-buy btn-hover-buy">Acheter</a> -->
+					<p class="artwork price">600 $</p>
+					<a href="https://checkout.square.site/merchant/MLKVBC9R2A34R/checkout/VRS5AB2MZOMPUQMOIONXD7MQ" class="button button-white button-buy btn-hover-buy">Acheter</a>
 				</div>
 			</section>
 		</div>
@@ -703,8 +723,8 @@
 					<h3 class="artwork artist">Louis-Bernard St-Jean</h3>
 					<p class="artwork title">Morphologie I</p>
 					<p class="artwork description">Huile sur panneau de bois, 4 x 4 po.</p>
-					<!-- <p class="artwork price">375 $</p>
-						<a href="https://checkout.square.site/merchant/MLKVBC9R2A34R/checkout/W6ESPAC4SHKWOU5JJWW4BOV3" class="button button-white button-buy btn-hover-buy">Acheter</a> -->
+					<p class="artwork price">200 $</p>
+					<a href="https://checkout.square.site/merchant/MLKVBC9R2A34R/checkout/4XOA3NFEDIRXMPMEXAVJ6SPR" class="button button-white button-buy btn-hover-buy">Acheter</a>
 				</div>
 			</section>
 		</div>
@@ -715,8 +735,6 @@
 					<p class="artwork title">Citron-Lime</p>
 					<p class="artwork description">Huile sur panneau de bois, 5 x 5 po.</p>
 					<p class="artwork acquire vendu">VENDU</p>
-					<!-- <p class="artwork price">375 $</p>
-						<a href="https://checkout.square.site/merchant/MLKVBC9R2A34R/checkout/W6ESPAC4SHKWOU5JJWW4BOV3" class="button button-white button-buy btn-hover-buy">Acheter</a> -->
 				</div>
 			</section>
 		</div>
@@ -726,8 +744,8 @@
 					<h3 class="artwork artist">Louis-Bernard St-Jean</h3>
 					<p class="artwork title">Morphologie II</p>
 					<p class="artwork description">Huile sur panneau de bois, 4 x 4 po.</p>
-					<!-- <p class="artwork price">375 $</p>
-						<a href="https://checkout.square.site/merchant/MLKVBC9R2A34R/checkout/W6ESPAC4SHKWOU5JJWW4BOV3" class="button button-white button-buy btn-hover-buy">Acheter</a> -->
+					<p class="artwork price">200 $</p>
+					<a href="https://checkout.square.site/merchant/MLKVBC9R2A34R/checkout/7DUO7KBPX2OY3PIIFVPM6KMI" class="button button-white button-buy btn-hover-buy">Acheter</a>
 				</div>
 			</section>
 		</div>
@@ -738,20 +756,7 @@
 					<h3 class="artwork artist">Louis-Bernard St-Jean</h3>
 					<p class="artwork title">Asclépiades</p>
 					<p class="artwork description">Huile sur panneau de bois, 5 x 7 po.</p>
-					<!-- <p class="artwork price">375 $</p>
-						<a href="https://checkout.square.site/merchant/MLKVBC9R2A34R/checkout/W6ESPAC4SHKWOU5JJWW4BOV3" class="button button-white button-buy btn-hover-buy">Acheter</a> -->
-				</div>
-			</section>
-		</div>
-		<div class="lightbox" onclick="location.href='#gallery'" id="LesVoutesTranquilles">
-			<section style="background-image: url('./artworks/Louis-Bernard-St-Jean--Les-voûtes-tranquilles--Huile-sur-bois-60x24po.jpg')">
-				<div class="modal-text">
-					<h3 class="artwork artist">Louis-Bernard St-Jean</h3>
-					<p class="artwork title">Les Voûtes Tranquilles</p>
-					<p class="artwork description">Huile sur panneau de bois, 60 x 24 po.</p>
 					<p class="artwork acquire vendu">VENDU</p>
-					<!-- <p class="artwork price">3 000 $</p>
-						<a href="https://checkout.square.site/merchant/MLKVBC9R2A34R/checkout/EJE257GJSPC33GU4TKAER7QQ" class="button button-white button-buy btn-hover-buy">Acheter</a> -->
 				</div>
 			</section>
 		</div>
@@ -762,8 +767,6 @@
 					<p class="artwork title">Ecoumène</p>
 					<p class="artwork description">Huile sur panneau de bois, 12 x 12 po.</p>
 					<p class="artwork acquire vendu">VENDU</p>
-					<!-- <p class="artwork price">450 $</p>
-						<a href="https://checkout.square.site/merchant/MLKVBC9R2A34R/checkout/GAM45Q2MG6TAMFXU6JBCUXWO" class="button button-white button-buy btn-hover-buy">Acheter</a> -->
 				</div>
 			</section>
 		</div>
@@ -774,20 +777,17 @@
 					<p class="artwork title">Monte-à-Peine</p>
 					<p class="artwork description">Huile sur panneau de bois, 7 x 5 po.</p>
 					<p class="artwork acquire vendu">VENDU</p>
-					<!-- <p class="artwork price">300 $</p>
-						<a href="https://checkout.square.site/merchant/MLKVBC9R2A34R/checkout/5MF7KBHLYV3DIW6WMLC52NZJ" class="button button-white button-buy btn-hover-buy">Acheter</a> -->
 				</div>
 			</section>
 		</div>
 		<div class="lightbox" onclick="location.href='#gallery'" id="MorphologieDesPlantes">
-			<!-- <section style="background-image: url('./artworks/Louis-Bernard-St-Jean--Morphologie-des-plantes--Huile-sur-bois-22x30po.jpg')"> -->
 			<section style="background-image: url('./artworks/Louis-Bernard-St-Jean--Morphologie-des-plantes--Huile-sur-bois-22x30po-2000pxw_r43.jpg')">
 				<div class="modal-text">
 					<h3 class="artwork artist">Louis-Bernard St-Jean</h3>
 					<p class="artwork title">Morphologie des plantes</p>
 					<p class="artwork description">Huile sur panneau de bois, 22 x 30 po.</p>
-					<!-- <p class="artwork price">1 250 $</p>
-						<a href="https://checkout.square.site/merchant/MLKVBC9R2A34R/checkout/NFXNI4TCIRJTTWB5L4TWRGTK" class="button button-white button-buy btn-hover-buy">Acheter</a> -->
+					<p class="artwork price">1 500 $</p>
+					<a href="https://checkout.square.site/merchant/MLKVBC9R2A34R/checkout/NFXNI4TCIRJTTWB5L4TWRGTK" class="button button-white button-buy btn-hover-buy">Acheter</a>
 				</div>
 			</section>
 		</div>
@@ -797,8 +797,8 @@
 					<h3 class="artwork artist">Louis-Bernard St-Jean</h3>
 					<p class="artwork title">Le Chemin des cascades</p>
 					<p class="artwork description">Huile sur panneau de bois, 5 x 7 po.</p>
-					<!-- <p class="artwork price">300 $</p>
-						<a href="https://checkout.square.site/merchant/MLKVBC9R2A34R/checkout/7PYGPN4SV7Q4FTBJOV3VH7PS" class="button button-white button-buy btn-hover-buy">Acheter</a> -->
+					<p class="artwork price">300 $</p>
+					<a href="https://checkout.square.site/merchant/MLKVBC9R2A34R/checkout/7PYGPN4SV7Q4FTBJOV3VH7PS" class="button button-white button-buy btn-hover-buy">Acheter</a>
 				</div>
 			</section>
 		</div>
@@ -809,8 +809,6 @@
 					<p class="artwork title">Vous êtes ici</p>
 					<p class="artwork description">Huile sur panneau de bois, 4 x 6 po.</p>
 					<p class="artwork acquire vendu">VENDU</p>
-					<!-- <p class="artwork price">275 $</p>
-						<a href="https://checkout.square.site/merchant/MLKVBC9R2A34R/checkout/SGO76NJOJ6NAKQFUYSII6PDZ" class="button button-white button-buy btn-hover-buy">Acheter</a> -->
 				</div>
 			</section>
 		</div>
@@ -821,8 +819,6 @@
 					<p class="artwork title">Petite flore forestière</p>
 					<p class="artwork description">Huile sur panneau de bois, 4 x 6 po.</p>
 					<p class="artwork acquire vendu">VENDU</p>
-					<!-- <p class="artwork price">275 $</p>
-						<a href="https://checkout.square.site/merchant/MLKVBC9R2A34R/checkout/ZAC6RIDWAH6WZZ7W7FWY3L6E" class="button button-white button-buy btn-hover-buy">Acheter</a> -->
 				</div>
 			</section>
 		</div>
@@ -832,8 +828,8 @@
 					<h3 class="artwork artist">Louis-Bernard St-Jean</h3>
 					<p class="artwork title">La flâneuse dans la pinède</p>
 					<p class="artwork description">Huile sur panneau de bois, 12 x 6 po.</p>
-					<!-- <p class="artwork price">375 $</p>
-						<a href="https://checkout.square.site/merchant/MLKVBC9R2A34R/checkout/45G5DXKYSULNSEIYPFDICWZO" class="button button-white button-buy btn-hover-buy">Acheter</a> -->
+					<p class="artwork price">425 $</p>
+					<a href="https://checkout.square.site/merchant/MLKVBC9R2A34R/checkout/45G5DXKYSULNSEIYPFDICWZO" class="button button-white button-buy btn-hover-buy">Acheter</a>
 				</div>
 			</section>
 		</div>
@@ -843,8 +839,8 @@
 					<h3 class="artwork artist">Louis-Bernard St-Jean</h3>
 					<p class="artwork title">Rêveries équatoriales</p>
 					<p class="artwork description">Huile sur panneau de bois, 30 x 40 po.</p>
-					<!-- <p class="artwork price">2 500 $</p>
-						<a href="https://checkout.square.site/merchant/MLKVBC9R2A34R/checkout/SFCHPAFSFXONDR3YNFJSIO4V" class="button button-white button-buy btn-hover-buy">Acheter</a> -->
+					<p class="artwork price">2 500 $</p>
+					<a href="https://checkout.square.site/merchant/MLKVBC9R2A34R/checkout/SFCHPAFSFXONDR3YNFJSIO4V" class="button button-white button-buy btn-hover-buy">Acheter</a>
 				</div>
 			</section>
 		</div>
@@ -854,8 +850,8 @@
 					<h3 class="artwork artist">Louis-Bernard St-Jean</h3>
 					<p class="artwork title">La forêt de l'Abbaye</p>
 					<p class="artwork description">Huile sur panneau de bois, 11 x 14 po.</p>
-					<!-- <p class="artwork price">450 $</p>
-						<a href="https://checkout.square.site/merchant/MLKVBC9R2A34R/checkout/HQHB5ZUNMMUQJEGCG7XLX3UB" class="button button-white button-buy btn-hover-buy">Acheter</a> -->
+					<p class="artwork price">450 $</p>
+					<a href="https://checkout.square.site/merchant/MLKVBC9R2A34R/checkout/HQHB5ZUNMMUQJEGCG7XLX3UB" class="button button-white button-buy btn-hover-buy">Acheter</a>
 				</div>
 			</section>
 		</div>
@@ -865,8 +861,8 @@
 					<h3 class="artwork artist">Louis-Bernard St-Jean</h3>
 					<p class="artwork title">Thé des bois</p>
 					<p class="artwork description">Huile sur panneau de bois, 5 x 7 po.</p>
-					<!-- <p class="artwork price">300 $</p>
-						<a href="https://checkout.square.site/merchant/MLKVBC9R2A34R/checkout/KFFSVQYDBUZ7RG3RO4IF7WXY" class="button button-white button-buy btn-hover-buy">Acheter</a> -->
+					<p class="artwork price">300 $</p>
+					<a href="https://checkout.square.site/merchant/MLKVBC9R2A34R/checkout/KFFSVQYDBUZ7RG3RO4IF7WXY" class="button button-white button-buy btn-hover-buy">Acheter</a>
 				</div>
 			</section>
 		</div>
@@ -876,8 +872,8 @@
 					<h3 class="artwork artist">Louis-Bernard St-Jean</h3>
 					<p class="artwork title">Épicéa</p>
 					<p class="artwork description">Huile sur papier Arches®, 6 x 8 po.</p>
-					<!-- <p class="artwork price">300 $</p>
-						<a href="https://checkout.square.site/merchant/MLKVBC9R2A34R/checkout/4WBPETWS2XF4IMFKGF7SBOJC" class="button button-white button-buy btn-hover-buy">Acheter</a> -->
+					<p class="artwork price">300 $</p>
+					<a href="https://checkout.square.site/merchant/MLKVBC9R2A34R/checkout/4WBPETWS2XF4IMFKGF7SBOJC" class="button button-white button-buy btn-hover-buy">Acheter</a>
 				</div>
 			</section>
 		</div>

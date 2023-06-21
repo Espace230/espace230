@@ -80,32 +80,91 @@
 	</style>
 
 	<script type='application/ld+json'>
-{
-  "@context": "http://www.schema.org",
-  "@type": "ArtGallery",
-  "name": "Espace 230 / Art contemporain",
-  "url": "https://espace230.com",
-  "logo": "https://espace230.com/images/logotype-square.png",
-  "image": "https://espace230.com/images/Espace-230-hero-image.jpg",
-  "description": "Contemporary art gallery and artist studio located in the Belgo building, in the heart of the Quartier des spectacles in Montréal.",
-  "address": {
-     "@type": "PostalAddress",
-     "streetAddress": "372, rue Sainte-Catherine Ouest, suite 230",
-     "addressLocality": "Montréal",
-     "addressRegion": "Québec",
-     "postalCode": "H3B 1A2",
-     "addressCountry": "Canada"
-  },
-  "geo": {
-     "@type": "GeoCoordinates",
-     "latitude": "45.5057",
-     "longitude": "73.5671"
-  },
-  "hasMap": "https://goo.gl/maps/8zPnJjeb9R4p6odB7",
-   "openingHours": "We 12:00-17:00 Th 12:00-17:00 Fr 12:00-17:00 Sa 12:00-17:00",
-  "telephone": "+1 (514) 965-1579"
-}
-</script>
+		{
+			"@context": "http://www.schema.org",
+			"@type": "ArtGallery",
+			"name": "Espace 230 / Art contemporain",
+			"url": "https://espace230.com",
+			"logo": "https://espace230.com/images/logotype-square.png",
+			"image": "https://espace230.com/images/Espace-230-hero-image.jpg",
+			"priceRange": "$$$$",
+			"description": "Contemporary art gallery and artist studio located in the Belgo building, in the heart of the Quartier des spectacles in Montréal.",
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "372, rue Sainte-Catherine Ouest, espace 230",
+				"addressLocality": "Montréal",
+				"addressRegion": "Québec",
+				"postalCode": "H3B 1A2",
+				"addressCountry": "Canada"
+			},
+			"geo": {
+				"@type": "GeoCoordinates",
+				"latitude": "45.5057",
+				"longitude": "73.5671"
+			},
+			"hasMap": "https://goo.gl/maps/8zPnJjeb9R4p6odB7",
+			"openingHours": "We 12:00-17:00 Th 12:00-17:00 Fr 12:00-17:00 Sa 12:00-17:00",
+			"telephone": "+1 (514) 965-1579"
+		}
+		</script>
+	<script type="application/ld+json">{
+			"@context": "https://schema.org",
+			"@type": "Event",
+			"name": "IA, RA et visages humains",
+			"alternateName": "AI, AR and Human Portraits",
+			"endDate": "2023-07-07",
+			"startDate": "2023-05-17",
+			"eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+			"eventStatus": "https://schema.org/EventScheduled",
+			"keywords": "exhibition, art event, art show, show, visual arts event, solo exhibition, Jihane Mossalim, art gallery, galerie d'art, espace 230, belgo, édifice belgo, belgo building",
+			"description": "An exhibition about the exploration of the fascinating possibilities that emerge from the encounter between new technologies, artificial intelligence and augmented reality, and the art of traditional painting. Artist Jihane Mossalim pushes the boundaries of portraiture by using new media to explore the different perspectives these technologies offer.",
+			"image": "https://espace230.com/images/images/2023-Expo-IA-RA-Visages-Humains-01.jpg",
+			"url": "https://espace230.com/#expositions",
+			"location": [
+				{
+					"@context": "https://schema.org",
+					"@type": "artGallery",
+					"priceRange": "$$$$",
+					"address": 
+					{
+						"@type": "PostalAddress",
+						"streetAddress": "372, rue Sainte-Catherine Ouest, espace 230",
+						"addressLocality": "Montréal",
+						"addressRegion": "Québec",
+						"postalCode": "H3B 1A2",
+						"addressCountry": "Canada"
+					},
+					"geo": {
+						"@type": "GeoCoordinates",
+						"latitude": "45.5057",
+						"longitude": "-73.5671"
+						// 45.5057° N, 73.5671° W
+					},
+					"name": "Espace 230 / Art contemporain",
+					"telephone": "514-965-1579",
+					"url": "https://espace230.com",
+					"image": "https://espace230.com/images/logotype-square.png",
+					"alternateName": "Espace 230"
+				}
+			],
+			"performer": [
+				{
+					"@context": "https://schema.org",
+					"@type": "Person",
+					"name": "Jihane",
+					"familyName": "Mossalim"
+				}
+			],
+			"organizer": [
+				{
+					"@context": "https://schema.org",
+					"@type": "Place",
+					"name": "Espace 230",
+					"url": "https://espace230.com"
+				}
+			]
+		}
+		</script>
 
 </head>
 
@@ -449,67 +508,16 @@
 					<!-- <h2 class="quart-top-margin no-bottom-margin">Expositions à venir</h2> -->
 
 					<article id="IA-RA-visages-humains">
-						<script type="application/ld+json">{
-						  "@context": "https://schema.org",
-						  "@type": "VisualArtsEvent",
-						  "@id": "VisualArtsEvent",
-						  "alternateName": "IA, RA et visages humains",
-						  "endDate": "2023-06-22",
-						  "description": "An exhibition about the exploration of the fascinating possibilities that emerge from the encounter between new technologies, artificial intelligence and augmented reality, and the art of traditional painting. Artist Jihane Mossalim pushes the boundaries of portraiture by using new media to explore the different perspectives these technologies offer.",
-						  "image": "https://espace230.com/images/Expo-IA-RA-Visages-humains-Jihane-Mossalim.jpg",
-						  "startDate": "2023-05-17",
-						  "url": "https://espace230.com/#expositions",
-						  "location": [
-						    "Espace 230 / Art contemporain",
-						    {
-									"@context": "https://schema.org",
-						      "@type": "Place",
-						      "@id": "Place",
-						      "address": 
-									{
-										"@type": "PostalAddress",
-										"streetAddress": "372, rue Sainte-Catherine Ouest, suite 230",
-										"addressLocality": "Montréal",
-										"addressRegion": "Québec",
-										"postalCode": "H3B 1A2",
-										"addressCountry": "Canada"
-									},
-									"geo": {
-										"@type": "GeoCoordinates",
-										"latitude": "45.5057",
-										"longitude": "-73.5671"
-										// 45.5057° N, 73.5671° W
-									},
-						      "name": "Espace 230 / Art contemporain",
-						      "telephone": "514-965-1579",
-						      "url": "https://espace230.com",
-						      "image": "https://espace230.com/images/logotype-square.png",
-						      "alternateName": "Espace 230"
-						    }
-						  ],
-						  "performer": [
-							"Jihane Mossalim",
-						    {
-						      "@context": "https://schema.org",
-						      "@type": "Person",
-						      "@id": "Person",
-						      "name": "Jihane",
-						      "familyName": "Mossalim"
-						    }
-						  ],
-						  "name": "IA, RA et visages humains"
-						}</script>
 
-						<!-- <h3 class="no-bottom-margin" style="font-weight:600; color:#121314 !important">Plural | Brunch Belgo</h3> -->
 						<h3 class="no-bottom-margin">IA, RA et visages humains – Jihane Mossalim</h3>
-						<h5 class=" no-top-margin">17 mai 2023 au 22 juin 2023</h5>
+						<h5 class=" no-top-margin">17 mai 2023 au 7 juillet 2023</h5>
 						<br />
 						<div style="border-bottom:1px solid black !important">
 							<p>
-								<img class="img-frame" src="./images/Expo-IA-RA-Visages-humains-Jihane-Mossalim.jpg" alt="Affiche de l'exposition «IA, RA et visages humains» par Jihane Mossalim">
+								<img class="img-frame" src="./images/2023-Expo-IA-RA-Visages-Humains-01.jpg" alt="Exposition «IA, RA et visages humains» par Jihane Mossalim">
 							</p>
 							<!-- <p class="half-bottom-margin"> -->
-							<p>Au sein de cette série d'œuvres, l'Espace 230 est heureux de présenter l'exploration par l'artiste des possibilités fascinantes qui émergent de la rencontre entre les nouvelles technologies et l'art de la peinture traditionnelle.</p>
+							<p>À travers cette série d'œuvres, l'Espace 230 est heureux de présenter l'exploration par l'artiste des possibilités fascinantes qui émergent de la rencontre entre les nouvelles technologies et l'art de la peinture traditionnelle.</p>
 							<p>En créant une série de portraits d'artistes et de scientifiques peints à l'huile, l'artiste Jihane Mossalim repousse les limites de la réalisation de portraits en utilisant les nouveaux médias pour explorer les différentes perspectives qu'offrent ces technologies. Les portraits ainsi créés se distinguent par leur jeu de perspectives, qui offre une vision inédite et dynamique du sujet représenté.</p>
 							<p>L'artiste s'attache également à prendre en compte la façon dont chaque participant se perçoit ou pense se percevoir, en leur demandant de choisir une photographie et un texte descriptif. Ce texte est ensuite introduit dans un générateur de texte-image de l'IA, qui fournit une interprétation de l'image du participant. L'artiste combine ensuite les photographies des participants et les images générées par l'IA dans l'œuvre finale, offrant ainsi une interprétation personnelle du sujet.</p>
 							<p>C'est donc une véritable collaboration entre l'artiste, les participants, l'intelligence artificielle et la réalité augmentée qui se noue au sein de ces portraits uniques, qui invitent le spectateur à une interprétation personnelle et à une réflexion sur la rencontre entre l'art et les nouvelles technologies.</p>
